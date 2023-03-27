@@ -1,31 +1,6 @@
 [
   {
     "location": "fridge",
-    "name": "eggs",
-    "expirationDate": "2023-04-04"
-  },
-  {
-    "location": "fridge",
-    "name": "yogurt",
-    "expirationDate": "2023-03-22"
-  },
-  {
-    "location": "fridge",
-    "name": "actimel",
-    "expirationDate": "2023-04-03"
-  },
-  {
-    "location": "fridge",
-    "name": "Strawberry yogurt",
-    "expirationDate": "2023-04-11"
-  },
-  {
-    "location": "fridge",
-    "name": "Kløver",
-    "expirationDate": "2023-02-13"
-  },
-  {
-    "location": "fridge",
     "name": "Hallumi",
     "expirationDate": "2024-01-23"
   },

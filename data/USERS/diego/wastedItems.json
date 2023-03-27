@@ -34,5 +34,23 @@
     "name": "Mayo light",
     "expirationDate": "2023-05-22",
     "wastedDate": "2023-03-25"
+  },
+  {
+    "location": "fridge",
+    "name": "eggs",
+    "expirationDate": "2023-04-04",
+    "wastedDate": "2023-03-27"
+  },
+  {
+    "location": "fridge",
+    "name": "actimel",
+    "expirationDate": "2023-04-03",
+    "wastedDate": "2023-03-27"
+  },
+  {
+    "location": "fridge",
+    "name": "Kløver",
+    "expirationDate": "2023-02-13",
+    "wastedDate": "2023-03-27"
   }
 ]
