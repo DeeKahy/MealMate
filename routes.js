@@ -6,7 +6,8 @@ import jwt from 'jsonwebtoken';
 import cookieParser from 'cookie-parser';
 router.use(cookieParser());
 import crypto from 'crypto';
-import removeItem from "./removeItem.js"
+import removeItem from "./removeItem.js";
+import bodyParser from 'body-parser';
 
 
 import recipies from './recipe.js'
@@ -367,6 +368,72 @@ router.post('/newuser', (req, res) => {
     //res.redirect("/login");
 });
 
+  import { v4 as uuidv4 } from 'uuid';
+
+  function getShoppingList(path) {
+    const shoppingListFilePath = path;
+    if (!fs.existsSync(shoppingListFilePath)) {
+      fs.writeFileSync(shoppingListFilePath, '[]');
+    }
+    const shoppingListData = fs.readFileSync(shoppingListFilePath, 'utf8');
+    return JSON.parse(shoppingListData);
+  }
+  
+  // Write the shopping list to the JSON file
+  function saveShoppingList(path, shoppingList) {
+    const shoppingListFilePath = path;
+    fs.writeFileSync(shoppingListFilePath, JSON.stringify(shoppingList));
+  }
+
+
+  // Add a new item to the shopping list
+  router.post("/api/shoppingList", verifyToken, (req, res) => {
+    const filePath = path.resolve() + `/data/USERS/${req.user.username}/shoppinglist.json`;
+    const shoppingList = getShoppingList(filePath);
+
+    const newItem = {
+        id: uuidv4(),
+        name: req.body.name,
+        quantity: req.body.quantity
+      };
+
+    shoppingList.push(newItem);
+    saveShoppingList(filePath, shoppingList);
+    res.send('Item added to shopping list: ' + JSON.stringify(newItem));
+  });
+  
+  // Get all items in the shopping list
+  router.get("/api/shoppingList", verifyToken, (req, res) =>
+ {
+    const filePath = path.resolve() + `/data/USERS/${req.user.username}/shoppinglist.json`;
+    const shoppingList = getShoppingList(filePath);
+    res.send(shoppingList);
+  });
+  
+  // Remove an item from the shopping list
+  router.delete("/api/shoppingList/:id", verifyToken, (req, res) => {
+    const filePath = path.resolve() + `/data/USERS/${req.user.username}/shoppinglist.json`;
+    const itemId = req.params.id;
+    const shoppingList = getShoppingList(filePath);
+    const updatedShoppingList = shoppingList.filter(function(item) {
+      return item.id !== itemId;
+    });
+    saveShoppingList(filePath, updatedShoppingList);
+    res.send('Item removed from shopping list: ' + itemId);
+  });
+
+  router.get("/api/productPrice", async (req, res) => {
+    const { query } = req.query;
+    const response = await fetch(`https://api.sallinggroup.com/v1-beta/product-suggestions/relevant-products?query=${query}`, {
+      headers: {
+        "Authorization": "Bearer ccf79589-89f0-4ff5-a034-2e7d93cdbbf0",
+        "Content-Type": "application/json",
+        "Accept": "application/json"
+      }
+    });
+    const data = await response.json();
+    res.json(data);
+  });
 
 
 export default router

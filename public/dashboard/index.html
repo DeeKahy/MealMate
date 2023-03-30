@@ -5,19 +5,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style-dashboard.css" rel="stylesheet">
-
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 <body onload="move(40)"> <!-- Running move() function to set process bar) -->
 <script src="dashboard.js"></script>
     <header>
         <a href="/dashboard"><img src="/IMG/logo.svg" alt="Mealmate" width="300" height="50"></a> <!-- Clickable logo -->
-        <nav class="nav-menu"> <!-- Navigation bar -->
-            <ul>
-                <li><a href="/dashboard">Home</a></li>
-                <li><a href="/itemtracking">Item Tracker</a></li>
-                <li><a href="/statistics">Statistics</a></li>
-            </ul>
-        </nav>
+        <div id="nav-placeholder">
+        </div>
+        <script>
+            $(function(){
+              $("#nav-placeholder").load("/../navbar.html");
+            });
+            </script>
     </header>
 <main>
     <section id="module1">
@@ -43,6 +43,7 @@
 <footer>
     <a href="https://github.com/TheCodeCrusaders/MealMate">Open Source Project</a>
 </footer>
+
 <script>
     
 </script>

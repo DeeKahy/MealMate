@@ -110,3 +110,6 @@ data/Password/
 data/Passwords/users.json
 data/USERS/diego/items.json
 data/USERS/diego/consumedItems.json
+data/USERS/sina/consumedItems.json
+data/USERS/sina/items.json
+data/USERS/sina/wastedItems.json
