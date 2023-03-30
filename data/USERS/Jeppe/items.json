@@ -1,7 +1,7 @@
 [
   {
     "location": "fridge",
-    "name": "eggs",
+    "name": "ground beef",
     "expirationDate": "2023-04-04"
   },
   {
@@ -41,7 +41,7 @@
   },
   {
     "location": "fridge",
-    "name": "Citrus",
+    "name": "ground beef",
     "expirationDate": "2023-09-10"
   },
   {
@@ -61,7 +61,7 @@
   },
   {
     "location": "fridge",
-    "name": "Milk",
+    "name": "milk",
     "expirationDate": "2023-03-26"
   },
   {

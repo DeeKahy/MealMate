@@ -1,8 +1,14 @@
+let itemsSaved = [];
+
 const form = document.querySelector("#searchForm");
+window.addEventListener('load', function() {
+    document.querySelector('#searchButton').click();
+});
 form.addEventListener("submit", (e) => {
+    createButton();
     e.preventDefault();
     let data = {
-        "nameOfRecipe": document.querySelector("#search").value,
+        "itemsSaved": itemsSaved,
     };
     fetch("/API/search", {
         method: "POST", // *GET, POST, PUT, DELETE, etc.
@@ -19,12 +25,10 @@ form.addEventListener("submit", (e) => {
     })
         .then(result => result.json())
         .then(jsonData => listCreation(jsonData))
-
-
-
 })
 
 function listCreation(recipies) {
+    form.reset();
     console.log(recipies)
     const allList = document.getElementById('resultList');
     allList.textContent = '';
@@ -45,6 +49,21 @@ function listCreation(recipies) {
     });
 }
 
+function createButton() {
+    const itemName = document.createElement('text');
+    itemName.textContent = `${document.querySelector('#search').value}||`;
+    itemName.className = 'item-name';
+    itemsSaved.push(document.querySelector('#search').value);
+    console.log(itemName);
+    form.appendChild(itemName);
+    const resetFilter = document.querySelector('#resetFilter');
+    resetFilter.addEventListener('click', function () {
+        while (itemsSaved.length > 0) {
+            itemsSaved.pop();
+            form.lastChild.remove();
+        }
+    })
+}
 
 const listItems = document.querySelector('.list');
 

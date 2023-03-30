@@ -10,21 +10,32 @@ import removeItem from "./removeItem.js";
 import bodyParser from 'body-parser';
 
 
-import recipies from './recipe.js'
-router.post('/API/search', (req, res) => {
-    const itemName = req.body.nameOfRecipe;
-    res.json(recipies(itemName));
+import { listRecipies, topRecipiesForUsers } from './recipe.js'
+// router.post('/API/search', verifyToken, (req, res) => {
+//     const itemName = req.body.nameOfRecipe;
+//     res.json(listRecipies(itemName));
+// })
+router.post('/API/search', verifyToken, (req, res) => {
+    fs.promises.readFile(`${path.resolve()}/data/USERS/${req.user.username}/items.json`)
+        .then((result) => JSON.parse(result))
+        .then((data) => {
+            console.log(data);
+            let response = listRecipies(data, req.body.itemsSaved);
+            res.json(response);
+        })
+
 })
 
 
-
-
-
-
-
-
-
-
+router.get('/API/userItem', verifyToken, (req, res) => {
+    fs.promises.readFile(`${path.resolve()}/data/USERS/${req.user.username}/items.json`)
+        .then((result) => JSON.parse(result))
+        .then((data) => {
+            console.log(data);
+            let response = topRecipiesForUsers(data);
+            res.json(response);
+    })
+})
 
 //New Page for forgot password This is the Current tasting page For Tokens login System. Dont touch it is hurting nobody.
 router.get("/forgot", verifyToken, (req, res) => {
@@ -54,10 +65,10 @@ function verifyToken(req, res, next) {
         const decoded = jwt.verify(token, 'secret');// Here we decode our token
         //console.log(decoded)
         req.user = decoded;// here we acces the user
-        console.log(req.user)
-        console.log(token)
-        console.log(req.user.username);
-        console.log(decoded.exp)
+        // console.log(req.user)
+        // console.log(token)
+        // console.log(req.user.username);
+        // console.log(decoded.exp)
 
         if (decoded.exp * 1000 <= Date.now()) { // Check if the token has expired the  it must be multiplied by 1000, beacuse it has to be in secounds. because the start time is from 1970
             return res.redirect('/login');
@@ -129,6 +140,22 @@ router.get("/API/getList", verifyToken, async (req, res) => {
         } else {
             const jsonData = data.toString("utf8");
             res.json(JSON.parse(jsonData));
+        }
+    });
+});
+
+// getting a list route (still neds to be modified for real login system)
+router.get("/API/userItemsRecipies", verifyToken, async (req, res) => {
+    const filePath = path.resolve() + `/data/USERS/${req.user.username}/items.json`;
+
+    fs.readFile(filePath, (err, data) => {
+        if (err) {
+            console.error(err);
+            res.status(500).send("Internal Server Error");
+        } else {
+            const jsonData = data.toString("utf8");
+            const userItems = JSON.parse(jsonData);
+            console.log(topRecipiesForUsers(userItems));
         }
     });
 });

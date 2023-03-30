@@ -20,14 +20,12 @@
     <section class="searchPlaceHolder">
       <h1>Recipe Search</h1>
       <form action="/search" method="post" id="searchForm">
-          <input type="search" id="filter" name="filter" placeholder="Add ingridents...">
           <input type="search" id="search" name="search" placeholder="Search...">
           <button type="submit" id="searchButton" name="searchButton">Search</button>
+          <button type="button" id="resetFilter">Reset filter</button><br>
+          <label>Searching for...</label>
       </form>
       <div class="list">
-        <ul id="resultList" name="resultList"></ul>
-      </div>
-      <div class="list_2">
         <ul id="resultList" name="resultList"></ul>
       </div>
     </section>

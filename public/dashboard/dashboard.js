@@ -41,7 +41,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
 
                 const cell3 = document.createElement("td");
                 let timeLeft = new Date(Date.parse(item.expirationDate) - currentDate);
-                cell3.textContent = `Days left ${Math.ceil(timeLeft/ (1000 * 60 *60 *24))}`;
+                cell3.textContent = `Days left ${Math.ceil(timeLeft / (1000 * 60 * 60 * 24))}`;
                 // cell3.textContent = item.expirationDate;
                 row.appendChild(cell3);
 
@@ -65,13 +65,49 @@ document.addEventListener("DOMContentLoaded", (e) => {
             throw new Error("response was not in the 200 range " + response.Error)
         })
         .then(data => {
-                let str = data.username;
-                let username = str.charAt(0).toUpperCase() + str.slice(1); // Makes first letter of username capital
+            let str = data.username;
+            let username = str.charAt(0).toUpperCase() + str.slice(1); // Makes first letter of username capital
 
-                // Selecting h1 element containing a welcome message and inserts username
-                document.querySelector("#username").textContent = "Hi, " + username + "!";
-            })            
+            // Selecting h1 element containing a welcome message and inserts username
+            document.querySelector("#username").textContent = "Hi, " + username + "!";
         })
+        
+
+    fetch("/API/userItem")
+        .then(response => {
+            if (response.ok) {
+                return response.json();
+            }
+            throw new Error("response was not in the 200 range " + response.Error)
+        })
+        .then(data => {
+            // Create table element
+            const table = document.createElement("table");
+
+
+            // Create header row
+            const headerRow = document.createElement("tr");
+            const recipieName = document.createElement("th");
+            const IngredientNumber = document.createElement("th");
+            IngredientNumber.textContent = "Amount of ingredients";
+            recipieName.textContent = "Recipes";
+            headerRow.appendChild(recipieName);
+            headerRow.appendChild(IngredientNumber);
+            table.appendChild(headerRow);
+            data.forEach(el => {
+                const listOfUserRecipies = document.createElement('tr');
+                const listUnder = document.createElement("td");
+                const ingredientAmount = document.createElement('td');
+                listUnder.textContent = el.nameOfRecipe;
+                ingredientAmount.textContent = `${el.score}/${el.ingredients.length}`
+                listOfUserRecipies.appendChild(listUnder);
+                listOfUserRecipies.appendChild(ingredientAmount);
+                table.appendChild(listOfUserRecipies);
+            })
+            const container = document.querySelector('#recipeContainer');
+            container.appendChild(table);
+        })
+})
 
 function move(amount) {
     var elem = document.getElementById("myBar");
