@@ -293,7 +293,10 @@
         "co2 per 1kg": "3.92",
         "protein pr 100 gram": "0.7",
         "carbohydrate pr 100 gram": "0.6",
-        "fat pr 100 gram": "81.5"
+        "fat pr 100 gram": "81.5",
+        "barcodes": [
+            "5740900403376"
+        ]
     },
     {
         "name": "Blended spread, 75% fat",
