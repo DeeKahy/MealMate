@@ -1,7 +1,7 @@
 import path from 'path';
 import fs from 'fs';
 
-const recipies = JSON.parse(fs.readFileSync(path.resolve() + '/listofrecipes.json'));
+const recipies = JSON.parse(fs.readFileSync(path.resolve() + '/data/listofrecipes.json'));
 
 
 export function listRecipies(items, itemsWant) {
@@ -37,7 +37,6 @@ export function listRecipies(items, itemsWant) {
         });
         recipies1.forEach(el => {
             if (el.score != undefined) {
-                console.log(el)
                 recipiesSaved.push(el);
             }
         })
@@ -48,23 +47,6 @@ export function listRecipies(items, itemsWant) {
         console.log(error);
     }
 }
-
-/*
-function sortRecipes(recipeList, arrayOfItems) {
-    for (let i = 0; i < recipeList.length; i++) {
-        let rankingSystem = 0;
-        for (let j = 0; j < arrayOfItems.length; j++) {
-            if (recipeList[i].ingredients.some(item => item.ingredient.includes(arrayOfItems[j]))) {
-                rankingSystem++;
-            }
-        }
-        recipeList[i].rankingSystem = rankingSystem;
-        console.log(`${recipeList[i].nameOfRecipe}: ${recipeList.rankingSystem}`);
-    }
-    let sorted = recipeList.sort((a, b) => b.rankingSystem - a.rankingSystem)
-    return sorted;
-}*/
-
 export function topRecipiesForUsers(userItems) {
     try {
         const recipies2 = JSON.parse(JSON.stringify(recipies));
@@ -93,7 +75,6 @@ export function topRecipiesForUsers(userItems) {
             }
         }
         let sorted = recipiesSaved.sort((a, b) => (b.score / b.ingredients.length) - (a.score / a.ingredients.length));
-        console.log(recipiesSaved);
         return sorted;
     } catch (error) {
         console.log(error);

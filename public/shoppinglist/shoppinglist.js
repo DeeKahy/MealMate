@@ -43,8 +43,10 @@ function loadShoppinglist() {
 
       let total = 0;
       const pricePromises = [];
+  
       // Loop through data and create rows
       data.forEach(item => {
+        let productName = "";
           const row = document.createElement("tr");
           const cell1 = document.createElement("td");
           cell1.textContent = item.name;
@@ -56,6 +58,9 @@ function loadShoppinglist() {
 
           const cell3 = document.createElement("td");
           cell3.textContent = "";
+          cell3.addEventListener("mouseover", () => {
+            cell3.setAttribute("title", productName);
+          });
           row.appendChild(cell3);
 
           const cell4 = document.createElement("td");
@@ -92,8 +97,14 @@ function loadShoppinglist() {
           .then(data => {
             // Get the price for the first product in the suggestions array
             const price = data.suggestions[0].price;
+
             cell3.textContent = price.toFixed(2) + " kr";
+            if (productName === "") {
+              productName = data.suggestions[0].title;
+            }
+
             return price * item.quantity;
+
           })
           .catch(error => console.error(error));
         // Add row to table
@@ -111,6 +122,7 @@ function loadShoppinglist() {
         const totalRow = document.createElement("tr");
         const totalCell1 = document.createElement("td");
         totalCell1.textContent = "Total";
+        totalCell1.style.fontWeight = "bold";
         totalRow.appendChild(totalCell1);
     
         const totalCell2 = document.createElement("td");
@@ -119,6 +131,7 @@ function loadShoppinglist() {
     
         const totalCell3 = document.createElement("td");
         totalCell3.textContent = total.toFixed(2) + " kr";
+        totalCell3.style.fontWeight = "bold";
         totalRow.appendChild(totalCell3);
     
         const totalCell4 = document.createElement("td");
@@ -142,10 +155,19 @@ addItemForm.addEventListener('submit', function(event) {
   event.preventDefault();
   const formData = new FormData(addItemForm); // Get the form data
 
-  const itemData = {
-    name: formData.get('shoppinglist-input'), // Replace 'username' with the name of your username input field
-    quantity: formData.get('shoppinglist-amount') // Replace 'password' with the name of your password input field
-  };
+  const quantityInput = formData.get('shoppinglist-amount');
+  const parsedQuantity = parseInt(quantityInput);
+  let itemData = {};
+
+  if (!isNaN(parsedQuantity) && parsedQuantity >= 0 && parsedQuantity <= 1000) {
+    itemData = {
+      name: formData.get('shoppinglist-input'), // Replace 'username' with the name of your username input field
+      quantity: parsedQuantity // Replace 'password' with the name of your password input field
+    };
+  } else {
+    alert("Please enter a number between 1 and 1000 for the quantity.");
+    return;
+  }
 
   fetch('/api/shoppingList', {
     method: 'POST',
@@ -163,43 +185,13 @@ addItemForm.addEventListener('submit', function(event) {
   .catch(error => {
     console.error(error);
 
-    location.reload(); 
+    location.reload();
     /*
-    Reloading the page here, some kind of error with the JSON-format. 
+    Reloading the page here, some kind of error with the JSON-format.
     Can't figure it out, so I'm just reloading the page when receiving an error.
     */
   });
 });
-
-/*form.addEventListener("submit", (e) => {
-  e.preventDefault();
-  if (refIndex === undefined) {
-
-    let data = {
-      "location": form.location.value,
-      "name": form.name.value,
-      "expirationDate": form.expirationDate.value
-    };
-    fetch("/API/postlist", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json"
-      },
-      body: JSON.stringify(data)
-    })
-      .then(response => {
-        if (response.ok) {
-          alert("Item added to shopping list!");
-        } else {
-          throw new Error("Error adding item to personal list");
-        }
-      })
-      .catch(error => {
-        console.error(error);
-        alert("Error adding item to personal list");
-      });
-  }
-});*/
 
 function addNewItemToPersonalList(itemId) {
   if (refIndex === undefined) {

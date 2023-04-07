@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "username": "allias",
+      "password": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8"
+    },
+    {
+      "username": "mathias",
+      "password": "8d969eef6ecad3c29a3a629280e686cf0c3f5d5a86aff3ca12020c923adc6c92"
+    },
+    {
+      "username": "Jeppe",
+      "password": "4e5750907f38f21e54e4d3e763e96101e8d5eb34fe579044e8c572ab800d6607"
+    },
+    {
+      "username": "alisuser",
+      "password": "96cae35ce8a9b0244178bf28e4966c2ce1b8385723a96a6b838858cdd6ca0a1e"
+    },
+    {
+      "username": "diego",
+      "password": "5e884898da28047151d0e56f8dc6292773603d0d6aabbdd62a11ef721d1542d8"
+    }
+  ]
+}

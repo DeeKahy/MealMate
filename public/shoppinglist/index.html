@@ -5,18 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style-dashboard.css" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
 
     <header>
         <a href="/dashboard"><img src="/IMG/logo.svg" alt="Mealmate" width="300" height="50"></a> <!-- Clickable logo -->
         <div id="nav-placeholder">
         </div>
-        <script>
-            $(function(){
-              $("#nav-placeholder").load("/../navbar.html");
-            });
-            </script>
+        <script src="/../navbar.js"></script>
     </header>
 <main>
     <section id="shoppinglist-input-form">
@@ -30,7 +25,7 @@
               <form id="shoppinglist-form">
                 <td><input id="shoppinglist-input" name="shoppinglist-input" placeholder="Name of product"></td>
                 <td><input id="shoppinglist-amount" name="shoppinglist-amount" placeholder="Quantity" value="1"></td>
-                <td><button type="submit" id="shoppinglist-add" name="shoppinglist-add">Search</button></td>
+                <td><button type="submit" id="shoppinglist-add" name="shoppinglist-add">Add</button></td>
               </form>
             </tr>
           </table>

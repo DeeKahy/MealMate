@@ -1,0 +1,4048 @@
+[
+    {
+        "name": "Pepper, sweet, red, raw",
+        "calories per 100gram": "31.8",
+        "co2 per 1kg": "1.02",
+        "protein pr 100 gram": "0.9",
+        "carbohydrate pr 100 gram": "5.2",
+        "fat pr 100 gram": "0.1"
+        },
+        {
+        "name": "Tomato, ripe, raw, origin unknown",
+        "calories per 100gram": "20.8",
+        "co2 per 1kg": "0.7",
+        "protein pr 100 gram": "0.8",
+        "carbohydrate pr 100 gram": "3.2",
+        "fat pr 100 gram": "0.1"
+        },
+        {
+        "name": "Squash, raw",
+        "calories per 100gram": "19.4",
+        "co2 per 1kg": "0.83",
+        "protein pr 100 gram": "1.4",
+        "carbohydrate pr 100 gram": "2.4",
+        "fat pr 100 gram": "0.2"
+        },
+        {
+        "name": "Aubergine, raw",
+        "calories per 100gram": "19.8",
+        "co2 per 1kg": "0.97",
+        "protein pr 100 gram": "0.9",
+        "carbohydrate pr 100 gram": "3.1",
+        "fat pr 100 gram": "0.1"
+        },
+        {
+        "name": "Tomato, dried",
+        "calories per 100gram": "283.7",
+        "co2 per 1kg": "1.95",
+        "protein pr 100 gram": "14.1",
+        "carbohydrate pr 100 gram": "43.5",
+        "fat pr 100 gram": "3.0"
+        },
+        {
+        "name": "Pumpkin, raw",
+        "calories per 100gram": "17.9",
+        "co2 per 1kg": "0.83",
+        "protein pr 100 gram": "0.6",
+        "carbohydrate pr 100 gram": "3.3",
+        "fat pr 100 gram": "0.1"
+        },
+        {
+        "name": "Cucumber, raw",
+        "calories per 100gram": "12.0",
+        "co2 per 1kg": "0.56",
+        "protein pr 100 gram": "0.7",
+        "carbohydrate pr 100 gram": "1.6",
+        "fat pr 100 gram": "0.0"
+        },
+        {
+        "name": "Gherkin cucumber, raw",
+        "calories per 100gram": "16.7",
+        "co2 per 1kg": "0.56",
+        "protein pr 100 gram": "1.2",
+        "carbohydrate pr 100 gram": "2.1",
+        "fat pr 100 gram": "0.1"
+        },
+        {
+        "name": "Pepper, hot chili, raw",
+        "calories per 100gram": "44.7",
+        "co2 per 1kg": "1.02",
+        "protein pr 100 gram": "2.0",
+        "carbohydrate pr 100 gram": "7.7",
+        "fat pr 100 gram": "0.2"
+        },
+        {
+            "name": "Beef, topside, cap off, raw",
+            "calories per 100gram": "112.8",
+            "co2 per 1kg": "45.69",
+            "protein pr 100 gram": "22.3",
+            "carbohydrate pr 100 gram": "0",
+            "fat pr 100 gram": "2.5"
+            },
+            {
+            "name": "Beef, fillet, defatted, raw",
+            "calories per 100gram": "137.7",
+            "co2 per 1kg": "151.95",
+            "protein pr 100 gram": "20",
+            "carbohydrate pr 100 gram": "0",
+            "fat pr 100 gram": "6.4"
+            },
+            {
+            "name": "Beef, mince, 10-15% fat, raw",
+            "calories per 100gram": "164.2",
+            "co2 per 1kg": "32.51",
+            "protein pr 100 gram": "19.4",
+            "carbohydrate pr 100 gram": "0",
+            "fat pr 100 gram": "9.7"
+            },
+            {
+            "name": "Beef, rump, raw",
+            "calories per 100gram": "210.1",
+            "co2 per 1kg": "45.69",
+            "protein pr 100 gram": "19.3",
+            "carbohydrate pr 100 gram": "0",
+            "fat pr 100 gram": "14.9"
+            },
+            {
+                "name": "Beef, mince, 15-20% fat, raw",
+                "calories per 100 gram": "154",
+                "co2 per 1kg": "30,84",
+                "protein pr 100 gram": "16,2",
+                "carbohydrate pr 100 gram": "0",
+                "fat pr 100 gram": "17,8"
+                },
+                
+                {
+                "name": "Beef, T-bone steak, raw",
+                "calories per 100 gram": "247",
+                "co2 per 1kg": "80,89",
+                "protein pr 100 gram": "14,4",
+                "carbohydrate pr 100 gram": "0",
+                "fat pr 100 gram": "20,3"
+                },
+                
+                {
+                "name": "Beef, mince, 5-10% fat, raw",
+                "calories per 100 gram": "143",
+                "co2 per 1kg": "34,19",
+                "protein pr 100 gram": "9,5",
+                "carbohydrate pr 100 gram": "0",
+                "fat pr 100 gram": "19,5"
+                },
+                
+                {
+                "name": "Beer, lager, alc. 4.4 % by vol.",
+                "calories per 100 gram": "43",
+                "co2 per 1kg": "0,6",
+                "protein pr 100 gram": "0",
+                "carbohydrate pr 100 gram": "2,7",
+                "fat pr 100 gram": "0,3"
+                },
+                
+                {
+                "name": "Beer, Danish household, low alcohol",
+                "calories per 100 gram": "45",
+                "co2 per 1kg": "0,6",
+                "protein pr 100 gram": "0",
+                "carbohydrate pr 100 gram": "8,6",
+                "fat pr 100 gram": "0,3"
+                },
+                
+                {
+                "name": "Beer, strong, alc. 7.6 % by vol.",
+                "calories per 100 gram": "84",
+                "co2 per 1kg": "0,6",
+                "protein pr 100 gram": "0",
+                "carbohydrate pr 100 gram": "4,6",
+                "fat pr 100 gram": "0,4"
+                },
+                
+                {
+                "name": "Biscuit, sweet",
+                "calories per 100 gram": "482",
+                "co2 per 1kg": "2,75",
+                "protein pr 100 gram": "10,6",
+                "carbohydrate pr 100 gram": "72,5",
+                "fat pr 100 gram": "7,7"
+                },
+                
+                {
+                "name": "Biscuit, wholemeal, digestive type",
+                "calories per 100 gram": "467",
+                "co2 per 1kg": "2,73",
+                "protein pr 100 gram": "16,5",
+                "carbohydrate pr 100 gram": "66,5",
+                "fat pr 100 gram": "7,1"
+                },
+                
+    {
+        "name": "Butter cookie, wheat, Danish, industrially produced",
+        "calories per 100gram": "519.6",
+        "co2 per 1kg": "2.98",
+        "protein pr 100 gram": "5.4",
+        "carbohydrate pr 100 gram": "61.7",
+        "fat pr 100 gram": "27.1"
+    },
+    {
+        "name": "American inspired cookie",
+        "calories per 100gram": "511.2",
+        "co2 per 1kg": "2.73",
+        "protein pr 100 gram": "5.9",
+        "carbohydrate pr 100 gram": "58.4",
+        "fat pr 100 gram": "26.5"
+    },
+    {
+        "name": "Granola bar",
+        "calories per 100gram": "437.4",
+        "co2 per 1kg": "2.88",
+        "protein pr 100 gram": "6.7",
+        "carbohydrate pr 100 gram": "57.8",
+        "fat pr 100 gram": "15"
+    },
+    {
+        "name": "Wafer sticks",
+        "calories per 100gram": "509.8",
+        "co2 per 1kg": "2.1",
+        "protein pr 100 gram": "4.6",
+        "carbohydrate pr 100 gram": "63",
+        "fat pr 100 gram": "25.7"
+    },
+    {
+        "name": "Bread-crumbs",
+        "calories per 100gram": "355.6",
+        "co2 per 1kg": "1.26",
+        "protein pr 100 gram": "11.6",
+        "carbohydrate pr 100 gram": "69.8",
+        "fat pr 100 gram": "1.5"
+    },
+    {
+        "name": "Crispbread, knackebrot, rye, coarse",
+        "calories per 100gram": "346.3",
+        "co2 per 1kg": "1.08",
+        "protein pr 100 gram": "10.2",
+        "carbohydrate pr 100 gram": "61",
+        "fat pr 100 gram": "2"
+    },
+    {
+        "name": "Wheat bread, for toasting, industrially produced",
+        "calories per 100gram": "257.4",
+        "co2 per 1kg": "0.74",
+        "protein pr 100 gram": "8.7",
+        "carbohydrate pr 100 gram": "47",
+        "fat pr 100 gram": "2.8"
+    },
+    {
+        "name": "Bread, white, for sausages",
+        "calories per 100gram": "254.5",
+        "co2 per 1kg": "0.74",
+        "protein pr 100 gram": "9.5",
+        "carbohydrate pr 100 gram": "43.1",
+        "fat pr 100 gram": "3.8"
+    },
+    {
+        "name": "Bread, white, roll, coarse grain",
+        "calories per 100gram": "288.5",
+        "co2 per 1kg": "0.74",
+        "protein pr 100 gram": "10.5",
+        "carbohydrate pr 100 gram": "49.4",
+        "fat pr 100 gram": "4"
+        },
+        {
+        "name": "Rye bread, dark, whole grains, industrially produced",
+        "calories per 100gram": "201.5",
+        "co2 per 1kg": "0.62",
+        "protein pr 100 gram": "5.5",
+        "carbohydrate pr 100 gram": "36.5",
+        "fat pr 100 gram": "1.4"
+        },
+        {
+        "name": "Rye bread crumbs with brown sugar, average values",
+        "calories per 100gram": "352",
+        "co2 per 1kg": "1.56",
+        "protein pr 100 gram": "6.5",
+        "carbohydrate pr 100 gram": "71.2",
+        "fat pr 100 gram": "2"
+        },
+        {
+        "name": "Corn flakes, average values",
+        "calories per 100gram": "379.1",
+        "co2 per 1kg": "1.51",
+        "protein pr 100 gram": "7.5",
+        "carbohydrate pr 100 gram": "82",
+        "fat pr 100 gram": "1.4"
+        },
+        {
+        "name": "Breakfast cereal, müsli, average values",
+        "calories per 100gram": "407.3",
+        "co2 per 1kg": "1.76",
+        "protein pr 100 gram": "10.1",
+        "carbohydrate pr 100 gram": "56",
+        "fat pr 100 gram": "11.1"
+        },
+        {
+        "name": "Breakfast cereal, Guldkorn",
+        "calories per 100gram": "391.5",
+        "co2 per 1kg": "2.12",
+        "protein pr 100 gram": "7.2",
+        "carbohydrate pr 100 gram": "78.1",
+        "fat pr 100 gram": "1.3"
+        },
+        {
+        "name": "Breakfast cereal, Havrefras",
+        "calories per 100gram": "382.6",
+        "co2 per 1kg": "1.7",
+        "protein pr 100 gram": "14.2",
+        "carbohydrate pr 100 gram": "56.4",
+        "fat pr 100 gram": "7.2"
+        },
+        {
+        "name": "Butter, salt added",
+        "calories per 100gram": "728.2",
+        "co2 per 1kg": "3.92",
+        "protein pr 100 gram": "0.7",
+        "carbohydrate pr 100 gram": "0.6",
+        "fat pr 100 gram": "81.5"
+        },
+        {
+        "name": "Blended spread, 75% fat",
+        "calories per 100gram": "674",
+        "co2 per 1kg": "3.8",
+        "protein pr 100 gram": "0.5",
+        "carbohydrate pr 100 gram": "1.1",
+        "fat pr 100 gram": "75.5"
+        },
+        {
+"name": "Plain cake, chocolate cake",
+"calories per 100gram": "432.1",
+"co2 per 1kg": "2.15",
+"protein pr 100 gram": "5.8",
+"carbohydrate pr 100 gram": "48.8",
+"fat pr 100 gram": "23.5"
+},
+
+{
+"name": "Danish pastry, kanelsnegl",
+"calories per 100gram": "417.5",
+"co2 per 1kg": "1.77",
+"protein pr 100 gram": "4.9",
+"carbohydrate pr 100 gram": "47.6",
+"fat pr 100 gram": "22.5"
+},
+
+{
+"name": "Plain cake, average values",
+"calories per 100gram": "424.2",
+"co2 per 1kg": "2.15",
+"protein pr 100 gram": "5",
+"carbohydrate pr 100 gram": "53.1",
+"fat pr 100 gram": "20.2"
+},
+
+{
+"name": "Cream pastry, layer cake",
+"calories per 100gram": "302.1",
+"co2 per 1kg": "2.15",
+"protein pr 100 gram": "3.3",
+"carbohydrate pr 100 gram": "34.4",
+"fat pr 100 gram": "16.7"
+},
+
+{
+"name": "Cookie, truffle product / unbaked, industrially produced",
+"calories per 100gram": "424.0",
+"co2 per 1kg": "2.63",
+"protein pr 100 gram": "4",
+"carbohydrate pr 100 gram": "58.1",
+"fat pr 100 gram": "17"
+},
+
+{
+"name": "Bacon, frying, raw",
+"calories per 100gram": "424.2",
+"co2 per 1kg": "4.8",
+"protein pr 100 gram": "13",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "42"
+},
+
+{
+"name": "Sausage, salami",
+"calories per 100gram": "502.9",
+"co2 per 1kg": "5.06",
+"protein pr 100 gram": "13.9",
+"carbohydrate pr 100 gram": "2.8",
+"fat pr 100 gram": "49.2"
+},
+
+{
+"name": "Pork, ham, boiled, sliced",
+"calories per 100gram": "109.2",
+"co2 per 1kg": "3.38",
+"protein pr 100 gram": "17.9",
+"carbohydrate pr 100 gram": "0.3",
+"fat pr 100 gram": "4"
+},
+
+{
+"name": "Roastbeef, sliced",
+"calories per 100gram": "120.5",
+"co2 per 1kg": "45.84",
+"protein pr 100 gram": "21.7",
+"carbohydrate pr 100 gram": "0.3",
+"fat pr 100 gram": "3.5"
+},
+{
+    "name": "Pork, sausage, Danish, raw",
+    "calories per 100gram": "216,8",
+    "co2 per 1kg": "2,21",
+    "protein pr 100 gram": "12,2",
+    "carbohydrate pr 100 gram": "4,7",
+    "fat pr 100 gram": "17,4"
+},
+{
+    "name": "Pork, liver paste, Danish",
+    "calories per 100gram": "236,4",
+    "protein pr 100 gram": "11,3",
+    "carbohydrate pr 100 gram": "4,7",
+    "fat pr 100 gram": "19,2"
+},
+{
+    "name": "Pork, flank, spiced, cooked",
+    "calories per 100gram": "204,1",
+    "co2 per 1kg": "3,38",
+    "protein pr 100 gram": "nv",
+    "carbohydrate pr 100 gram": "nv",
+    "fat pr 100 gram": "22,8"
+},
+{
+    "name": "Pork sausage, Thüringer bratwurst",
+    "calories per 100gram": "280,1",
+    "co2 per 1kg": "1,81",
+    "protein pr 100 gram": "14,4",
+    "carbohydrate pr 100 gram": "1,1",
+    "fat pr 100 gram": "24,5"
+},
+{
+    "name": "Chicken, breast, boiled, sliced",
+    "calories per 100gram": "113,5",
+    "protein pr 100 gram": "20,6",
+    "carbohydrate pr 100 gram": "0,4",
+    "fat pr 100 gram": "3,2"
+},
+{
+    "name": "Chicken, leg, flesh and skin, raw",
+    "calories per 100gram": "151,8",
+    "co2 per 1kg": "1,39",
+    "protein pr 100 gram": "18,4",
+    "carbohydrate pr 100 gram": "0",
+    "fat pr 100 gram": "8,7"
+},
+{
+    "name": "Chicken, drumstick, flesh and skin, raw",
+    "calories per 100gram": "154,6",
+    "co2 per 1kg": "1,32",
+    "protein pr 100 gram": "18,7",
+    "carbohydrate pr 100 gram": "0",
+    "fat pr 100 gram": "8,9"
+},
+{
+    "name": "Chicken, breast, flesh and skin, raw",
+    "calories per 100gram": "148,9",
+    "co2 per 1kg": "3,44",
+    "protein pr 100 gram": "21,5",
+    "carbohydrate pr 100 gram": "0",
+    "fat pr 100 gram": "6,9"
+},
+{
+    "name": "Chicken, sausage",
+    "calories per 100gram": "192,6",
+    "co2 per 1kg": "1,44",
+    "protein pr 100 gram": "12,8",
+    "carbohydrate pr 100 gram": "1,9",
+    "fat pr 100 gram": "15"
+},
+{
+    "name": "Chicken, hen, flesh and skin, raw",
+    "calories per 100gram": "212.2",
+    "co2 per 1kg": "2.22",
+    "protein pr 100 gram": "15.9",
+    "carbohydrate pr 100 gram": "0",
+    "fat pr 100 gram": "17.1"
+},
+{
+    "name": "Tea, leaves",
+    "calories per 100gram": "229.7",
+    "co2 per 1kg": "8.41",
+    "protein pr 100 gram": "2",
+    "carbohydrate pr 100 gram": "3",
+    "fat pr 100 gram": "19.6"
+},
+{
+    "name": "Coffee, instant, powder",
+    "calories per 100gram": "303.5",
+    "co2 per 1kg": "10.11",
+    "protein pr 100 gram": "1.7",
+    "carbohydrate pr 100 gram": "11",
+    "fat pr 100 gram": "19.5"
+},
+{
+    "name": "Coffee bean, roasted, ground",
+    "calories per 100gram": "398.7",
+    "co2 per 1kg": "3.18",
+    "protein pr 100 gram": "15.4",
+    "carbohydrate pr 100 gram": "28.5",
+    "fat pr 100 gram": "14.6"
+},
+{
+    "name": "Cocoa, instant, without milk, powder",
+    "calories per 100gram": "396.7",
+    "co2 per 1kg": "4.98",
+    "protein pr 100 gram": "3.8",
+    "carbohydrate pr 100 gram": "73.6",
+    "fat pr 100 gram": "5.3"
+},
+{
+    "name": "Cocoa, powder",
+    "calories per 100gram": "402.0",
+    "co2 per 1kg": "4.98",
+    "protein pr 100 gram": "21.9",
+    "carbohydrate pr 100 gram": "10.5",
+    "fat pr 100 gram": "22.5"
+},
+{
+    "name": "Lamb, flank, spiced, cooked",
+    "calories per 100gram": "358.0",
+    "co2 per 1kg": "24.75",
+    "protein pr 100 gram": "31.7",
+    "carbohydrate pr 100 gram": "0",
+    "fat pr 100 gram": "19"
+},
+{
+    "name": "Sausage, beef salami",
+    "calories per 100gram": "401.8",
+    "co2 per 1kg": "34.11",
+    "protein pr 100 gram": "36.2",
+    "carbohydrate pr 100 gram": "0",
+    "fat pr 100 gram": "20.1"
+},
+{
+    "name": "Pork, saddle, smoked, boiled",
+    "calories per 100gram": "121.4",
+    "co2 per 1kg": "3.38",
+    "protein pr 100 gram": "4.9",
+    "carbohydrate pr 100 gram": "0",
+    "fat pr 100 gram": "18.4"
+},
+{
+    "name": "Salad dressing, oil and vinegar",
+    "calories per 100gram": "402",
+    "co2 per 1kg": "34,3",
+    "protein pr 100 gram": "0,6",
+    "carbohydrate pr 100 gram": "9,8",
+    "fat pr 100 gram": "345,6"
+    },
+    {
+    "name": "Salad dressing, thousand island",
+    "calories per 100gram": "486",
+    "co2 per 1kg": "35,1",
+    "protein pr 100 gram": "1,1",
+    "carbohydrate pr 100 gram": "12,7",
+    "fat pr 100 gram": "369,7"
+    },
+    {
+    "name": "Water, tap, drinking, average values",
+    "calories per 100gram": "0",
+    "co2 per 1kg": "0",
+    "protein pr 100 gram": "0",
+    "carbohydrate pr 100 gram": "0",
+    "fat pr 100 gram": "0"
+    },
+    {
+    "name": "Duck, flesh only, raw",
+    "calories per 100gram": "227",
+    "co2 per 1kg": "5,1",
+    "protein pr 100 gram": "18,3",
+    "carbohydrate pr 100 gram": "0",
+    "fat pr 100 gram": "126,7"
+    },
+    {
+    "name": "Goose, flesh only, raw",
+    "calories per 100gram": "227",
+    "co2 per 1kg": "7,1",
+    "protein pr 100 gram": "22,8",
+    "carbohydrate pr 100 gram": "0",
+    "fat pr 100 gram": "158,5"
+    },
+    {
+    "name": "Mackerel mayonnaise salad",
+    "calories per 100gram": "418",
+    "co2 per 1kg": "39,1",
+    "protein pr 100 gram": "8,9",
+    "carbohydrate pr 100 gram": "2,5",
+    "fat pr 100 gram": "392,7"
+    },
+    {
+    "name": "Sauce gravad lax",
+    "calories per 100gram": "203",
+    "co2 per 1kg": "56",
+    "protein pr 100 gram": "1.6",
+    "carbohydrate pr 100 gram": "13.1",
+    "fat pr 100 gram": "555"
+    },
+    {
+    "name": "Italian mayonnaise salad",
+    "calories per 100gram": "355",
+    "co2 per 1kg": "29,7",
+    "protein pr 100 gram": "1.9",
+    "carbohydrate pr 100 gram": "7.2",
+    "fat pr 100 gram": "302,6"
+    },
+    {
+    "name": "Curry mayonnaise salad",
+    "calories per 100gram": "355",
+    "co2 per 1kg": "37,1",
+    "protein pr 100 gram": "1.7",
+    "carbohydrate pr 100 gram": "8.3",
+    "fat pr 100 gram": "370"
+    },
+    {
+"name": "Yogurt plain, whole milk",
+"calories per 100gram": "62.1",
+"co2 per 1kg": "1.08",
+"protein pr 100 gram": "3.6",
+"carbohydrate pr 100 gram": "3.6",
+"fat pr 100 gram": "3.7"
+},
+{
+"name": "Cream, cultured, 18 % fat",
+"calories per 100gram": "189.5",
+"co2 per 1kg": "2.02",
+"protein pr 100 gram": "2.8",
+"carbohydrate pr 100 gram": "2.8",
+"fat pr 100 gram": "18.6"
+},
+{
+"name": "Skyr, 0.2 % fat",
+"calories per 100gram": "71.0",
+"co2 per 1kg": "1.25",
+"protein pr 100 gram": "4",
+"carbohydrate pr 100 gram": "10.8",
+"fat pr 100 gram": "0.2"
+},
+{
+"name": "Cheese, firm, Danbo, 45 % fidm.",
+"calories per 100gram": "322.2",
+"co2 per 1kg": "7.72",
+"protein pr 100 gram": "0.1",
+"carbohydrate pr 100 gram": "23.2",
+"fat pr 100 gram": "25"
+},
+{
+"name": "Cheese, hard, Parmesan, 32 % fidm.",
+"calories per 100gram": "355.6",
+"co2 per 1kg": "7.72",
+"protein pr 100 gram": "0.1",
+"carbohydrate pr 100 gram": "32.9",
+"fat pr 100 gram": "24.1"
+},
+{
+"name": "Cheese, semihard, Mozzarella, 30 % fidm.",
+"calories per 100gram": "278.0",
+"co2 per 1kg": "7.72",
+"protein pr 100 gram": "0.1",
+"carbohydrate pr 100 gram": "28.3",
+"fat pr 100 gram": "17.7"
+},
+{
+"name": "Herring, pickled, canned",
+"calories per 100gram": "272.0",
+"co2 per 1kg": "2.83",
+"protein pr 100 gram": "20.9",
+"carbohydrate pr 100 gram": "11.9",
+"fat pr 100 gram": "16.2"
+},
+{
+"name": "Fish balls, canned",
+"calories per 100gram": "62.4",
+"co2 per 1kg": "5.74",
+"protein pr 100 gram": "4.9",
+"carbohydrate pr 100 gram": "8.3",
+"fat pr 100 gram": "1"
+},
+{
+"name": "Fish pudding, raw",
+"calories per 100gram": "111.4",
+"co2 per 1kg": "8",
+"protein pr 100 gram": "12.8",
+"carbohydrate pr 100 gram": "8.5",
+"fat pr 100 gram": "2.8"
+},
+{
+    "name": "Cod, liver, canned",
+    "calories per 100gram": "523,9",
+    "co2 per 1kg": "16,72",
+    "protein pr 100 gram": "4,6",
+    "carbohydrate pr 100 gram": "1",
+    "fat pr 100 gram": "55,1"
+    },
+    {
+    "name": "Cod, roe, canned",
+    "calories per 100gram": "99,7",
+    "co2 per 1kg": "11,36",
+    "protein pr 100 gram": "13,7",
+    "carbohydrate pr 100 gram": "2,7",
+    "fat pr 100 gram": "3,7"
+    },
+    {
+    "name": "Shrimps, canned",
+    "calories per 100gram": "80,3",
+    "co2 per 1kg": "11,89",
+    "protein pr 100 gram": "16,5",
+    "carbohydrate pr 100 gram": "0,8",
+    "fat pr 100 gram": "1,2"
+    },
+    {
+    "name": "Cod, fillet, breaded, raw",
+    "calories per 100gram": "116,2",
+    "co2 per 1kg": "6,63",
+    "protein pr 100 gram": "13,7",
+    "carbohydrate pr 100 gram": "12,9",
+    "fat pr 100 gram": "0,8"
+    },
+    {
+    "name": "Caviar, Danish (roe, lump-sucker)",
+    "calories per 100gram": "105,9",
+    "co2 per 1kg": "11,33",
+    "protein pr 100 gram": "12,9",
+    "carbohydrate pr 100 gram": "0,8",
+    "fat pr 100 gram": "5,7"
+    },
+    {
+    "name": "Fish cake, fried",
+    "calories per 100gram": "155,4",
+    "co2 per 1kg": "10,28",
+    "protein pr 100 gram": "13,7",
+    "carbohydrate pr 100 gram": "9,8",
+    "fat pr 100 gram": "6,7"
+    },
+    {
+    "name": "Cod, liver, smoked",
+    "calories per 100gram": "613,8",
+    "co2 per 1kg": "12,54",
+    "protein pr 100 gram": "5,1",
+    "carbohydrate pr 100 gram": "1",
+    "fat pr 100 gram": "66,6"
+    },
+    {
+    "name": "Cod, liver, raw",
+    "calories per 100gram": "613,8",
+    "co2 per 1kg": "9,92",
+    "protein pr 100 gram": "5,1",
+    "carbohydrate pr 100 gram": "1",
+    "fat pr 100 gram": "66,6"
+    },
+    {
+    "name": "Lobster, canned",
+    "calories per 100gram": "90,6",
+    "co2 per 1kg": "9,85",
+    "protein pr 100 gram": "18,7",
+    "carbohydrate pr 100 gram": "0,3",
+    "fat pr 100 gram": "1,5"
+    },
+    {
+"name": "Mussels, in water, canned",
+"calories per 100gram": "103.5",
+"co2 per 1kg": "1.77",
+"protein pr 100 gram": "3",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "17"
+},
+
+{
+"name": "Tuna, in tomato sauce, canned",
+"calories per 100gram": "114.2",
+"co2 per 1kg": "9.15",
+"protein pr 100 gram": "2.9",
+"carbohydrate pr 100 gram": "4.6",
+"fat pr 100 gram": "17.2"
+},
+
+{
+"name": "Cod, roe, raw",
+"calories per 100gram": "121.4",
+"co2 per 1kg": "11.27",
+"protein pr 100 gram": "2.6",
+"carbohydrate pr 100 gram": "1.5",
+"fat pr 100 gram": "23.2"
+},
+
+{
+"name": "Crab claws, meat, raw",
+"calories per 100gram": "113.0",
+"co2 per 1kg": "14.68",
+"protein pr 100 gram": "1.8",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "22.9"
+},
+
+{
+"name": "Caviar, made from capelin roe",
+"calories per 100gram": "184.0",
+"co2 per 1kg": "11.32",
+"protein pr 100 gram": "5.7",
+"carbohydrate pr 100 gram": "9.1",
+"fat pr 100 gram": "14"
+},
+
+{
+"name": "Tuna, in water, canned",
+"calories per 100gram": "107.8",
+"co2 per 1kg": "5.6",
+"protein pr 100 gram": "1.2",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "23.9"
+},
+
+{
+"name": "Halibut, greenland, smoked",
+"calories per 100gram": "200.3",
+"co2 per 1kg": "11.59",
+"protein pr 100 gram": "16.1",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "14.3"
+},
+
+{
+"name": "Fish fillet, breaded, deepfried",
+"calories per 100gram": "287.0",
+"co2 per 1kg": "7.51",
+"protein pr 100 gram": "16.1",
+"carbohydrate pr 100 gram": "21.9",
+"fat pr 100 gram": "13.4"
+},
+
+{
+"name": "Fish fingers, breaded, frozen",
+"calories per 100gram": "188.1",
+"co2 per 1kg": "6.59",
+"protein pr 100 gram": "8.4",
+"carbohydrate pr 100 gram": "15.2",
+"fat pr 100 gram": "12.8"
+},
+{
+    "name": "Rye flour, dark, whole meal",
+    "calories per 100gram": "335,3",
+    "co2 per 1kg": "0,77",
+    "protein pr 100 gram": "9,4",
+    "carbohydrate pr 100 gram": "54,8",
+    "fat pr 100 gram": "2,3"
+    },
+    {
+    "name": "Wheat, flour, wholemeal",
+    "calories per 100gram": "334,1",
+    "co2 per 1kg": "0,84",
+    "protein pr 100 gram": "11,4",
+    "carbohydrate pr 100 gram": "46,8",
+    "fat pr 100 gram": "2,4"
+    },
+    {
+    "name": "Rye kernels, whole/cracked",
+    "calories per 100gram": "334,8",
+    "co2 per 1kg": "0,77",
+    "protein pr 100 gram": "9,7",
+    "carbohydrate pr 100 gram": "58,2",
+    "fat pr 100 gram": "2,3"
+    },
+    {
+    "name": "Wheat, kernels, whole/cracked",
+    "calories per 100gram": "343,7",
+    "co2 per 1kg": "0,84",
+    "protein pr 100 gram": "11,5",
+    "carbohydrate pr 100 gram": "61,9",
+    "fat pr 100 gram": "2"
+    },
+    {
+    "name": "Rice flour",
+    "calories per 100gram": "365,0",
+    "co2 per 1kg": "1,14",
+    "protein pr 100 gram": "7,7",
+    "carbohydrate pr 100 gram": "78,9",
+    "fat pr 100 gram": "1,3"
+    },
+    {
+    "name": "Corn flour",
+    "calories per 100gram": "365,2",
+    "co2 per 1kg": "0,63",
+    "protein pr 100 gram": "6,8",
+    "carbohydrate pr 100 gram": "88,3",
+    "fat pr 100 gram": "2,8"
+    },
+    {
+    "name": "Eggs, chicken, free-range hens (indoor), raw",
+    "calories per 100gram": "138,6",
+    "co2 per 1kg": "0,85",
+    "protein pr 100 gram": "12,3",
+    "carbohydrate pr 100 gram": "1,1",
+    "fat pr 100 gram": "9,5"
+    },
+    {
+    "name": "Burbot, raw",
+    "calories per 100gram": "71,0",
+    "co2 per 1kg": "12,54",
+    "protein pr 100 gram": "16,4",
+    "carbohydrate pr 100 gram": "0",
+    "fat pr 100 gram": "0,5"
+    },
+    {
+    "name": "Perch, raw",
+    "calories per 100gram": "78,2",
+    "co2 per 1kg": "13,84",
+    "protein pr 100 gram": "16,4",
+    "carbohydrate pr 100 gram": "0",
+    "fat pr 100 gram": "1,3"
+    },
+    {
+"name": "Pikeperch, raw",
+"calories per 100gram": "88.0",
+"co2 per 1kg": "7.32",
+"protein pr 100 gram": "19.2",
+"carbohydrate pr 100 gram": "0.5",
+"fat pr 100 gram": "0.7"
+},
+{
+"name": "Pike, raw",
+"calories per 100gram": "90.6",
+"co2 per 1kg": "8.28",
+"protein pr 100 gram": "19",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "1.2"
+},
+{
+"name": "Bream, raw",
+"calories per 100gram": "108.0",
+"co2 per 1kg": "16.78",
+"protein pr 100 gram": "16.7",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "4"
+},
+{
+"name": "Charr, raw",
+"calories per 100gram": "98.9",
+"co2 per 1kg": "12.31",
+"protein pr 100 gram": "18.5",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "2.7"
+},
+{
+"name": "Trout, raw",
+"calories per 100gram": "132.2",
+"co2 per 1kg": "2.72",
+"protein pr 100 gram": "17.9",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "6.7"
+},
+{
+"name": "Whitefish, raw",
+"calories per 100gram": "114.2",
+"co2 per 1kg": "12.54",
+"protein pr 100 gram": "21.6",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "3"
+},
+{
+"name": "Fruit juice, mixed, sweetened, concentrated",
+"calories per 100gram": "177.1",
+"co2 per 1kg": "2.58",
+"protein pr 100 gram": "0.2",
+"carbohydrate pr 100 gram": "43.4",
+"fat pr 100 gram": "0"
+},
+{
+"name": "Elderberry, juice, concentrated, sugar added",
+"calories per 100gram": "222.5",
+"co2 per 1kg": "2.4",
+"protein pr 100 gram": "0.5",
+"carbohydrate pr 100 gram": "53.2",
+"fat pr 100 gram": "0.5"
+},
+{
+"name": "Olives, green, pickled, canned",
+"calories per 100gram": "132.4",
+"co2 per 1kg": "1.69",
+"protein pr 100 gram": "1",
+"carbohydrate pr 100 gram": "5",
+"fat pr 100 gram": "11.7"
+},
+{
+    "name": "Pear, canned",
+    "calories per 100gram": "71.5",
+    "co2 per 1kg": "0.83",
+    "protein pr 100 gram": "0.2",
+    "carbohydrate pr 100 gram": "15.7",
+    "fat pr 100 gram": "0.3"
+    },
+    {
+    "name": "Nut paste with cacao, spreads",
+    "calories per 100gram": "523.9",
+    "co2 per 1kg": "3.97",
+    "protein pr 100 gram": "30",
+    "carbohydrate pr 100 gram": "54.5",
+    "fat pr 100 gram": "7"
+    },
+    {
+    "name": "Orange juice, canned",
+    "calories per 100gram": "43.0",
+    "co2 per 1kg": "1.32",
+    "protein pr 100 gram": "0.1",
+    "carbohydrate pr 100 gram": "8.4",
+    "fat pr 100 gram": "0.6"
+    },
+    {
+    "name": "Pineapple, canned",
+    "calories per 100gram": "64.3",
+    "co2 per 1kg": "1.3",
+    "protein pr 100 gram": "0.3",
+    "carbohydrate pr 100 gram": "3.7",
+    "fat pr 100 gram": "0.4"
+    },
+    {
+    "name": "Strawberry jam",
+    "calories per 100gram": "204.8",
+    "co2 per 1kg": "1.8",
+    "protein pr 100 gram": "0.3",
+    "carbohydrate pr 100 gram": "49",
+    "fat pr 100 gram": "0.3"
+    },
+    {
+    "name": "Raisins, seedless",
+    "calories per 100gram": "337.5",
+    "co2 per 1kg": "2.63",
+    "protein pr 100 gram": "1.6",
+    "carbohydrate pr 100 gram": "68.8",
+    "fat pr 100 gram": "3.2"
+    },
+    {
+    "name": "Raspberry marmalade",
+    "calories per 100gram": "205.5",
+    "co2 per 1kg": "1.8",
+    "protein pr 100 gram": "0.6",
+    "carbohydrate pr 100 gram": "48.1",
+    "fat pr 100 gram": "0.6"
+    },
+    {
+    "name": "Hare, raw",
+    "calories per 100gram": "112.6",
+    "co2 per 1kg": "2.27",
+    "protein pr 100 gram": "1.9",
+    "carbohydrate pr 100 gram": "0",
+    "fat pr 100 gram": "21.6"
+    },
+    {
+    "name": "Rabbit, flesh only, raw",
+    "calories per 100gram": "118.3",
+    "co2 per 1kg": "2.27",
+    "protein pr 100 gram": "4",
+    "carbohydrate pr 100 gram": "0",
+    "fat pr 100 gram": "20.4"
+    },
+    {
+"name": "Pheasant, flesh and skin, raw",
+"calories per 100gram": "170.2",
+"co2 per 1kg": "2.27",
+"protein pr 100 gram": "9.3",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "21.7"
+},
+{
+"name": "Squab (pigeon), raw",
+"calories per 100gram": "284.4",
+"co2 per 1kg": "2.27",
+"protein pr 100 gram": "23.8",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "18.2"
+},
+{
+"name": "Barley groats, raw",
+"calories per 100gram": "352.8",
+"co2 per 1kg": "0.83",
+"protein pr 100 gram": "2.4",
+"carbohydrate pr 100 gram": "62.2",
+"fat pr 100 gram": "9.9"
+},
+{
+"name": "Oats, rolled, not enriched",
+"calories per 100gram": "368.3",
+"co2 per 1kg": "0.95",
+"protein pr 100 gram": "6.7",
+"carbohydrate pr 100 gram": "57",
+"fat pr 100 gram": "14.2"
+},
+{
+"name": "Rice groats, raw",
+"calories per 100gram": "365.2",
+"co2 per 1kg": "1.11",
+"protein pr 100 gram": "1.3",
+"carbohydrate pr 100 gram": "78.1",
+"fat pr 100 gram": "6.8"
+},
+{
+"name": "Parsley, raw",
+"calories per 100gram": "48.0",
+"co2 per 1kg": "0.37",
+"protein pr 100 gram": "1.1",
+"carbohydrate pr 100 gram": "1.2",
+"fat pr 100 gram": "3.7"
+},
+{
+"name": "Dill, raw",
+"calories per 100gram": "48.0",
+"co2 per 1kg": "0.37",
+"protein pr 100 gram": "1.1",
+"carbohydrate pr 100 gram": "4.9",
+"fat pr 100 gram": "3.5"
+},
+{
+"name": "Garlic, raw",
+"calories per 100gram": "159.9",
+"co2 per 1kg": "1.33",
+"protein pr 100 gram": "0.5",
+"carbohydrate pr 100 gram": "30.9",
+"fat pr 100 gram": "6.4"
+},
+{
+"name": "Chives, raw",
+"calories per 100gram": "25.6",
+"co2 per 1kg": "0.32",
+"protein pr 100 gram": "0.6",
+"carbohydrate pr 100 gram": "1.5",
+"fat pr 100 gram": "2.4"
+},
+{
+    "name": "Cress, garden, raw",
+    "calories per 100 gram": "26.5",
+    "co2 per 1kg": "0.37",
+    "protein pr 100 gram": "0.2",
+    "carbohydrate pr 100 gram": "2.8",
+    "fat pr 100 gram": "0.5"
+    },
+    {
+    "name": "Olives, black, without stones, in brine",
+    "calories per 100 gram": "110.7",
+    "co2 per 1kg": "1.69",
+    "protein pr 100 gram": "2.9",
+    "carbohydrate pr 100 gram": "9.8",
+    "fat pr 100 gram": "1"
+    },
+    {
+    "name": "Hazelnut, dried",
+    "calories per 100 gram": "648.2",
+    "co2 per 1kg": "4.35",
+    "protein pr 100 gram": "3.3",
+    "carbohydrate pr 100 gram": "60.6",
+    "fat pr 100 gram": "15.6"
+    },
+    {
+    "name": "Sunflower seeds, decorticated, dried",
+    "calories per 100 gram": "612.8",
+    "co2 per 1kg": "1.77",
+    "protein pr 100 gram": "3.6",
+    "carbohydrate pr 100 gram": "54.4",
+    "fat pr 100 gram": "24.2"
+    },
+    {
+    "name": "Sesame seeds, decorticated",
+    "calories per 100 gram": "635.0",
+    "co2 per 1kg": "3.62",
+    "protein pr 100 gram": "1.8",
+    "carbohydrate pr 100 gram": "57.4",
+    "fat pr 100 gram": "26.8"
+    },
+    {
+    "name": "Walnuts, dried",
+    "calories per 100 gram": "698.8",
+    "co2 per 1kg": "3.15",
+    "protein pr 100 gram": "2.8",
+    "carbohydrate pr 100 gram": "64.6",
+    "fat pr 100 gram": "16.6"
+    },
+    {
+    "name": "Cashew nuts, dry roasted",
+    "calories per 100 gram": "598.5",
+    "co2 per 1kg": "4.01",
+    "protein pr 100 gram": "26.9",
+    "carbohydrate pr 100 gram": "46.4",
+    "fat pr 100 gram": "18.1"
+    },
+    {
+    "name": "Pumpkin seeds, dried",
+    "calories per 100 gram": "561.9",
+    "co2 per 1kg": "3.2",
+    "protein pr 100 gram": "2",
+    "carbohydrate pr 100 gram": "45.9",
+    "fat pr 100 gram": "36.3"
+    },
+    {
+    "name": "Honey",
+    "calories per 100 gram": "332.4",
+    "co2 per 1kg": "0.77",
+    "protein pr 100 gram": "0",
+    "carbohydrate pr 100 gram": "75.1",
+    "fat pr 100 gram": "0.3"
+    },
+    {
+"name": "Ice cream, dairy, (wholemilk based)",
+"calories per 100gram": "155",
+"co2 per 1kg": "2,84",
+"protein pr 100 gram": "3",
+"carbohydrate pr 100 gram": "23,5",
+"fat pr 100 gram": "4"
+},
+{
+"name": "Ice cream, dairy (cream based)",
+"calories per 100gram": "206",
+"co2 per 1kg": "2,84",
+"protein pr 100 gram": "10",
+"carbohydrate pr 100 gram": "25,1",
+"fat pr 100 gram": "4"
+},
+{
+"name": "Ice, popsickle, lemonade",
+"calories per 100gram": "88",
+"co2 per 1kg": "1,15",
+"protein pr 100 gram": "2",
+"carbohydrate pr 100 gram": "16,9",
+"fat pr 100 gram": "0.5"
+},
+{
+"name": "Vinegar",
+"calories per 100gram": "20",
+"co2 per 1kg": "1,93",
+"protein pr 100 gram": "0",
+"carbohydrate pr 100 gram": "5.4",
+"fat pr 100 gram": "0.4"
+},
+{
+"name": "Salt, table",
+"calories per 100gram": "0",
+"co2 per 1kg": "0.44",
+"protein pr 100 gram": "0",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "0"
+},
+{
+"name": "Rhubarb, raw",
+"calories per 100gram": "26",
+"co2 per 1kg": "0.3",
+"protein pr 100 gram": "0.3",
+"carbohydrate pr 100 gram": "1.9",
+"fat pr 100 gram": "0.9"
+},
+{
+"name": "Celery, raw",
+"calories per 100gram": "23",
+"co2 per 1kg": "0.3",
+"protein pr 100 gram": "0.2",
+"carbohydrate pr 100 gram": "1.9",
+"fat pr 100 gram": "0.7"
+},
+{
+"name": "Cauliflower, all varieties, raw",
+"calories per 100gram": "28",
+"co2 per 1kg": "0.71",
+"protein pr 100 gram": "0.4",
+"carbohydrate pr 100 gram": "1.9",
+"fat pr 100 gram": "2.4"
+},
+{
+"name": "Broccoli, raw",
+"calories per 100gram": "35",
+"co2 per 1kg": "0.71",
+"protein pr 100 gram": "0.2",
+"carbohydrate pr 100 gram": "2.1",
+"fat pr 100 gram": "3.6"
+},
+{
+"name": "Kale, raw",
+"calories per 100gram": "60.2",
+"co2 per 1kg": "0.25",
+"protein pr 100 gram": "4.7",
+"carbohydrate pr 100 gram": "2",
+"fat pr 100 gram": "1.1"
+},
+{
+"name": "Cabbage, white, raw",
+"calories per 100gram": "31.8",
+"co2 per 1kg": "0.25",
+"protein pr 100 gram": "1.2",
+"carbohydrate pr 100 gram": "4.5",
+"fat pr 100 gram": "0.2"
+},
+{
+"name": "Brussels sprouts, raw",
+"calories per 100gram": "53.3",
+"co2 per 1kg": "0.25",
+"protein pr 100 gram": "4.5",
+"carbohydrate pr 100 gram": "4.4",
+"fat pr 100 gram": "0.5"
+},
+{
+"name": "Cabbage, red, raw",
+"calories per 100gram": "31.8",
+"co2 per 1kg": "0.25",
+"protein pr 100 gram": "1.5",
+"carbohydrate pr 100 gram": "4",
+"fat pr 100 gram": "0.2"
+},
+{
+"name": "Cabbage, spring, raw",
+"calories per 100gram": "26.8",
+"co2 per 1kg": "0.25",
+"protein pr 100 gram": "2",
+"carbohydrate pr 100 gram": "3",
+"fat pr 100 gram": "0.3"
+},
+{
+"name": "Spinach, raw",
+"calories per 100gram": "24.4",
+"co2 per 1kg": "0.52",
+"protein pr 100 gram": "2.6",
+"carbohydrate pr 100 gram": "0.2",
+"fat pr 100 gram": "0.6"
+},
+{
+"name": "Artichoke, raw",
+"calories per 100gram": "52.1",
+"co2 per 1kg": "0.98",
+"protein pr 100 gram": "3.3",
+"carbohydrate pr 100 gram": "8.1",
+"fat pr 100 gram": "0.1"
+},
+{
+"name": "Asparagus, green, raw",
+"calories per 100gram": "26.1",
+"co2 per 1kg": "0.88",
+"protein pr 100 gram": "1.8",
+"carbohydrate pr 100 gram": "3.1",
+"fat pr 100 gram": "0.3"
+},
+{
+"name": "Lettuce, iceberg (incl. crisphead types), raw",
+"calories per 100gram": "15.5",
+"co2 per 1kg": "0.59",
+"protein pr 100 gram": "0.8",
+"carbohydrate pr 100 gram": "2.4",
+"fat pr 100 gram": "0.1"
+},
+{
+"name": "Lettuce, looseleaf, raw",
+"calories per 100gram": "15",
+"co2 per 1kg": "0,59",
+"protein pr 100 gram": "1,4",
+"carbohydrate pr 100 gram": "1,5",
+"fat pr 100 gram": "0,1"
+},
+{
+"name": "Cabbage, Chinese, pak-choi, raw",
+"calories per 100gram": "15",
+"co2 per 1kg": "0,25",
+"protein pr 100 gram": "1,5",
+"carbohydrate pr 100 gram": "1,2",
+"fat pr 100 gram": "0,2"
+},
+{
+"name": "Cabbage, savoy, raw",
+"calories per 100gram": "27",
+"co2 per 1kg": "0,25",
+"protein pr 100 gram": "2",
+"carbohydrate pr 100 gram": "3",
+"fat pr 100 gram": "0,1"
+},
+{
+"name": "Cauliflower, frozen",
+"calories per 100gram": "27",
+"co2 per 1kg": "0,84",
+"protein pr 100 gram": "2",
+"carbohydrate pr 100 gram": "3,7",
+"fat pr 100 gram": "0,3"
+},
+{
+"name": "Leek, raw",
+"calories per 100gram": "34",
+"co2 per 1kg": "0,32",
+"protein pr 100 gram": "2",
+"carbohydrate pr 100 gram": "3,7",
+"fat pr 100 gram": "0,2"
+},
+{
+"name": "Spinach, chopped, frozen",
+"calories per 100gram": "26",
+"co2 per 1kg": "0,64",
+"protein pr 100 gram": "2,1",
+"carbohydrate pr 100 gram": "2,2",
+"fat pr 100 gram": "0,5"
+},
+{
+"name": "Broccoli, frozen",
+"calories per 100gram": "27",
+"co2 per 1kg": "0,84",
+"protein pr 100 gram": "2,8",
+"carbohydrate pr 100 gram": "1,8",
+"fat pr 100 gram": "0,3"
+},
+{
+"name": "Beans, wax, raw",
+"calories per 100gram": "35",
+"co2 per 1kg": "1,04",
+"protein pr 100 gram": "2,1",
+"carbohydrate pr 100 gram": "5,3",
+"fat pr 100 gram": "0,2"
+},
+{
+"name": "Peas, green, raw",
+"calories per 100gram": "70",
+"co2 per 1kg": "0,67",
+"protein pr 100 gram": "5,9",
+"carbohydrate pr 100 gram": "6,5",
+"fat pr 100 gram": "0,7"
+},
+{
+"name": "Green lentils, dried",
+"calories per 100gram": "350,4",
+"co2 per 1kg": "1,78",
+"protein pr 100 gram": "26,2",
+"carbohydrate pr 100 gram": "53,2",
+"fat pr 100 gram": "2,5"
+},
+
+{
+"name": "Peas, chick/garbanzo, dry, raw",
+"calories per 100gram": "368,3",
+"co2 per 1kg": "2,23",
+"protein pr 100 gram": "20,4",
+"carbohydrate pr 100 gram": "45,9",
+"fat pr 100 gram": "6,9"
+},
+
+{
+"name": "Beans, green, raw",
+"calories per 100gram": "30,1",
+"co2 per 1kg": "1,04",
+"protein pr 100 gram": "5,9",
+"carbohydrate pr 100 gram": "1,9",
+"fat pr 100 gram": "0,2"
+},
+
+{
+"name": "Bean sprouts, mung, raw",
+"calories per 100gram": "34,2",
+"co2 per 1kg": "1,04",
+"protein pr 100 gram": "4,1",
+"carbohydrate pr 100 gram": "3",
+"fat pr 100 gram": "0,2"
+},
+
+{
+"name": "Bean sprouts, average values, raw",
+"calories per 100gram": "37,5",
+"co2 per 1kg": "1,04",
+"protein pr 100 gram": "5,1",
+"carbohydrate pr 100 gram": "3",
+"fat pr 100 gram": "0,3"
+},
+
+{
+"name": "Sugar pea (Snow pea, Mangetout) raw",
+"calories per 100gram": "48,3",
+"co2 per 1kg": "0,74",
+"protein pr 100 gram": "3,8",
+"carbohydrate pr 100 gram": "6,4",
+"fat pr 100 gram": "0,3"
+},
+
+{
+"name": "Beans, soy, dried, raw",
+"calories per 100gram": "411,1",
+"co2 per 1kg": "1,16",
+"protein pr 100 gram": "35,8",
+"carbohydrate pr 100 gram": "17,5",
+"fat pr 100 gram": "18,4"
+},
+
+{
+"name": "Peas, green, frozen",
+"calories per 100gram": "74,1",
+"co2 per 1kg": "0,87",
+"protein pr 100 gram": "6,1",
+"carbohydrate pr 100 gram": "8,4",
+"fat pr 100 gram": "0,7"
+},
+
+{
+"name": "Water, bottled, carbonated",
+"calories per 100gram": "4,1",
+"co2 per 1kg": "0,22",
+"protein pr 100 gram": "0",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "0"
+},
+{
+"name": "Soft drink, sugar added",
+"calories per 100gram": "40,6",
+"co2 per 1kg": "0,55",
+"protein pr 100 gram": "0",
+"carbohydrate pr 100 gram": "9,9",
+"fat pr 100 gram": "0"
+},
+{
+"name": "Apple juice, canned or bottled",
+"calories per 100gram": "48,8",
+"co2 per 1kg": "1,64",
+"protein pr 100 gram": "0,1",
+"carbohydrate pr 100 gram": "10,2",
+"fat pr 100 gram": "0,1"
+},
+{
+"name": "Sherry, dry",
+"calories per 100gram": "116,4",
+"co2 per 1kg": "4,27",
+"protein pr 100 gram": "1,3",
+"carbohydrate pr 100 gram": "0,2",
+"fat pr 100 gram": "0"
+},
+{
+"name": "Liqueur, coffee with cream",
+"calories per 100gram": "330,3",
+"co2 per 1kg": "3,39",
+"protein pr 100 gram": "20",
+"carbohydrate pr 100 gram": "2,8",
+"fat pr 100 gram": "15,7"
+},
+{
+"name": "Margarine, 70 % fat, table use, soft, vegetable fat",
+"calories per 100gram": "670,6",
+"co2 per 1kg": "2,93",
+"protein pr 100 gram": "0",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "70,6"
+},
+{
+"name": "Garfish, raw",
+"calories per 100gram": "107,6",
+"co2 per 1kg": "9,7",
+"protein pr 100 gram": "19,5",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "3,2"
+},
+{
+"name": "Salmon, Atlantic, wild, raw",
+"calories per 100gram": "159,2",
+"co2 per 1kg": "9,46",
+"protein pr 100 gram": "18,4",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "7,5"
+},
+{
+"name": "Mackerel, raw",
+"calories per 100gram": "186,4",
+"co2 per 1kg": "9,12",
+"protein pr 100 gram": "17,8",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "12,9"
+},
+{
+"name": "Plaice, raw",
+"calories per 100gram": "88,2",
+"co2 per 1kg": "9,87",
+"protein pr 100 gram": "17,5",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "1,9"
+},
+{
+"name": "Herring, raw",
+"calories per 100gram": "187.4",
+"co2 per 1kg": "13.6",
+"protein pr 100 gram": "16.5",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "9.34"
+},
+{
+"name": "Saithe, raw",
+"calories per 100gram": "79.6",
+"co2 per 1kg": "0.7",
+"protein pr 100 gram": "18.1",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "9.87"
+},
+{
+"name": "Cod, fillet, raw",
+"calories per 100gram": "76.5",
+"co2 per 1kg": "0.6",
+"protein pr 100 gram": "17.6",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "9.87"
+},
+{
+"name": "Plaice, fillet, breaded, dybfrost",
+"calories per 100gram": "137.9",
+"co2 per 1kg": "1.1",
+"protein pr 100 gram": "11.9",
+"carbohydrate pr 100 gram": "19.1",
+"fat pr 100 gram": "6.66"
+},
+{
+"name": "Saithe (UK), pollock (US), fillet, frozen",
+"calories per 100gram": "92.5",
+"co2 per 1kg": "0.9",
+"protein pr 100 gram": "20.5",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "9.78"
+},
+{
+"name": "Tuna, raw",
+"calories per 100gram": "118.5",
+"co2 per 1kg": "1.1",
+"protein pr 100 gram": "26.8",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "10.14"
+},
+{
+"name": "Salmon, Atlantic, aquaculture, cold smoked",
+"calories per 100gram": "169.9",
+"co2 per 1kg": "8.9",
+"protein pr 100 gram": "20.9",
+"carbohydrate pr 100 gram": "1.6",
+"fat pr 100 gram": "11.89"
+},
+{
+"name": "Salmon, atlantic, aquaculture, hot smoked",
+"calories per 100gram": "264.8",
+"co2 per 1kg": "20.7",
+"protein pr 100 gram": "20.1",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "12.2"
+},
+{
+"name": "Salmon, atlantic, aquaculture, raw",
+"calories per 100gram": "226.3",
+"co2 per 1kg": "9.11",
+"protein pr 100 gram": "18.3",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "15.8"
+},
+{
+"name": "Mayonnaise, low fat",
+"calories per 100gram": "122",
+"co2 per 1kg": "1.22",
+"protein pr 100 gram": "0",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "51.3"
+},
+{
+"name": "Mayonnaise",
+"calories per 100gram": "717.5",
+"co2 per 1kg": "3.55",
+"protein pr 100 gram": "0.1",
+"carbohydrate pr 100 gram": "1.1",
+"fat pr 100 gram": "80"
+},
+{
+"name": "Remoulade, average values",
+"calories per 100gram": "374.8",
+"co2 per 1kg": "1.88",
+"protein pr 100 gram": "1.1",
+"carbohydrate pr 100 gram": "12",
+"fat pr 100 gram": "36.8"
+},
+{
+"name": "Oyster, raw",
+"calories per 100gram": "61.7",
+"co2 per 1kg": "1.13",
+"protein pr 100 gram": "4.2",
+"carbohydrate pr 100 gram": "7.8",
+"fat pr 100 gram": "1.5"
+},
+{
+"name": "Mussel, raw",
+"calories per 100gram": "83.2",
+"co2 per 1kg": "0.22",
+"protein pr 100 gram": "0",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "2.2"
+},
+{
+"name": "Octopus, raw",
+"calories per 100gram": "77.4",
+"co2 per 1kg": "0.46",
+"protein pr 100 gram": "1.5",
+"carbohydrate pr 100 gram": "16.4",
+"fat pr 100 gram": "0.9"
+},
+{
+"name": "Mushroom, raw",
+"calories per 100gram": "26.3",
+"co2 per 1kg": "0.47",
+"protein pr 100 gram": "0",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "0.3"
+},
+{
+"name": "Oyster mushroom",
+"calories per 100gram": "43.5",
+"co2 per 1kg": "0.47",
+"protein pr 100 gram": "6.5",
+"carbohydrate pr 100 gram": "3.3",
+"fat pr 100 gram": "0.4"
+},
+{
+"name": "Almondmilk, unfortified",
+"calories per 100gram": "46.8",
+"co2 per 1kg": "3.52",
+"protein pr 100 gram": "0.8",
+"carbohydrate pr 100 gram": "4.3",
+"fat pr 100 gram": "2.2"
+},
+{
+"name": "Ricemilk, with added calcium",
+"calories per 100gram": "55.0",
+"co2 per 1kg": "0.39",
+"protein pr 100 gram": "0.1",
+"carbohydrate pr 100 gram": "6.9",
+"fat pr 100 gram": "0.9"
+},
+{
+"name": "Oatmilk, with added calcium",
+"calories per 100gram": "45.4",
+"co2 per 1kg": "0.37",
+"protein pr 100 gram": "0.6",
+"carbohydrate pr 100 gram": "5.6",
+"fat pr 100 gram": "1.6"
+},
+{
+"name": "Soymilk, with added calcium",
+"calories per 100gram": "45.4",
+"co2 per 1kg": "0.38",
+"protein pr 100 gram": "3.6",
+"carbohydrate pr 100 gram": "3.3",
+"fat pr 100 gram": "1.9"
+},
+{
+"name": "Bouillon, chicken, prepared",
+"calories per 100gram": "4.3",
+"co2 per 1kg": "0.38",
+"protein pr 100 gram": "0.3",
+"carbohydrate pr 100 gram": "0.3",
+"fat pr 100 gram": "0.2"
+},
+{
+"name": "Meat balls, canned",
+"calories per 100gram": "125.5",
+"co2 per 1kg": "11.42",
+"protein pr 100 gram": "7.1",
+"carbohydrate pr 100 gram": "2.9",
+"fat pr 100 gram": "9.6"
+},
+{
+"name": "Bouillon, beef, prepared",
+"calories per 100gram": "7.2",
+"co2 per 1kg": "0.52",
+"protein pr 100 gram": "0.3",
+"carbohydrate pr 100 gram": "0.1",
+"fat pr 100 gram": "0.2"
+},
+{
+"name": "Meat balls, average values",
+"calories per 100gram": "144.1",
+"co2 per 1kg": "11.42",
+"protein pr 100 gram": "8.8",
+"carbohydrate pr 100 gram": "6.0",
+"fat pr 100 gram": "9.5"
+},
+{
+"name": "Dumplings, average values",
+"calories per 100gram": "182.6",
+"co2 per 1kg": "1.27",
+"protein pr 100 gram": "5.4",
+"carbohydrate pr 100 gram": "12.8",
+"fat pr 100 gram": "11.6"
+},
+{
+"name": "Meat balls, frozen",
+"calories per 100gram": "162.3",
+"co2 per 1kg": "11.08",
+"protein pr 100 gram": "9.4",
+"carbohydrate pr 100 gram": "9.0",
+"fat pr 100 gram": "10.5"
+},
+{
+"name": "Soup, tomato, ready to eat",
+"calories per 100gram": "72.7",
+"co2 per 1kg": "1.84",
+"protein pr 100 gram": "1.5",
+"carbohydrate pr 100 gram": "12.7",
+"fat pr 100 gram": "1.6"
+},
+{
+"name": "Bouillon, beef, concentrated, cube",
+"calories per 100gram": "161.6",
+"co2 per 1kg": "7.26",
+"protein pr 100 gram": "3.2",
+"carbohydrate pr 100 gram": "12.0",
+"fat pr 100 gram": "17.0"
+},
+{
+"name": "Dumplings, frozen",
+"calories per 100gram": "189.3",
+"co2 per 1kg": "1.31",
+"protein pr 100 gram": "13.0",
+"carbohydrate pr 100 gram": "9.8",
+"fat pr 100 gram": "7.0"
+},
+{
+"name": "Chicken, grilled, fast food",
+"calories per 100gram": "212.2",
+"co2 per 1kg": "3.61",
+"protein pr 100 gram": "11.2",
+"carbohydrate pr 100 gram": "0.0",
+"fat pr 100 gram": "28.0"
+},
+{
+"name": "Chicken nuggets, deepfried, ready meals",
+"calories per 100gram": "279.9",
+"co2 per 1kg": "3.24",
+"protein pr 100 gram": "16.1",
+"carbohydrate pr 100 gram": "19.1",
+"fat pr 100 gram": "14.7"
+},
+{
+"name": "Pizza with tomato and cheese, ready meals",
+"calories per 100gram": "322.9",
+"co2 per 1kg": "2.96",
+"protein pr 100 gram": "13.5",
+"carbohydrate pr 100 gram": "35.7",
+"fat pr 100 gram": "13.3"
+},
+{
+"name": "Pizza with seafood, tomato and cheese, ready meals",
+"calories per 100gram": "256.4",
+"co2 per 1kg": "3.79",
+"protein pr 100 gram": "10.0",
+"carbohydrate pr 100 gram": "26.7",
+"fat pr 100 gram": "13.8"
+},
+{
+"name": "Pizza with salami, tomato and cheese, ready meals",
+"calories per 100gram": "312.6",
+"co2 per 1kg": "3.15",
+"protein pr 100 gram": "14.5",
+"carbohydrate pr 100 gram": "31.7",
+"fat pr 100 gram": "12.8"
+},
+{
+"name": "Pizza with vegetables, fruit, tomato and cheese, ready meals",
+"calories per 100gram": "220.1",
+"co2 per 1kg": "2.56",
+"protein pr 100 gram": "8.1",
+"carbohydrate pr 100 gram": "26.8",
+"fat pr 100 gram": "8.4"
+},
+{
+"name": "Pizza with meat, tomato and cheese, ready meals",
+"calories per 100gram": "258.4",
+"co2 per 1kg": "3.91",
+"protein pr 100 gram": "11.8",
+"carbohydrate pr 100 gram": "29.5",
+"fat pr 100 gram": "9.8"
+},
+{
+"name": "Pizza with meat and seafood, tomato and cheese, ready meals",
+"calories per 100gram": "229.0",
+"co2 per 1kg": "3.85",
+"protein pr 100 gram": "12.8",
+"carbohydrate pr 100 gram": "22.4",
+"fat pr 100 gram": "9.3"
+},
+{
+"name": "Veal and pork, mince, 15-20% fat, raw",
+"calories per 100gram": "216.1",
+"co2 per 1kg": "15.26",
+"protein pr 100 gram": "17.6",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "16.4"
+},
+{
+"name": "Goat milk",
+"calories per 100gram": "69.1",
+"co2 per 1kg": "4.4",
+"protein pr 100 gram": "3.5",
+"carbohydrate pr 100 gram": "4.4",
+"fat pr 100 gram": "4.1"
+},
+{
+"name": "Marzipan",
+"calories per 100gram": "477.3",
+"co2 per 1kg": "6.25",
+"protein pr 100 gram": "13.3",
+"carbohydrate pr 100 gram": "42",
+"fat pr 100 gram": "26.5"
+},
+{
+"name": "Syrup, kitchen",
+"calories per 100gram": "312.4",
+"co2 per 1kg": "0.93",
+"protein pr 100 gram": "0.3",
+"carbohydrate pr 100 gram": "76.7",
+"fat pr 100 gram": "0"
+},
+{
+"name": "Pasta, raw",
+"calories per 100gram": "366.1",
+"co2 per 1kg": "1.73",
+"protein pr 100 gram": "13.5",
+"carbohydrate pr 100 gram": "73.9",
+"fat pr 100 gram": "1.8"
+},
+{
+"name": "Apple, raw, all varieties",
+"calories per 100gram": "55.7",
+"co2 per 1kg": "0.66",
+"protein pr 100 gram": "0.3",
+"carbohydrate pr 100 gram": "10.9",
+"fat pr 100 gram": "0.2"
+},
+{
+"name": "Pear, raw",
+"calories per 100gram": "57",
+"co2 per 1kg": "0,38",
+"protein pr 100 gram": "0,1",
+"carbohydrate pr 100 gram": "8,3",
+"fat pr 100 gram": "0,3"
+},
+
+{
+"name": "Grape, raw",
+"calories per 100gram": "69",
+"co2 per 1kg": "0,94",
+"protein pr 100 gram": "0",
+"carbohydrate pr 100 gram": "15,3",
+"fat pr 100 gram": "0,6"
+},
+
+{
+"name": "Pork, collar with rind, raw",
+"calories per 100gram": "318",
+"co2 per 1kg": "3,58",
+"protein pr 100 gram": "23,4",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "16,1"
+},
+
+{
+"name": "Pork, ham, topside (M. Semimembranosus), lean, raw",
+"calories per 100gram": "110",
+"co2 per 1kg": "3,58",
+"protein pr 100 gram": "2,2",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "21,4"
+},
+
+{
+"name": "Pork, loin, lean, raw",
+"calories per 100gram": "122",
+"co2 per 1kg": "4,19",
+"protein pr 100 gram": "1,9",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "22,3"
+},
+
+{
+"name": "Pork, tenderloin, trimmed, raw",
+"calories per 100gram": "119",
+"co2 per 1kg": "5,4",
+"protein pr 100 gram": "3,3",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "21,2"
+},
+
+{
+"name": "Pork, mince, 5-10% fat, raw",
+"calories per 100gram": "145",
+"co2 per 1kg": "2,9",
+"protein pr 100 gram": "11,2",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "18,4"
+},
+
+{
+"name": "Pork, collar, defatted, raw",
+"calories per 100gram": "161",
+"co2 per 1kg": "3,57",
+"protein pr 100 gram": "12,4",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "17,4"
+},
+
+{
+"name": "Pork, mince, 15-20% fat, raw",
+"calories per 100gram": "252",
+"co2 per 1kg": "2,97",
+"protein pr 100 gram": "17,2",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "17,1"
+},
+{
+"name": "Minced meat, spaghetti sauce type, average values, ready meals",
+"calories per 100gram": "126.2",
+"co2 per 1kg": "13.74",
+"protein pr 100 gram": "8.1",
+"carbohydrate pr 100 gram": "4.9",
+"fat pr 100 gram": "8.3"
+},
+{
+"name": "Turtle, fake, average values, ready meals",
+"calories per 100gram": "109.2",
+"co2 per 1kg": "18.49",
+"protein pr 100 gram": "7.9",
+"carbohydrate pr 100 gram": "5.5",
+"fat pr 100 gram": "6.2"
+},
+{
+"name": "Spring roll, frozen, ready meals",
+"calories per 100gram": "150.8",
+"co2 per 1kg": "1.99",
+"protein pr 100 gram": "5.8",
+"carbohydrate pr 100 gram": "15.5",
+"fat pr 100 gram": "6.8"
+},
+{
+"name": "Pork in curry sauce, frozen, ready meals",
+"calories per 100gram": "118.8",
+"co2 per 1kg": "3.82",
+"protein pr 100 gram": "8.5",
+"carbohydrate pr 100 gram": "2",
+"fat pr 100 gram": "8.6"
+},
+{
+"name": "Pizza Romana, frozen, ready meals",
+"calories per 100gram": "178.1",
+"co2 per 1kg": "2.87",
+"protein pr 100 gram": "7.2",
+"carbohydrate pr 100 gram": "23.1",
+"fat pr 100 gram": "5.8"
+},
+{
+"name": "Liver, pig, in cream sauce, frozen, ready meals",
+"calories per 100gram": "124.0",
+"co2 per 1kg": "2.9",
+"protein pr 100 gram": "11.9",
+"carbohydrate pr 100 gram": "6.9",
+"fat pr 100 gram": "5.4"
+},
+{
+"name": "Pizza Napolitana, frozen, ready meals",
+"calories per 100gram": "181.9",
+"co2 per 1kg": "2.99",
+"protein pr 100 gram": "8.6",
+"carbohydrate pr 100 gram": "21.9",
+"fat pr 100 gram": "6.1"
+},
+{
+"name": "Spring roll, deepfried, ready meals",
+"calories per 100gram": "203.4",
+"co2 per 1kg": "1.99",
+"protein pr 100 gram": "6.1",
+"carbohydrate pr 100 gram": "21.4",
+"fat pr 100 gram": "9.8"
+},
+{
+"name": "Pizza with broccoli, frozen, ready meals",
+"calories per 100gram": "158",
+"co2 per 1kg": "2,58",
+"protein pr 100 gram": "6,7",
+"carbohydrate pr 100 gram": "23,6",
+"fat pr 100 gram": "8,7"
+},
+
+{
+"name": "Pizza with tuna, frozen, ready meals",
+"calories per 100gram": "166",
+"co2 per 1kg": "3,26",
+"protein pr 100 gram": "5,7",
+"carbohydrate pr 100 gram": "25,9",
+"fat pr 100 gram": "11"
+},
+
+{
+"name": "Pork, minced and bound with flour and egg, boiled, frozen, ready meals",
+"calories per 100gram": "131",
+"co2 per 1kg": "2,08",
+"protein pr 100 gram": "15,5",
+"carbohydrate pr 100 gram": "3,9",
+"fat pr 100 gram": "15,8"
+},
+
+{
+"name": "Potato, raw",
+"calories per 100gram": "77",
+"co2 per 1kg": "0,36",
+"protein pr 100 gram": "0,3",
+"carbohydrate pr 100 gram": "17,9",
+"fat pr 100 gram": "2"
+},
+
+{
+"name": "Carrot, raw",
+"calories per 100gram": "41",
+"co2 per 1kg": "0,25",
+"protein pr 100 gram": "0,4",
+"carbohydrate pr 100 gram": "6,2",
+"fat pr 100 gram": "0,7"
+},
+
+{
+"name": "Radish, raw",
+"calories per 100gram": "16",
+"co2 per 1kg": "0,37",
+"protein pr 100 gram": "0,1",
+"carbohydrate pr 100 gram": "1,3",
+"fat pr 100 gram": "0,8"
+},
+
+{
+"name": "Beet, red, raw",
+"calories per 100gram": "43",
+"co2 per 1kg": "0,31",
+"protein pr 100 gram": "0,3",
+"carbohydrate pr 100 gram": "9,9",
+"fat pr 100 gram": "1,7"
+},
+
+{
+"name": "Celeriac, celery root, raw",
+"calories per 100gram": "42",
+"co2 per 1kg": "0,3",
+"protein pr 100 gram": "0,3",
+"carbohydrate pr 100 gram": "2",
+"fat pr 100 gram": "1,8"
+},
+
+{
+"name": "Ginger root, raw",
+"calories per 100gram": "80",
+"co2 per 1kg": "1,85",
+"protein pr 100 gram": "0,8",
+"carbohydrate pr 100 gram": "16,7",
+"fat pr 100 gram": "1,8"
+},
+{
+"name": "Fennel, root, raw",
+"calories per 100gram": "31",
+"co2 per 1kg": "4,46",
+"protein pr 100 gram": "1,4",
+"carbohydrate pr 100 gram": "2,9",
+"fat pr 100 gram": "0,2"
+},
+{
+"name": "Turnip, raw",
+"calories per 100gram": "28",
+"co2 per 1kg": "0,25",
+"protein pr 100 gram": "0,6",
+"carbohydrate pr 100 gram": "3,8",
+"fat pr 100 gram": "0,1"
+},
+{
+"name": "Onions, chopped, frozen",
+"calories per 100gram": "31",
+"co2 per 1kg": "0,37",
+"protein pr 100 gram": "0,8",
+"carbohydrate pr 100 gram": "5",
+"fat pr 100 gram": "0,1"
+},
+{
+"name": "Carrot, frozen",
+"calories per 100gram": "30",
+"co2 per 1kg": "0,37",
+"protein pr 100 gram": "1,1",
+"carbohydrate pr 100 gram": "4,7",
+"fat pr 100 gram": "0,2"
+},
+{
+"name": "Onion, raw",
+"calories per 100gram": "40",
+"co2 per 1kg": "0,9",
+"protein pr 100 gram": "1,2",
+"carbohydrate pr 100 gram": "5,4",
+"fat pr 100 gram": "0,1"
+},
+{
+"name": "Onions, spring, raw",
+"calories per 100gram": "32",
+"co2 per 1kg": "0,9",
+"protein pr 100 gram": "1,8",
+"carbohydrate pr 100 gram": "4,7",
+"fat pr 100 gram": "0,2"
+},
+{
+"name": "Cassava, raw",
+"calories per 100gram": "160",
+"co2 per 1kg": "0,74",
+"protein pr 100 gram": "1,4",
+"carbohydrate pr 100 gram": "36,3",
+"fat pr 100 gram": "0,3"
+},
+{
+"name": "Parsley root, raw",
+"calories per 100gram": "36",
+"co2 per 1kg": "0,89",
+"protein pr 100 gram": "2,3",
+"carbohydrate pr 100 gram": "8",
+"fat pr 100 gram": "0,6"
+},
+{
+"name": "Cheese, semihard, Feta, 40 % fidm",
+"calories per 100gram": "264",
+"co2 per 1kg": "2,92",
+"protein pr 100 gram": "19",
+"carbohydrate pr 100 gram": "0,5",
+"fat pr 100 gram": "19,2"
+},
+{
+    "name": "Cheese, Danish Blue, 50% fidm.",
+    "calories per 100gram": "346.6",
+    "co2 per 1kg": "7.72",
+    "protein pr 100 gram": "20.1",
+    "carbohydrate pr 100 gram": "0",
+    "fat pr 100 gram": "29.5"
+    },
+    {
+    "name": "Lamb, leg, unspecified, raw",
+    "calories per 100gram": "179.0",
+    "co2 per 1kg": "27.43",
+    "protein pr 100 gram": "17.9",
+    "carbohydrate pr 100 gram": "0",
+    "fat pr 100 gram": "12.0"
+    },
+    {
+    "name": "Lamb, meat, average values, raw",
+    "calories per 100gram": "326.2",
+    "co2 per 1kg": "27.43",
+    "protein pr 100 gram": "13.9",
+    "carbohydrate pr 100 gram": "0",
+    "fat pr 100 gram": "30.5"
+    },
+    {
+    "name": "Crayfish, raw",
+    "calories per 100gram": "68.6",
+    "co2 per 1kg": "3.55",
+    "protein pr 100 gram": "14.6",
+    "carbohydrate pr 100 gram": "1.2",
+    "fat pr 100 gram": "0.5"
+    },
+    {
+    "name": "Shrimps, boiled, shell removed",
+    "calories per 100gram": "69.5",
+    "co2 per 1kg": "10.52",
+    "protein pr 100 gram": "15.3",
+    "carbohydrate pr 100 gram": "0",
+    "fat pr 100 gram": "0.8"
+    },
+    {
+    "name": "Lobster, raw",
+    "calories per 100gram": "93.9",
+    "co2 per 1kg": "3.55",
+    "protein pr 100 gram": "19.6",
+    "carbohydrate pr 100 gram": "0.8",
+    "fat pr 100 gram": "1.3"
+    },
+    {
+    "name": "Crab, boiled",
+    "calories per 100gram": "129.3",
+    "co2 per 1kg": "5.9",
+    "protein pr 100 gram": "20.1",
+    "carbohydrate pr 100 gram": "0.5",
+    "fat pr 100 gram": "5.2"
+    },
+    {
+    "name": "Prawn, giant tiger, aquaculture, boiled, frozen",
+    "calories per 100gram": "62.9",
+    "co2 per 1kg": "12.43",
+    "protein pr 100 gram": "14.8",
+    "carbohydrate pr 100 gram": "0",
+    "fat pr 100 gram": "0.3"
+    },
+    {
+    "name": "Shrimp, boiled, in brine",
+    "calories per 100gram": "72.4",
+    "co2 per 1kg": "10.52",
+    "protein pr 100 gram": "15.5",
+    "carbohydrate pr 100 gram": "0.4",
+    "fat pr 100 gram": "0.9"
+    },
+    {
+"name": "Pop corn, oil and salt added, traditional",
+"calories per 100gram": "468.4",
+"co2 per 1kg": "1.25",
+"protein pr 100 gram": "9.6",
+"carbohydrate pr 100 gram": "57.9",
+"fat pr 100 gram": "20.2"
+},
+{
+"name": "Peanuts, oilroasted and salted",
+"calories per 100gram": "624.7",
+"co2 per 1kg": "2.5",
+"protein pr 100 gram": "28.4",
+"carbohydrate pr 100 gram": "8.1",
+"fat pr 100 gram": "53.3"
+},
+{
+"name": "Strawberry, raw",
+"calories per 100gram": "38.7",
+"co2 per 1kg": "0.56",
+"protein pr 100 gram": "0.7",
+"carbohydrate pr 100 gram": "6.1",
+"fat pr 100 gram": "0.6"
+},
+{
+"name": "Raspberry, raw",
+"calories per 100gram": "51.4",
+"co2 per 1kg": "0.84",
+"protein pr 100 gram": "1.4",
+"carbohydrate pr 100 gram": "4",
+"fat pr 100 gram": "1.3"
+},
+{
+"name": "Currant, black, raw",
+"calories per 100gram": "75",
+"co2 per 1kg": "0.53",
+"protein pr 100 gram": "1.5",
+"carbohydrate pr 100 gram": "9.9",
+"fat pr 100 gram": "1.3"
+},
+{
+"name": "Blueberries, raw",
+"calories per 100gram": "52.3",
+"co2 per 1kg": "2.91",
+"protein pr 100 gram": "0.7",
+"carbohydrate pr 100 gram": "10.4",
+"fat pr 100 gram": "0.5"
+},
+{
+"name": "Blackberry, raw",
+"calories per 100gram": "36.6",
+"co2 per 1kg": "0.91",
+"protein pr 100 gram": "1.4",
+"carbohydrate pr 100 gram": "4.5",
+"fat pr 100 gram": "1"
+},
+{
+"name": "Rose hip, raw",
+"calories per 100gram": "79.3",
+"co2 per 1kg": "0.65",
+"protein pr 100 gram": "0.6",
+"carbohydrate pr 100 gram": "15",
+"fat pr 100 gram": "0.5"
+},
+{
+"name": "Elderberry, raw",
+"calories per 100gram": "67.2",
+"co2 per 1kg": "0.91",
+"protein pr 100 gram": "0.7",
+"carbohydrate pr 100 gram": "11.6",
+"fat pr 100 gram": "0.5"
+},
+{
+"name": "Currant, red, raw",
+"calories per 100gram": "63,3",
+"co2 per 1kg": "0,53",
+"protein pr 100 gram": "1,7",
+"carbohydrate pr 100 gram": "9,3",
+"fat pr 100 gram": "1,3"
+},
+{
+"name": "Gooseberry, raw",
+"calories per 100gram": "44,2",
+"co2 per 1kg": "0,85",
+"protein pr 100 gram": "0,5",
+"carbohydrate pr 100 gram": "7,3",
+"fat pr 100 gram": "0,9"
+},
+{
+"name": "Strawberries, frozen, unsweetened",
+"calories per 100gram": "41,3",
+"co2 per 1kg": "0,98",
+"protein pr 100 gram": "0,4",
+"carbohydrate pr 100 gram": "5,9",
+"fat pr 100 gram": "0,4"
+},
+{
+"name": "Cranberry, raw",
+"calories per 100gram": "42,3",
+"co2 per 1kg": "0,87",
+"protein pr 100 gram": "0,1",
+"carbohydrate pr 100 gram": "7,6",
+"fat pr 100 gram": "0,4"
+},
+{
+"name": "Blueberry, frozen, unsweetened",
+"calories per 100gram": "53,5",
+"co2 per 1kg": "1,02",
+"protein pr 100 gram": "0,6",
+"carbohydrate pr 100 gram": "10,7",
+"fat pr 100 gram": "0,4"
+},
+{
+"name": "Raspberry, frozen",
+"calories per 100gram": "53,3",
+"co2 per 1kg": "0,86",
+"protein pr 100 gram": "1,3",
+"carbohydrate pr 100 gram": "6,5",
+"fat pr 100 gram": "1,4"
+},
+{
+"name": "Cheese, Cream, 60 % fidm.",
+"calories per 100gram": "329,6",
+"co2 per 1kg": "7,72",
+"protein pr 100 gram": "31,5",
+"carbohydrate pr 100 gram": "2,1",
+"fat pr 100 gram": "10"
+},
+{
+"name": "Cheese, Brie, 45 % fidm.",
+"calories per 100gram": "282,5",
+"co2 per 1kg": "2,92",
+"protein pr 100 gram": "22",
+"carbohydrate pr 100 gram": "0,1",
+"fat pr 100 gram": "20,3"
+},
+{
+"name": "Cheese, cottage, 20 % fidm.",
+"calories per 100gram": "105,4",
+"co2 per 1kg": "2,92",
+"protein pr 100 gram": "4,4",
+"carbohydrate pr 100 gram": "2,5",
+"fat pr 100 gram": "13"
+},
+{
+"name": "Bulgur, parboiled, raw",
+"calories per 100gram": "345,1",
+"co2 per 1kg": "1,15",
+"protein pr 100 gram": "11,8",
+"carbohydrate pr 100 gram": "45,5",
+"fat pr 100 gram": "1,9"
+},
+{
+"name": "Sweetcorn, kernels, canned",
+"calories per 100gram": "102,3",
+"co2 per 1kg": "0,61",
+"protein pr 100 gram": "3,1",
+"carbohydrate pr 100 gram": "16,1",
+"fat pr 100 gram": "1,1"
+},
+{
+"name": "Rice, parboiled, raw",
+"calories per 100gram": "362,8",
+"co2 per 1kg": "1,28",
+"protein pr 100 gram": "8,2",
+"carbohydrate pr 100 gram": "78,1",
+"fat pr 100 gram": "1,2"
+},
+{
+"name": "Quinoa, black, raw",
+"calories per 100gram": "349,2",
+"co2 per 1kg": "2,49",
+"protein pr 100 gram": "13,7",
+"carbohydrate pr 100 gram": "42,3",
+"fat pr 100 gram": "6,5"
+},
+{
+"name": "Pepper, black",
+"calories per 100gram": "304,5",
+"co2 per 1kg": "4,3",
+"protein pr 100 gram": "10,9",
+"carbohydrate pr 100 gram": "44,5",
+"fat pr 100 gram": "3,3"
+},
+{
+"name": "Mustard, yellow, ready made",
+"calories per 100gram": "165,1",
+"co2 per 1kg": "1,76",
+"protein pr 100 gram": "5,7",
+"carbohydrate pr 100 gram": "20,2",
+"fat pr 100 gram": "6,4"
+},
+{
+"name": "Curry powder",
+"calories per 100gram": "339,6",
+"co2 per 1kg": "4,7",
+"protein pr 100 gram": "12,7",
+"carbohydrate pr 100 gram": "25,2",
+"fat pr 100 gram": "13,8"
+},
+{
+"name": "BITTER, Gammel Dansk Bitter Dram",
+"calories per 100gram": "211,5",
+"co2 per 1kg": "2,04",
+"protein pr 100 gram": "0",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "0"
+},
+{
+"name": "Brandy, cognac",
+"calories per 100gram": "221,8",
+"co2 per 1kg": "8,22",
+"protein pr 100 gram": "0",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "0"
+},
+{
+"name": "Vodka",
+"calories per 100gram": "231.6",
+"co2 per 1kg": "2.04",
+"protein pr 100 gram": "0",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "0"
+},
+{
+"name": "Aquavit, 40 % vol., average values",
+"calories per 100gram": "221.8",
+"co2 per 1kg": "2.04",
+"protein pr 100 gram": "0",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "0"
+},
+{
+"name": "Plum, raw",
+"calories per 100gram": "47.6",
+"co2 per 1kg": "0.58",
+"protein pr 100 gram": "0.3",
+"carbohydrate pr 100 gram": "9.2",
+"fat pr 100 gram": "0.5"
+},
+{
+"name": "Cherry, raw",
+"calories per 100gram": "55.9",
+"co2 per 1kg": "0.75",
+"protein pr 100 gram": "0.3",
+"carbohydrate pr 100 gram": "11.7",
+"fat pr 100 gram": "1.4"
+},
+{
+"name": "Chestnut, raw",
+"calories per 100gram": "190.5",
+"co2 per 1kg": "1.71",
+"protein pr 100 gram": "2.7",
+"carbohydrate pr 100 gram": "33.9",
+"fat pr 100 gram": "2"
+},
+{
+"name": "Prune, dried plum",
+"calories per 100gram": "232.3",
+"co2 per 1kg": "1.87",
+"protein pr 100 gram": "0.7",
+"carbohydrate pr 100 gram": "54.6",
+"fat pr 100 gram": "2.7"
+},
+{
+"name": "Apricot, dried",
+"calories per 100gram": "249.3",
+"co2 per 1kg": "1.87",
+"protein pr 100 gram": "1.7",
+"carbohydrate pr 100 gram": "43.3",
+"fat pr 100 gram": "3.5"
+},
+{
+"name": "Apricot, raw",
+"calories per 100gram": "40.6",
+"co2 per 1kg": "1.05",
+"protein pr 100 gram": "0.3",
+"carbohydrate pr 100 gram": "7.3",
+"fat pr 100 gram": "1.3"
+},
+{
+"name": "Peach, raw",
+"calories per 100gram": "49.2",
+"co2 per 1kg": "0.96",
+"protein pr 100 gram": "0.4",
+"carbohydrate pr 100 gram": "7.8",
+"fat pr 100 gram": "0.7"
+},
+{
+"name": "Nectarine, raw",
+"calories per 100gram": "42.3",
+"co2 per 1kg": "0.96",
+"protein pr 100 gram": "0.8",
+"carbohydrate pr 100 gram": "7.8",
+"fat pr 100 gram": "0"
+},
+{
+"name": "Avocado, raw",
+"calories per 100gram": "169.9",
+"co2 per 1kg": "1.07",
+"protein pr 100 gram": "1.9",
+"carbohydrate pr 100 gram": "0.5",
+"fat pr 100 gram": "13.1"
+},
+{
+"name": "Sugar, sucrose, white",
+"calories per 100gram": "405.8",
+"co2 per 1kg": "2",
+"protein pr 100 gram": "0",
+"carbohydrate pr 100 gram": "99.9",
+"fat pr 100 gram": "0"
+},
+{
+"name": "Sugar, brown",
+"calories per 100gram": "388.1",
+"co2 per 1kg": "1.92",
+"protein pr 100 gram": "0",
+"carbohydrate pr 100 gram": "94",
+"fat pr 100 gram": "0"
+},
+{
+"name": "Chocolate, milk",
+"calories per 100gram": "544.4",
+"co2 per 1kg": "5.18",
+"protein pr 100 gram": "7.1",
+"carbohydrate pr 100 gram": "62.4",
+"fat pr 100 gram": "31.7"
+},
+{
+"name": "Nougat",
+"calories per 100gram": "549.0",
+"co2 per 1kg": "4.97",
+"protein pr 100 gram": "8.7",
+"carbohydrate pr 100 gram": "55.9",
+"fat pr 100 gram": "32.3"
+},
+{
+"name": "Chewing gum, no sugar added, all types",
+"calories per 100gram": "346.8",
+"co2 per 1kg": "5.96",
+"protein pr 100 gram": "0.6",
+"carbohydrate pr 100 gram": "83.6",
+"fat pr 100 gram": "0"
+},
+{
+"name": "Toffees, mixed",
+"calories per 100gram": "483.5",
+"co2 per 1kg": "2.74",
+"protein pr 100 gram": "2.1",
+"carbohydrate pr 100 gram": "67.7",
+"fat pr 100 gram": "20.9"
+},
+{
+"name": "Chocolate, bitter",
+"calories per 100gram": "548.3",
+"co2 per 1kg": "3.74",
+"protein pr 100 gram": "5.7",
+"carbohydrate pr 100 gram": "59.6",
+"fat pr 100 gram": "31.8"
+},
+{
+"name": "Liquorice, salt",
+"calories per 100gram": "360,2",
+"co2 per 1kg": "2,09",
+"protein pr 100 gram": "4,4",
+"carbohydrate pr 100 gram": "43,4",
+"fat pr 100 gram": "1"
+},
+{
+"name": "Fruit gums",
+"calories per 100gram": "354,2",
+"co2 per 1kg": "2,02",
+"protein pr 100 gram": "6,6",
+"carbohydrate pr 100 gram": "74,4",
+"fat pr 100 gram": "0,9"
+},
+{
+"name": "Banana, raw",
+"calories per 100gram": "94,6",
+"co2 per 1kg": "0,98",
+"protein pr 100 gram": "1,1",
+"carbohydrate pr 100 gram": "19,7",
+"fat pr 100 gram": "0,2"
+},
+{
+"name": "Lemon, raw",
+"calories per 100gram": "44,7",
+"co2 per 1kg": "0,94",
+"protein pr 100 gram": "0,5",
+"carbohydrate pr 100 gram": "3,1",
+"fat pr 100 gram": "1,1"
+},
+{
+"name": "Watermelon, raw",
+"calories per 100gram": "33,5",
+"co2 per 1kg": "0,78",
+"protein pr 100 gram": "0,8",
+"carbohydrate pr 100 gram": "6,5",
+"fat pr 100 gram": "0,1"
+},
+{
+"name": "Orange, raw",
+"calories per 100gram": "49,0",
+"co2 per 1kg": "0,81",
+"protein pr 100 gram": "0,9",
+"carbohydrate pr 100 gram": "8,2",
+"fat pr 100 gram": "0,1"
+},
+{
+"name": "Melon, honeydew, raw",
+"calories per 100gram": "27,0",
+"co2 per 1kg": "0,71",
+"protein pr 100 gram": "0,6",
+"carbohydrate pr 100 gram": "5,4",
+"fat pr 100 gram": "0,2"
+},
+{
+"name": "Lime, raw",
+"calories per 100gram": "37,0",
+"co2 per 1kg": "0,87",
+"protein pr 100 gram": "0,7",
+"carbohydrate pr 100 gram": "7,7",
+"fat pr 100 gram": "0,2"
+},
+{
+"name": "Pineapple, raw",
+"calories per 100gram": "55,9",
+"co2 per 1kg": "0,65",
+"protein pr 100 gram": "0,5",
+"carbohydrate pr 100 gram": "10,8",
+"fat pr 100 gram": "0,4"
+},
+{
+"name": "Mango, raw",
+"calories per 100gram": "67,4",
+"co2 per 1kg": "0,93",
+"protein pr 100 gram": "0,5",
+"carbohydrate pr 100 gram": "14,2",
+"fat pr 100 gram": "0,5"
+},
+{
+"name": "Grapefruit, raw",
+"calories per 100gram": "44,2",
+"co2 per 1kg": "0,86",
+"protein pr 100 gram": "0,3",
+"carbohydrate pr 100 gram": "7",
+"fat pr 100 gram": "0,9"
+},
+{
+"name": "Tangerine, raw",
+"calories per 100gram": "48,0",
+"co2 per 1kg": "0,97",
+"protein pr 100 gram": "0",
+"carbohydrate pr 100 gram": "8,3",
+"fat pr 100 gram": "0,8"
+},
+{
+"name": "Kiwi fruit, raw",
+"calories per 100gram": "62,9",
+"co2 per 1kg": "0,93",
+"protein pr 100 gram": "0,8",
+"carbohydrate pr 100 gram": "11,7",
+"fat pr 100 gram": "1"
+},
+{
+"name": "Turkey, breast, boiled/smoked, sliced",
+"calories per 100gram": "108,3",
+"co2 per 1kg": "3,02",
+"protein pr 100 gram": "21",
+"carbohydrate pr 100 gram": "1,7",
+"fat pr 100 gram": "1,8"
+},
+{
+"name": "Turkey, flesh only, raw",
+"calories per 100gram": "106,1",
+"co2 per 1kg": "3,18",
+"protein pr 100 gram": "21,3",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "2,2"
+},
+{
+"name": "Turkey, mince, 5-10% fat, raw",
+"calories per 100gram": "157,0",
+"co2 per 1kg": "3,34",
+"protein pr 100 gram": "20,1",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "8,5"
+},
+{
+"name": "Milk, whole, 3.5 % fat",
+"calories per 100gram": "63,1",
+"co2 per 1kg": "0,79",
+"protein pr 100 gram": "3,4",
+"carbohydrate pr 100 gram": "4,6",
+"fat pr 100 gram": "3,5"
+},
+{
+"name": "Milk, partly skimmed, 1.5 % fat",
+"calories per 100gram": "47,8",
+"co2 per 1kg": "0,61",
+"protein pr 100 gram": "3,4",
+"carbohydrate pr 100 gram": "4,7",
+"fat pr 100 gram": "1,6"
+},
+{
+"name": "Milk, skimmed, 0.5 % fat",
+"calories per 100gram": "37,8",
+"co2 per 1kg": "0,48",
+"protein pr 100 gram": "3,4",
+"carbohydrate pr 100 gram": "4,8",
+"fat pr 100 gram": "0,5"
+},
+{
+"name": "Milk, skimmed, with chocolate (UHT)",
+"calories per 100gram": "60,0",
+"co2 per 1kg": "0,65",
+"protein pr 100 gram": "3,5",
+"carbohydrate pr 100 gram": "9,3",
+"fat pr 100 gram": "0,5"
+},
+{
+"name": "Cream, whipping, 38 % fat",
+"calories per 100gram": "354,7",
+"co2 per 1kg": "2,14",
+"protein pr 100 gram": "2,1",
+"carbohydrate pr 100 gram": "3",
+"fat pr 100 gram": "38"
+},
+{
+"name": "Veal, medium fat, raw",
+"calories per 100gram": "183,6",
+"co2 per 1kg": "50,36",
+"protein pr 100 gram": "20",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "11,3"
+},
+{
+"name": "Peanut butter",
+"calories per 100gram": "630,0",
+"co2 per 1kg": "2,85",
+"protein pr 100 gram": "12,2",
+"carbohydrate pr 100 gram": "26,1",
+"fat pr 100 gram": "53,7"
+},
+{
+"name": "Sunflower oil",
+"calories per 100gram": "884,3",
+"co2 per 1kg": "3,76",
+"protein pr 100 gram": "0",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "100"
+},
+{
+"name": "Olive oil",
+"calories per 100gram": "884,3",
+"co2 per 1kg": "3,83",
+"protein pr 100 gram": "0",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "100"
+},
+{
+"name": "Oil, rape seed (no eruca acid)",
+"calories per 100gram": "884,3",
+"co2 per 1kg": "3,84",
+"protein pr 100 gram": "0",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "100"
+},
+{
+"name": "Onions, chopped and deepfried",
+"calories per 100gram": "567,4",
+"co2 per 1kg": "4,3",
+"protein pr 100 gram": "6",
+"carbohydrate pr 100 gram": "22,1",
+"fat pr 100 gram": "48"
+},
+{
+"name": "Potato crisps, coarse",
+"calories per 100gram": "497.4",
+"co2 per 1kg": "4.17",
+"protein pr 100 gram": "6.1",
+"carbohydrate pr 100 gram": "57.2",
+"fat pr 100 gram": "26.4"
+},
+{
+"name": "Tofu, soy bean curd",
+"calories per 100gram": "75.5",
+"co2 per 1kg": "1.71",
+"protein pr 100 gram": "7.8",
+"carbohydrate pr 100 gram": "1.2",
+"fat pr 100 gram": "4.2"
+},
+{
+"name": "Lentils, sprouted, raw",
+"calories per 100gram": "124.8",
+"co2 per 1kg": "1.7",
+"protein pr 100 gram": "9.0",
+"carbohydrate pr 100 gram": "19.1",
+"fat pr 100 gram": "0.6"
+},
+{
+"name": "Cabbage, red, canned, no sugar added",
+"calories per 100gram": "19.6",
+"co2 per 1kg": "0.73",
+"protein pr 100 gram": "0.5",
+"carbohydrate pr 100 gram": "2.9",
+"fat pr 100 gram": "0.1"
+},
+{
+"name": "Tomatojuice, canned",
+"calories per 100gram": "18.9",
+"co2 per 1kg": "1.26",
+"protein pr 100 gram": "0.8",
+"carbohydrate pr 100 gram": "3.3",
+"fat pr 100 gram": "0.1"
+},
+{
+"name": "Gherkin, pickled",
+"calories per 100gram": "14.1",
+"co2 per 1kg": "1.58",
+"protein pr 100 gram": "0.3",
+"carbohydrate pr 100 gram": "2.1",
+"fat pr 100 gram": "0.2"
+},
+{
+"name": "Potatoes, mashed, instant powder with dry milk",
+"calories per 100gram": "336.5",
+"co2 per 1kg": "5",
+"protein pr 100 gram": "10.9",
+"carbohydrate pr 100 gram": "62.5",
+"fat pr 100 gram": "1.1"
+},
+{
+"name": "Pepper, hot chili, canned",
+"calories per 100gram": "26.8",
+"co2 per 1kg": "1.54",
+"protein pr 100 gram": "0.9",
+"carbohydrate pr 100 gram": "4.9",
+"fat pr 100 gram": "0.1"
+},
+{
+"name": "Cucumber, large, pickled",
+"calories per 100gram": "74.3",
+"co2 per 1kg": "1.58",
+"protein pr 100 gram": "0.5",
+"carbohydrate pr 100 gram": "16.5",
+"fat pr 100 gram": "0.5"
+},
+{
+"name": "Tomato, peeled, canned",
+"calories per 100gram": "21.5",
+"co2 per 1kg": "1.26",
+"protein pr 100 gram": "0.3",
+"carbohydrate pr 100 gram": "3",
+"fat pr 100 gram": "1.2"
+},
+{
+"name": "Beet, red, canned",
+"calories per 100gram": "60.9",
+"co2 per 1kg": "0.83",
+"protein pr 100 gram": "0.3",
+"carbohydrate pr 100 gram": "11.9",
+"fat pr 100 gram": "1"
+},
+{
+"name": "Potato, canned",
+"calories per 100gram": "56.4",
+"co2 per 1kg": "0.89",
+"protein pr 100 gram": "0.2",
+"carbohydrate pr 100 gram": "10.9",
+"fat pr 100 gram": "1.4"
+},
+{
+"name": "Potato crisps",
+"calories per 100gram": "530.8",
+"co2 per 1kg": "4.17",
+"protein pr 100 gram": "31.9",
+"carbohydrate pr 100 gram": "44.9",
+"fat pr 100 gram": "5.4"
+},
+{
+"name": "Bamboo shoots, canned, nonsalted",
+"calories per 100gram": "25.3",
+"co2 per 1kg": "1.21",
+"protein pr 100 gram": "0.1",
+"carbohydrate pr 100 gram": "3.2",
+"fat pr 100 gram": "2.6"
+},
+{
+"name": "Mushroom, canned",
+"calories per 100gram": "22.0",
+"co2 per 1kg": "0.7",
+"protein pr 100 gram": "0.5",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "2.5"
+},
+{
+"name": "French fries, deepfried, fast food",
+"calories per 100gram": "310.7",
+"co2 per 1kg": "2.84",
+"protein pr 100 gram": "14.8",
+"carbohydrate pr 100 gram": "39",
+"fat pr 100 gram": "3.7"
+},
+{
+"name": "Tomato paste, concentrated",
+"calories per 100gram": "89.6",
+"co2 per 1kg": "2.48",
+"protein pr 100 gram": "0.5",
+"carbohydrate pr 100 gram": "14.8",
+"fat pr 100 gram": "4.3"
+},
+{
+"name": "Tomato ketchup, bottled",
+"calories per 100gram": "114.5",
+"co2 per 1kg": "2.01",
+"protein pr 100 gram": "2.4",
+"carbohydrate pr 100 gram": "18.4",
+"fat pr 100 gram": "3"
+},
+{
+"name": "Beans, baked i tomato sauce, canned",
+"calories per 100gram": "88,7",
+"co2 per 1kg": "1,53",
+"protein pr 100 gram": "5,1",
+"carbohydrate pr 100 gram": "9,6",
+"fat pr 100 gram": "0,5"
+},
+{
+"name": "Potato flour",
+"calories per 100gram": "347,7",
+"co2 per 1kg": "1,31",
+"protein pr 100 gram": "0,2",
+"carbohydrate pr 100 gram": "85",
+"fat pr 100 gram": "0,1"
+},
+{
+"name": "Peas, green, canned",
+"calories per 100gram": "75,0",
+"co2 per 1kg": "1,36",
+"protein pr 100 gram": "5,9",
+"carbohydrate pr 100 gram": "7,7",
+"fat pr 100 gram": "0,8"
+},
+{
+"name": "Soya sauce",
+"calories per 100gram": "56,6",
+"co2 per 1kg": "1,49",
+"protein pr 100 gram": "6,9",
+"carbohydrate pr 100 gram": "7",
+"fat pr 100 gram": "0"
+},
+{
+"name": "Sauce, barbeque",
+"calories per 100gram": "148,9",
+"co2 per 1kg": "2,18",
+"protein pr 100 gram": "0",
+"carbohydrate pr 100 gram": "35,8",
+"fat pr 100 gram": "0,3"
+},
+{
+"name": "Wine, white, average values",
+"calories per 100gram": "82,2",
+"co2 per 1kg": "1,87",
+"protein pr 100 gram": "0,1",
+"carbohydrate pr 100 gram": "2,6",
+"fat pr 100 gram": "0"
+},
+{
+"name": "Wine, rosé",
+"calories per 100gram": "71,0",
+"co2 per 1kg": "1,87",
+"protein pr 100 gram": "0,2",
+"carbohydrate pr 100 gram": "1,4",
+"fat pr 100 gram": "0"
+},
+{
+"name": "Wine, red",
+"calories per 100gram": "76,7",
+"co2 per 1kg": "1,87",
+"protein pr 100 gram": "0,2",
+"carbohydrate pr 100 gram": "0,3",
+"fat pr 100 gram": "0"
+},
+{
+"name": "Wine, white, sparkling, champagne",
+"calories per 100gram": "75,5",
+"co2 per 1kg": "1,87",
+"protein pr 100 gram": "0,3",
+"carbohydrate pr 100 gram": "1,4",
+"fat pr 100 gram": "0"
+},
+{
+"name": "Yeast, baker`s, compressed",
+"calories per 100gram": "114.5",
+"co2 per 1kg": "1.45",
+"protein pr 100 gram": "8.4",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "1.9"
+},
+{
+"name": "Cocktail sausages",
+"calories per 100gram": "322.4",
+"co2 per 1kg": "1.81",
+"protein pr 100 gram": "15",
+"carbohydrate pr 100 gram": "3.4",
+"fat pr 100 gram": "28"
+},
+{
+"name": "Pesto",
+"calories per 100gram": "369.7",
+"co2 per 1kg": "3.83",
+"protein pr 100 gram": "4.7",
+"carbohydrate pr 100 gram": "10",
+"fat pr 100 gram": "35"
+},
+{
+"name": "Lasagne, beef, ready meals",
+"calories per 100gram": "124.5",
+"co2 per 1kg": "8.85",
+"protein pr 100 gram": "6.8",
+"carbohydrate pr 100 gram": "12",
+"fat pr 100 gram": "5.3"
+},
+{
+"name": "Lasagne, vegetarian, ready meals",
+"calories per 100gram": "77.4",
+"co2 per 1kg": "1.74",
+"protein pr 100 gram": "2.6",
+"carbohydrate pr 100 gram": "9.5",
+"fat pr 100 gram": "3"
+},
+{
+"name": "Daal, ready meals",
+"calories per 100gram": "107.1",
+"co2 per 1kg": "1.85",
+"protein pr 100 gram": "5.6",
+"carbohydrate pr 100 gram": "14",
+"fat pr 100 gram": "2.8"
+},
+{
+"name": "Sushi, ready meals",
+"calories per 100gram": "171.6",
+"co2 per 1kg": "2.51",
+"protein pr 100 gram": "6.7",
+"carbohydrate pr 100 gram": "23",
+"fat pr 100 gram": "5.6"
+},
+{
+"name": "Minced chicken",
+"calories per 100gram": "148.4",
+"co2 per 1kg": "3.76",
+"protein pr 100 gram": "18",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "8.5"
+},
+{
+"name": "Pizza dough",
+"calories per 100gram": "223.5",
+"co2 per 1kg": "0.72",
+"protein pr 100 gram": "6.8",
+"carbohydrate pr 100 gram": "44.2",
+"fat pr 100 gram": "1.4"
+},
+{
+"name": "Fresh pasta, fettucine spinach",
+"calories per 100 gram": "267.7",
+"co2 per 1kg": "1.08",
+"protein pr 100 gram": "11",
+"carbohydrate pr 100 gram": "48",
+"fat pr 100 gram": "2.5"
+},
+{
+"name": "Tuna salad",
+"calories per 100 gram": "183.1",
+"co2 per 1kg": "4.5",
+"protein pr 100 gram": "9.4",
+"carbohydrate pr 100 gram": "5.1",
+"fat pr 100 gram": "14"
+},
+{
+"name": "Egg salad",
+"calories per 100 gram": "234.7",
+"co2 per 1kg": "1.51",
+"protein pr 100 gram": "6.3",
+"carbohydrate pr 100 gram": "3.7",
+"fat pr 100 gram": "22"
+},
+{
+"name": "Meatballs",
+"calories per 100 gram": "217.0",
+"co2 per 1kg": "3",
+"protein pr 100 gram": "14",
+"carbohydrate pr 100 gram": "6.5",
+"fat pr 100 gram": "15"
+},
+{
+"name": "Hummus, done",
+"calories per 100 gram": "278.4",
+"co2 per 1kg": "1.5",
+"protein pr 100 gram": "7.7",
+"carbohydrate pr 100 gram": "16",
+"fat pr 100 gram": "20"
+},
+{
+"name": "Lasagne, vegan, ready meals",
+"calories per 100 gram": "113.8",
+"co2 per 1kg": "1.59",
+"protein pr 100 gram": "5.7",
+"carbohydrate pr 100 gram": "13",
+"fat pr 100 gram": "4"
+},
+{
+"name": "Pancakes, ready meals",
+"calories per 100 gram": "266.0",
+"co2 per 1kg": "2.21",
+"protein pr 100 gram": "7.5",
+"carbohydrate pr 100 gram": "36.5",
+"fat pr 100 gram": "9.6"
+},
+{
+"name": "Potato gratin / cream potatoes",
+"calories per 100 gram": "120.7",
+"co2 per 1kg": "1.1",
+"protein pr 100 gram": "1.6",
+"carbohydrate pr 100 gram": "12",
+"fat pr 100 gram": "7.4"
+},
+{
+"name": "Kebab",
+"calories per 100 gram": "166.6",
+"co2 per 1kg": "36.49",
+"protein pr 100 gram": "25",
+"carbohydrate pr 100 gram": "2.5",
+"fat pr 100 gram": "6"
+},
+{
+"name": "Icetea, peach",
+"calories per 100gram": "33.5",
+"co2 per 1kg": "0.82",
+"protein pr 100 gram": "0",
+"carbohydrate pr 100 gram": "8",
+"fat pr 100 gram": "0"
+},
+{
+"name": "Energy drink",
+"calories per 100gram": "46.6",
+"co2 per 1kg": "0.53",
+"protein pr 100 gram": "0",
+"carbohydrate pr 100 gram": "11",
+"fat pr 100 gram": "0"
+},
+{
+"name": "Alcoholic soda, 4%",
+"calories per 100gram": "16.0",
+"co2 per 1kg": "0.72",
+"protein pr 100 gram": "0",
+"carbohydrate pr 100 gram": "9",
+"fat pr 100 gram": "0"
+},
+{
+"name": "Salsa, hot",
+"calories per 100gram": "31.1",
+"co2 per 1kg": "1.59",
+"protein pr 100 gram": "0.1",
+"carbohydrate pr 100 gram": "5.5",
+"fat pr 100 gram": "1.2"
+},
+{
+"name": "Tortilla bread, wheat",
+"calories per 100gram": "310.7",
+"co2 per 1kg": "0.74",
+"protein pr 100 gram": "7.5",
+"carbohydrate pr 100 gram": "51",
+"fat pr 100 gram": "8"
+},
+{
+"name": "Pizzasauce",
+"calories per 100gram": "35.9",
+"co2 per 1kg": "2.33",
+"protein pr 100 gram": "0.5",
+"carbohydrate pr 100 gram": "5.4",
+"fat pr 100 gram": "1.6"
+},
+{
+"name": "Pastasauce",
+"calories per 100gram": "30.6",
+"co2 per 1kg": "2.33",
+"protein pr 100 gram": "0.2",
+"carbohydrate pr 100 gram": "4.5",
+"fat pr 100 gram": "1.3"
+},
+{
+"name": "Coconut milk",
+"calories per 100gram": "182.6",
+"co2 per 1kg": "3.5",
+"protein pr 100 gram": "2",
+"carbohydrate pr 100 gram": "2",
+"fat pr 100 gram": "19"
+},
+{
+"name": "Garlic baguette, frozen",
+"calories per 100gram": "297.3",
+"co2 per 1kg": "1.18",
+"protein pr 100 gram": "14",
+"carbohydrate pr 100 gram": "36",
+"fat pr 100 gram": "5.7"
+},
+{
+"name": "Muesli bar, chocolate",
+"calories per 100gram": "456,5",
+"co2 per 1kg": "2,65",
+"protein pr 100 gram": "17,6",
+"carbohydrate pr 100 gram": "65,8",
+"fat pr 100 gram": "6,8"
+},
+{
+"name": "Cup noodles chicken",
+"calories per 100gram": "80,1",
+"co2 per 1kg": "1,87",
+"protein pr 100 gram": "3,4",
+"carbohydrate pr 100 gram": "10,3",
+"fat pr 100 gram": "1,9"
+},
+{
+"name": "Sliced mushrooms",
+"calories per 100gram": "18,2",
+"co2 per 1kg": "0,41",
+"protein pr 100 gram": "0,4",
+"carbohydrate pr 100 gram": "0,2",
+"fat pr 100 gram": "2,1"
+},
+{
+"name": "Microwave popcorn",
+"calories per 100gram": "462,7",
+"co2 per 1kg": "1,62",
+"protein pr 100 gram": "25",
+"carbohydrate pr 100 gram": "46,4",
+"fat pr 100 gram": "8,4"
+},
+{
+"name": "Thai meal panang curry chicken",
+"calories per 100gram": "152,5",
+"co2 per 1kg": "2,33",
+"protein pr 100 gram": "4,6",
+"carbohydrate pr 100 gram": "21",
+"fat pr 100 gram": "6,1"
+},
+{
+"name": "French fries, frost",
+"calories per 100gram": "145,6",
+"co2 per 1kg": "0,65",
+"protein pr 100 gram": "4,4",
+"carbohydrate pr 100 gram": "23",
+"fat pr 100 gram": "2,4"
+},
+{
+"name": "Pancake puffs",
+"calories per 100gram": "209,8",
+"co2 per 1kg": "1,32",
+"protein pr 100 gram": "6,5",
+"carbohydrate pr 100 gram": "31",
+"fat pr 100 gram": "6"
+},
+{
+"name": "Chickpeas, canned",
+"calories per 100gram": "72,4",
+"co2 per 1kg": "0,88",
+"protein pr 100 gram": "1",
+"carbohydrate pr 100 gram": "9",
+"fat pr 100 gram": "4"
+},
+{
+"name": "Green beans, frost",
+"calories per 100gram": "33,5",
+"co2 per 1kg": "1,42",
+"protein pr 100 gram": "0",
+"carbohydrate pr 100 gram": "4,1",
+"fat pr 100 gram": "2"
+},
+{
+"name": "Tortilla chips, cheese",
+"calories per 100gram": "487.8",
+"co2 per 1kg": "1.9",
+"protein pr 100 gram": "25.6",
+"carbohydrate pr 100 gram": "55.5",
+"fat pr 100 gram": "6.7"
+},
+{
+"name": "Asparagus slices",
+"calories per 100gram": "16.5",
+"co2 per 1kg": "1.46",
+"protein pr 100 gram": "2.2",
+"carbohydrate pr 100 gram": "1.3",
+"fat pr 100 gram": "0.1"
+},
+{
+"name": "Corn cob",
+"calories per 100gram": "106.1",
+"co2 per 1kg": "0.49",
+"protein pr 100 gram": "2.4",
+"carbohydrate pr 100 gram": "22",
+"fat pr 100 gram": "3.1"
+},
+{
+"name": "Arugula salad, rinsed",
+"calories per 100gram": "34.9",
+"co2 per 1kg": "0.48",
+"protein pr 100 gram": "3.7",
+"carbohydrate pr 100 gram": "2.6",
+"fat pr 100 gram": "0.7"
+},
+{
+"name": "Olive tapenade",
+"calories per 100gram": "248.6",
+"co2 per 1kg": "3.12",
+"protein pr 100 gram": "3.6",
+"carbohydrate pr 100 gram": "1.4",
+"fat pr 100 gram": "25.1"
+},
+{
+"name": "Stuffed fresh pasta",
+"calories per 100gram": "244.0",
+"co2 per 1kg": "2.14",
+"protein pr 100 gram": "36",
+"carbohydrate pr 100 gram": "11",
+"fat pr 100 gram": "6"
+},
+{
+"name": "Pepperoni",
+"calories per 100gram": "514.6",
+"co2 per 1kg": "5.06",
+"protein pr 100 gram": "1",
+"carbohydrate pr 100 gram": "19",
+"fat pr 100 gram": "49"
+},
+{
+"name": "Kidney beans",
+"calories per 100gram": "71.5",
+"co2 per 1kg": "1.05",
+"protein pr 100 gram": "9",
+"carbohydrate pr 100 gram": "5",
+"fat pr 100 gram": "1"
+},
+{
+"name": "Chicken, whole",
+"calories per 100gram": "151.8",
+"co2 per 1kg": "2.22",
+"protein pr 100 gram": "0.5",
+"carbohydrate pr 100 gram": "18",
+"fat pr 100 gram": "8.9"
+},
+{
+"name": "Chorizo, sliced",
+"calories per 100gram": "287.3",
+"co2 per 1kg": "6.07",
+"protein pr 100 gram": "21",
+"carbohydrate pr 100 gram": "1",
+"fat pr 100 gram": "24"
+},
+{
+"name": "Potato salad",
+"calories per 100gram": "149.4",
+"co2 per 1kg": "1.18",
+"protein pr 100 gram": "10",
+"carbohydrate pr 100 gram": "12",
+"fat pr 100 gram": "2"
+},
+{
+"name": "Cider 4.5%",
+"calories per 100gram": "56.6",
+"co2 per 1kg": "1.1",
+"protein pr 100 gram": "0",
+"carbohydrate pr 100 gram": "7.3",
+"fat pr 100 gram": "0"
+},
+{
+"name": "Falafel, frost",
+"calories per 100gram": "291.6",
+"co2 per 1kg": "1.72",
+"protein pr 100 gram": "12",
+"carbohydrate pr 100 gram": "24",
+"fat pr 100 gram": "7.5"
+},
+{
+"name": "Potato hotchpotch, beef, ready meals",
+"calories per 100gram": "147.2",
+"co2 per 1kg": "13.21",
+"protein pr 100 gram": "5.2",
+"carbohydrate pr 100 gram": "14",
+"fat pr 100 gram": "10"
+},
+{
+"name": "Potato hotchpotch, mixed meat, ready meals",
+"calories per 100gram": "142.2",
+"co2 per 1kg": "9.42",
+"protein pr 100 gram": "6.5",
+"carbohydrate pr 100 gram": "15",
+"fat pr 100 gram": "5"
+},
+{
+"name": "Vegetable steaks",
+"calories per 100gram": "186.7",
+"co2 per 1kg": "1.25",
+"protein pr 100 gram": "8",
+"carbohydrate pr 100 gram": "23.2",
+"fat pr 100 gram": "3.6"
+},
+{
+"name": "Spring rolls, vegetables, ready meals",
+"calories per 100gram": "172.8",
+"co2 per 1kg": "1.99",
+"protein pr 100 gram": "7",
+"carbohydrate pr 100 gram": "22",
+"fat pr 100 gram": "3.7"
+},
+{
+"name": "Spring rolls, chicken, ready meals",
+"calories per 100gram": "150.6",
+"co2 per 1kg": "2.24",
+"protein pr 100 gram": "4.7",
+"carbohydrate pr 100 gram": "19.2",
+"fat pr 100 gram": "6.5"
+},
+{
+"name": "Spring rolls, beef, ready meals",
+"calories per 100gram": "152.2",
+"co2 per 1kg": "4.14",
+"protein pr 100 gram": "6.4",
+"carbohydrate pr 100 gram": "19.3",
+"fat pr 100 gram": "4.9"
+},
+{
+"name": "Meatballs in curry with rice and curry sauce, ready meals",
+"calories per 100gram": "128.6",
+"co2 per 1kg": "1.94",
+"protein pr 100 gram": "4.5",
+"carbohydrate pr 100 gram": "13",
+"fat pr 100 gram": "6.5"
+},
+{
+"name": "Leek pie with bacon, ready meals",
+"calories per 100gram": "249.5",
+"co2 per 1kg": "1.46",
+"protein pr 100 gram": "6",
+"carbohydrate pr 100 gram": "19",
+"fat pr 100 gram": "16"
+},
+{
+"name": "Croque monsieur, ready meals",
+"calories per 100gram": "277.0",
+"co2 per 1kg": "1.87",
+"protein pr 100 gram": "12",
+"carbohydrate pr 100 gram": "35",
+"fat pr 100 gram": "9.6"
+},
+{
+"name": "Capers",
+"calories per 100gram": "23.2",
+"co2 per 1kg": "1.39",
+"protein pr 100 gram": "1.9",
+"carbohydrate pr 100 gram": "4.7",
+"fat pr 100 gram": "0.9"
+},
+{
+"name": "Baby corn",
+"calories per 100gram": "26.1",
+"co2 per 1kg": "0.61",
+"protein pr 100 gram": "1.4",
+"carbohydrate pr 100 gram": "4",
+"fat pr 100 gram": "0.1"
+},
+{
+"name": "Black beans",
+"calories per 100gram": "72.4",
+"co2 per 1kg": "1.05",
+"protein pr 100 gram": "5.3",
+"carbohydrate pr 100 gram": "8",
+"fat pr 100 gram": "0.6"
+},
+{
+"name": "Half peaches in juice",
+"calories per 100gram": "49.7",
+"co2 per 1kg": "1.7",
+"protein pr 100 gram": "0.5",
+"carbohydrate pr 100 gram": "11.2",
+"fat pr 100 gram": "0.1"
+},
+{
+"name": "Marinated artichokes",
+"calories per 100gram": "66.4",
+"co2 per 1kg": "3.38",
+"protein pr 100 gram": "1.8",
+"carbohydrate pr 100 gram": "2.6",
+"fat pr 100 gram": "5.5"
+},
+{
+"name": "Cornichons",
+"calories per 100gram": "158",
+"co2 per 1kg": "1,58",
+"protein pr 100 gram": "1",
+"carbohydrate pr 100 gram": "2.2",
+"fat pr 100 gram": "1.3"
+},
+{
+"name": "Garlic in oil",
+"calories per 100gram": "279",
+"co2 per 1kg": "9.8",
+"protein pr 100 gram": "6.2",
+"carbohydrate pr 100 gram": "31.5",
+"fat pr 100 gram": "31.5"
+},
+{
+"name": "Half pears in juice",
+"calories per 100gram": "104",
+"co2 per 1kg": "0.1",
+"protein pr 100 gram": "0.3",
+"carbohydrate pr 100 gram": "10.5",
+"fat pr 100 gram": "0.1"
+},
+{
+"name": "Marinated grilled peppers",
+"calories per 100gram": "289",
+"co2 per 1kg": "0.9",
+"protein pr 100 gram": "0.9",
+"carbohydrate pr 100 gram": "5.5",
+"fat pr 100 gram": "0.9"
+},
+{
+"name": "Tahin, sesame paste",
+"calories per 100gram": "408",
+"co2 per 1kg": "61.4",
+"protein pr 100 gram": "21",
+"carbohydrate pr 100 gram": "10.5",
+"fat pr 100 gram": "61.4"
+},
+{
+"name": "Sundried tomatoes",
+"calories per 100gram": "195",
+"co2 per 1kg": "15.3",
+"protein pr 100 gram": "2.7",
+"carbohydrate pr 100 gram": "12.2",
+"fat pr 100 gram": "15.3"
+},
+{
+"name": "Red lentils, dried",
+"calories per 100gram": "178",
+"co2 per 1kg": "6.9",
+"protein pr 100 gram": "20",
+"carbohydrate pr 100 gram": "49",
+"fat pr 100 gram": "6.9"
+},
+{
+"name": "Ajvar, relish",
+"calories per 100gram": "249",
+"co2 per 1kg": "6",
+"protein pr 100 gram": "1",
+"carbohydrate pr 100 gram": "13",
+"fat pr 100 gram": "6"
+},
+{
+"name": "Vegan bean paste",
+"calories per 100gram": "172",
+"co2 per 1kg": "7.6",
+"protein pr 100 gram": "9.7",
+"carbohydrate pr 100 gram": "29",
+"fat pr 100 gram": "7.6"
+},
+{
+"name": "Plant paste, pea protein and mushroom",
+"calories per 100gram": "212",
+"co2 per 1kg": "0.78",
+"protein pr 100 gram": "16",
+"carbohydrate pr 100 gram": "5.1",
+"fat pr 100 gram": "11"
+},
+{
+"name": "Chilli cheese tops",
+"calories per 100gram": "254.3",
+"co2 per 1kg": "1.87",
+"protein pr 100 gram": "13",
+"carbohydrate pr 100 gram": "25",
+"fat pr 100 gram": "8.5"
+},
+{
+"name": "Mozarella sticks",
+"calories per 100gram": "320.5",
+"co2 per 1kg": "2.92",
+"protein pr 100 gram": "18",
+"carbohydrate pr 100 gram": "20",
+"fat pr 100 gram": "18"
+},
+{
+"name": "Chili con carne, ready meals",
+"calories per 100gram": "81.5",
+"co2 per 1kg": "21.07",
+"protein pr 100 gram": "4",
+"carbohydrate pr 100 gram": "4.8",
+"fat pr 100 gram": "6"
+},
+{
+"name": "Vegan balls, soy based",
+"calories per 100gram": "179.3",
+"co2 per 1kg": "0.86",
+"protein pr 100 gram": "10",
+"carbohydrate pr 100 gram": "3.9",
+"fat pr 100 gram": "15"
+},
+{
+"name": "Vegan schnitzels, soy based",
+"calories per 100gram": "230.2",
+"co2 per 1kg": "1.78",
+"protein pr 100 gram": "13",
+"carbohydrate pr 100 gram": "13",
+"fat pr 100 gram": "13"
+},
+{
+"name": "Vegan burgers, soy based",
+"calories per 100gram": "165.4",
+"co2 per 1kg": "0.85",
+"protein pr 100 gram": "9",
+"carbohydrate pr 100 gram": "3.9",
+"fat pr 100 gram": "15"
+},
+{
+"name": "Vegan minced, pea based",
+"calories per 100gram": "210.3",
+"co2 per 1kg": "0.61",
+"protein pr 100 gram": "11",
+"carbohydrate pr 100 gram": "9.6",
+"fat pr 100 gram": "18"
+},
+{
+"name": "Vegan sausages, soy based",
+"calories per 100gram": "177.6",
+"co2 per 1kg": "1.63",
+"protein pr 100 gram": "11",
+"carbohydrate pr 100 gram": "4.3",
+"fat pr 100 gram": "13"
+},
+{
+"name": "Vegan nuggets, soy based",
+"calories per 100gram": "215.8",
+"co2 per 1kg": "2.05",
+"protein pr 100 gram": "14",
+"carbohydrate pr 100 gram": "15",
+"fat pr 100 gram": "10"
+},
+{
+"name": "Vegan pulled beans",
+"calories per 100gram": "140.1",
+"co2 per 1kg": "2.21",
+"protein pr 100 gram": "2.3",
+"carbohydrate pr 100 gram": "27.4",
+"fat pr 100 gram": "0.5"
+},
+{
+"name": "Pulled pork",
+"calories per 100gram": "127.6",
+"co2 per 1kg": "3.68",
+"protein pr 100 gram": "16",
+"carbohydrate pr 100 gram": "1.5",
+"fat pr 100 gram": "6.4"
+},
+{
+"name": "Pulled beef",
+"calories per 100gram": "122.1",
+"co2 per 1kg": "38.22",
+"protein pr 100 gram": "18",
+"carbohydrate pr 100 gram": "4",
+"fat pr 100 gram": "3.6"
+},
+{
+"name": "Vegan chorizo",
+"calories per 100gram": "177.8",
+"co2 per 1kg": "1.84",
+"protein pr 100 gram": "14.6",
+"carbohydrate pr 100 gram": "4.1",
+"fat pr 100 gram": "10.4"
+},
+{
+"name": "Rice noodles",
+"calories per 100gram": "362.1",
+"co2 per 1kg": "1.41",
+"protein pr 100 gram": "5.1",
+"carbohydrate pr 100 gram": "82",
+"fat pr 100 gram": "1.2"
+},
+{
+"name": "Jalapenos",
+"calories per 100gram": "33.0",
+"co2 per 1kg": "1.54",
+"protein pr 100 gram": "1",
+"carbohydrate pr 100 gram": "6",
+"fat pr 100 gram": "0.5"
+},
+{
+"name": "Taco shells",
+"calories per 100gram": "478.0",
+"co2 per 1kg": "1.81",
+"protein pr 100 gram": "5.9",
+"carbohydrate pr 100 gram": "63.8",
+"fat pr 100 gram": "21.6"
+},
+{
+"name": "Mango chutney",
+"calories per 100gram": "224.7",
+"co2 per 1kg": "2.9",
+"protein pr 100 gram": "0",
+"carbohydrate pr 100 gram": "55",
+"fat pr 100 gram": "0"
+},
+{
+    "name": "Green curry paste",
+    "calories per 100gram": "158.2",
+    "co2 per 1kg": "1.97",
+    "protein pr 100 gram": "1.6",
+    "carbohydrate pr 100 gram": "8.7",
+    "fat pr 100 gram": "12"
+},
+{
+    "name": "Noodles, eggs",
+    "calories per 100gram": "353",
+    "co2 per 1kg": "1.15",
+    "protein pr 100 gram": "14.3",
+    "carbohydrate pr 100 gram": "68",
+    "fat pr 100 gram": "2.1"
+},
+{
+    "name": "Rice pancakes",
+    "calories per 100gram": "341.8",
+    "co2 per 1kg": "1.84",
+    "protein pr 100 gram": "5.8",
+    "carbohydrate pr 100 gram": "77.4",
+    "fat pr 100 gram": "0.5"
+},
+{
+    "name": "Vegan ice cream, oats",
+    "calories per 100gram": "212.2",
+    "co2 per 1kg": "1.53",
+    "protein pr 100 gram": "1.2",
+    "carbohydrate pr 100 gram": "27.3",
+    "fat pr 100 gram": "9.9"
+},
+{
+    "name": "Vegan mayo",
+    "calories per 100gram": "614.7",
+    "co2 per 1kg": "3.07",
+    "protein pr 100 gram": "0.6",
+    "carbohydrate pr 100 gram": "0.9",
+    "fat pr 100 gram": "68.8"
+},
+{
+    "name": "Mushroom burger",
+    "calories per 100gram": "162.3",
+    "co2 per 1kg": "1.47",
+    "protein pr 100 gram": "19",
+    "carbohydrate pr 100 gram": "4.1",
+    "fat pr 100 gram": "7.1"
+},
+{
+    "name": "Vegan cold cuts",
+    "calories per 100gram": "162.5",
+    "co2 per 1kg": "2.34",
+    "protein pr 100 gram": "7.8",
+    "carbohydrate pr 100 gram": "1.3",
+    "fat pr 100 gram": "14"
+},
+{
+    "name": "Vegan block",
+    "calories per 100gram": "670.2",
+    "co2 per 1kg": "0.97",
+    "protein pr 100 gram": "0.5",
+    "carbohydrate pr 100 gram": "0.5",
+    "fat pr 100 gram": "75"
+},
+{
+    "name": "Magarine",
+    "calories per 100gram": "534.6",
+    "co2 per 1kg": "2.93",
+    "protein pr 100 gram": "0.5",
+    "carbohydrate pr 100 gram": "0.5",
+    "fat pr 100 gram": "60"
+},
+{
+"name": "Vegan bacon",
+"calories per 100gram": "210.3",
+"co2 per 1kg": "0.25",
+"protein pr 100 gram": "35.3",
+"carbohydrate pr 100 gram": "3.2",
+"fat pr 100 gram": "5.9"
+},
+{
+"name": "Vegan fillet pieces",
+"calories per 100gram": "156.5",
+"co2 per 1kg": "2.04",
+"protein pr 100 gram": "22.5",
+"carbohydrate pr 100 gram": "1.2",
+"fat pr 100 gram": "4.7"
+},
+{
+"name": "Falafel mince",
+"calories per 100gram": "156.5",
+"co2 per 1kg": "1.68",
+"protein pr 100 gram": "20",
+"carbohydrate pr 100 gram": "6.5",
+"fat pr 100 gram": "4.1"
+},
+{
+"name": "Pea drink",
+"calories per 100gram": "10.8",
+"co2 per 1kg": "0.48",
+"protein pr 100 gram": "0.5",
+"carbohydrate pr 100 gram": "3.8",
+"fat pr 100 gram": "3.1"
+},
+{
+"name": "Portobello mushroom",
+"calories per 100gram": "32.7",
+"co2 per 1kg": "0.36",
+"protein pr 100 gram": "2.5",
+"carbohydrate pr 100 gram": "5.1",
+"fat pr 100 gram": "1.5"
+},
+{
+"name": "Food grain, kamut",
+"calories per 100gram": "332.2",
+"co2 per 1kg": "1.15",
+"protein pr 100 gram": "13.9",
+"carbohydrate pr 100 gram": "63.5",
+"fat pr 100 gram": "2"
+},
+{
+"name": "Chili Sauce",
+"calories per 100gram": "233.0",
+"co2 per 1kg": "1.82",
+"protein pr 100 gram": "0.6",
+"carbohydrate pr 100 gram": "55.1",
+"fat pr 100 gram": "0.7"
+},
+{
+"name": "Red onion",
+"calories per 100gram": "50.0",
+"co2 per 1kg": "0.9",
+"protein pr 100 gram": "1.6",
+"carbohydrate pr 100 gram": "10",
+"fat pr 100 gram": "0.3"
+},
+{
+"name": "Basil, fresh",
+"calories per 100gram": "22.0",
+"co2 per 1kg": "0.3",
+"protein pr 100 gram": "3.2",
+"carbohydrate pr 100 gram": "2.7",
+"fat pr 100 gram": "0.6"
+},
+{
+"name": "Basil, dried",
+"calories per 100gram": "241.9",
+"co2 per 1kg": "4.44",
+"protein pr 100 gram": "10.1",
+"carbohydrate pr 100 gram": "23",
+"fat pr 100 gram": "4"
+},
+{
+"name": "Cold buttermilk soup",
+"calories per 100gram": "75.3",
+"co2 per 1kg": "0.97",
+"protein pr 100 gram": "11",
+"carbohydrate pr 100 gram": "3.2",
+"fat pr 100 gram": "2.2"
+},
+{
+"name": "Beef, low fat",
+"calories per 100gram": "136.2",
+"co2 per 1kg": "35.86",
+"protein pr 100 gram": "21",
+"carbohydrate pr 100 gram": "0.5",
+"fat pr 100 gram": "0.5"
+},
+{
+"name": "Grilled sausages",
+"calories per 100gram": "287.0",
+"co2 per 1kg": "1.81",
+"protein pr 100 gram": "12",
+"carbohydrate pr 100 gram": "4",
+"fat pr 100 gram": "25"
+},
+{
+"name": "Apple juice",
+"calories per 100gram": "43.7",
+"co2 per 1kg": "1.64",
+"protein pr 100 gram": "0.5",
+"carbohydrate pr 100 gram": "10",
+"fat pr 100 gram": "0.5"
+},
+{
+"name": "Minced lamb",
+"calories per 100gram": "152.7",
+"co2 per 1kg": "26.3",
+"protein pr 100 gram": "20",
+"carbohydrate pr 100 gram": "0",
+"fat pr 100 gram": "14"
+},
+{
+"name": "Burger buns",
+"calories per 100gram": "300.7",
+"co2 per 1kg": "0.74",
+"protein pr 100 gram": "8.6",
+"carbohydrate pr 100 gram": "53",
+"fat pr 100 gram": "5.6"
+},
+{
+"name": "Blue cheese",
+"calories per 100gram": "387.9",
+"co2 per 1kg": "2.92",
+"protein pr 100 gram": "17",
+"carbohydrate pr 100 gram": "0.1",
+"fat pr 100 gram": "36"
+},
+{
+"name": "Goat cheese",
+"calories per 100gram": "332.9",
+"co2 per 1kg": "2.92",
+"protein pr 100 gram": "20",
+"carbohydrate pr 100 gram": "1",
+"fat pr 100 gram": "28"
+},
+{
+"name": "Vegan cheese, grated or sliced",
+"calories per 100gram": "247.8",
+"co2 per 1kg": "1",
+"protein pr 100 gram": "22.8",
+"carbohydrate pr 100 gram": "1.3",
+"fat pr 100 gram": "17"
+},
+{
+"name": "Samosa, vegetarian frost",
+"calories per 100gram": "189.0",
+"co2 per 1kg": "1.17",
+"protein pr 100 gram": "21.3",
+"carbohydrate pr 100 gram": "3",
+"fat pr 100 gram": "10.2"
+},
+{
+"name": "Cold chocolate",
+"calories per 100gram": "574.3",
+"co2 per 1kg": "5.18",
+"protein pr 100 gram": "8.9",
+"carbohydrate pr 100 gram": "44",
+"fat pr 100 gram": "40"
+},
+{
+"name": "Nutella, nut cream",
+"calories per 100gram": "544.4",
+"co2 per 1kg": "3.97",
+"protein pr 100 gram": "6",
+"carbohydrate pr 100 gram": "57.6",
+"fat pr 100 gram": "31.6"
+},
+{
+"name": "Smoothie, strawberry blueberry",
+"calories per 100gram": "43.7",
+"co2 per 1kg": "2.16",
+"protein pr 100 gram": "9.5",
+"carbohydrate pr 100 gram": "0.4",
+"fat pr 100 gram": "0"
+}
+]

@@ -29,7 +29,6 @@ form.addEventListener("submit", (e) => {
 
 function listCreation(recipies) {
     form.reset();
-    console.log(recipies)
     const allList = document.getElementById('resultList');
     allList.textContent = '';
     recipies.forEach(ULelement => {
@@ -50,11 +49,10 @@ function listCreation(recipies) {
 }
 
 function createButton() {
-    const itemName = document.createElement('text');
+    const itemName = document.createElement('span');
     itemName.textContent = `${document.querySelector('#search').value}||`;
     itemName.className = 'item-name';
     itemsSaved.push(document.querySelector('#search').value);
-    console.log(itemName);
     form.appendChild(itemName);
     const resetFilter = document.querySelector('#resetFilter');
     resetFilter.addEventListener('click', function () {

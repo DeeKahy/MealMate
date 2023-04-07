@@ -6,20 +6,14 @@ import jwt from 'jsonwebtoken';
 import cookieParser from 'cookie-parser';
 router.use(cookieParser());
 import crypto from 'crypto';
-import removeItem from "./removeItem.js";
-import bodyParser from 'body-parser';
+import removeItem from "./functions/removeItem.js"
 
 
-import { listRecipies, topRecipiesForUsers } from './recipe.js'
-// router.post('/API/search', verifyToken, (req, res) => {
-//     const itemName = req.body.nameOfRecipe;
-//     res.json(listRecipies(itemName));
-// })
+import { listRecipies, topRecipiesForUsers } from './functions/recipe.js'
 router.post('/API/search', verifyToken, (req, res) => {
     fs.promises.readFile(`${path.resolve()}/data/USERS/${req.user.username}/items.json`)
         .then((result) => JSON.parse(result))
         .then((data) => {
-            console.log(data);
             let response = listRecipies(data, req.body.itemsSaved);
             res.json(response);
         })
@@ -31,7 +25,6 @@ router.get('/API/userItem', verifyToken, (req, res) => {
     fs.promises.readFile(`${path.resolve()}/data/USERS/${req.user.username}/items.json`)
         .then((result) => JSON.parse(result))
         .then((data) => {
-            console.log(data);
             let response = topRecipiesForUsers(data);
             res.json(response);
     })
@@ -43,16 +36,15 @@ router.get("/forgot", verifyToken, (req, res) => {
     res.sendFile(path.resolve() + "/public/login/forgot.html");
 })
 router.post("/forgot", (req, res) => {
-    console.log(req);
     res.redirect("/");
 })
 
 
-import users from './loginfeature.js';// Here we import our read passord files.
+import users from './functions/loginfeature.js';// Here we import our read passord files.
 const users44 = users();
 
 
-console.log(users44) //console.logs to prove we are into the system, and shows off every username and password.
+// console.log(users44) //console.logs to prove we are into the system, and shows off every username and password.
 
 function verifyToken(req, res, next) {
     const token = req.cookies.token;// Here we request the cookie from the user
@@ -85,17 +77,15 @@ router.post("/login", (req, res) => {  // post action declared, will wait for po
     let usernametest = req.body.username; //gets username from front end
     let passwordtest = crypto.createHash('sha256').update(req.body.password).digest('hex'); //gets password from front end
 
-    console.log(`${usernametest} tried to login`)// THis will log who tried to loged in or logged in
+    // console.log(`${usernametest} tried to login`)// THis will log who tried to loged in or logged in
 
     let user = users44.find(function (user) {    // here we test if the user exist in the system, and if the password is correct
         return user.username === usernametest && user.password === passwordtest;
     });
-    console.log(user)
     if (user) {// if the correct information is typed in the user will be given a token
 
         const token = jwt.sign({ username: user.username }, 'secret', { expiresIn: '1h' });// Generate an authentication token with experation day, 1 hour i milisecounds
 
-        console.log(user.username);
 
         res.cookie('token', token, { httpOnly: true });// Set the token as a cookie on the client's browser
         //the { httpOnly: true }  option means that the cookie can only be accessed via HTTP/S and not via JavaScript, which helps to prevent cross-site scripting (XSS) attacks.
@@ -127,7 +117,7 @@ router.post("/API/waisteditem", verifyToken, (req, res) => {
     removeItem.waisteItem(req, res)
 })
 
-import helpers from "./helpers.js"
+import helpers from "./functions/helpers.js"
 
 // getting a list route (still neds to be modified for real login system)
 router.get("/API/getList", verifyToken, async (req, res) => {
@@ -145,24 +135,23 @@ router.get("/API/getList", verifyToken, async (req, res) => {
 });
 
 // getting a list route (still neds to be modified for real login system)
-router.get("/API/userItemsRecipies", verifyToken, async (req, res) => {
-    const filePath = path.resolve() + `/data/USERS/${req.user.username}/items.json`;
+// router.get("/API/userItemsRecipies", verifyToken, async (req, res) => {
+//     const filePath = path.resolve() + `/data/USERS/${req.user.username}/items.json`;
 
-    fs.readFile(filePath, (err, data) => {
-        if (err) {
-            console.error(err);
-            res.status(500).send("Internal Server Error");
-        } else {
-            const jsonData = data.toString("utf8");
-            const userItems = JSON.parse(jsonData);
-            console.log(topRecipiesForUsers(userItems));
-        }
-    });
-});
+//     fs.readFile(filePath, (err, data) => {
+//         if (err) {
+//             console.error(err);
+//             res.status(500).send("Internal Server Error");
+//         } else {
+//             const jsonData = data.toString("utf8");
+//             const userItems = JSON.parse(jsonData);
+//         }
+//     });
+// });
 
 //!!TO READ!!
 router.get("/API/getListGlobalItems", async (req, res) => {
-    const filePath = path.resolve() + `/Global-Items/Global-Items.json`;
+    const filePath = path.resolve() + `/data/Global-Items/Global-Items.json`;
 
     fs.readFile(filePath, (err, data) => {
         if (err) {
@@ -305,7 +294,6 @@ router.get("/API/getmonthlyWaste", verifyToken, (req, res) => {
 
 // write list to file (still neds to be modified for real login system)
 router.post("/API/postlist", verifyToken, (req, res) => {
-    console.log(req.body);
 
     // Read the existing data from the JSON file
     const dataPath = path.join(path.resolve() + `/data/USERS/${req.user.username}/items.json`);
@@ -324,7 +312,6 @@ router.post("/API/postlist", verifyToken, (req, res) => {
 });
 
 router.post("/API/edititem", verifyToken, (req, res) => {
-    console.log(req.body);
 
     // Read the existing data from the JSON file
     const dataPath = path.join(path.resolve() + `/data/USERS/${req.user.username}/items.json`);
@@ -373,21 +360,17 @@ router.post('/newuser', (req, res) => {
 
     const itemsStandard = '[]';
 
-    console.log(`${newUser.username} directory created.`);
 
     fs.writeFile(`data/USERS/${newUser.username}/consumedItems.json`, itemsStandard, (err) => {
         if (err) throw err;
-        console.log(`consumedItems.json created in ${newUser.username}`);
     });
 
     fs.writeFile(`data/USERS/${newUser.username}/items.json`, itemsStandard, (err) => {
         if (err) throw err;
-        console.log(`items.json created in ${newUser.username}`);
     });
 
     fs.writeFile(`data/USERS/${newUser.username}/wastedItems.json`, itemsStandard, (err) => {
         if (err) throw err;
-        console.log(`wastedItems.json created in ${newUser.username}`);
     });
 
     // Return a response to the client
@@ -451,6 +434,7 @@ router.post('/newuser', (req, res) => {
 
   router.get("/api/productPrice", async (req, res) => {
     const { query } = req.query;
+  
     const response = await fetch(`https://api.sallinggroup.com/v1-beta/product-suggestions/relevant-products?query=${query}`, {
       headers: {
         "Authorization": "Bearer ccf79589-89f0-4ff5-a034-2e7d93cdbbf0",
@@ -458,7 +442,15 @@ router.post('/newuser', (req, res) => {
         "Accept": "application/json"
       }
     });
+  
     const data = await response.json();
+  
+ // Check if the response is empty
+ if (!data || !data.suggestions || data.suggestions.length === 0) {
+    res.json({ suggestions: [{title: undefined, price: 0}] });
+    return;
+  }
+  
     res.json(data);
   });
 
