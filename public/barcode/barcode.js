@@ -67,10 +67,10 @@ function success(text, result) {
                 //Takes the previously "return response.json();" as input
                 if(json.msg === "adding found")
                 {
-                    for (let i = 0; i < json.array.length; i++) {
-                      alert("found " + json.found[i].name);
+                    alert("found " + json.found.length);
+                    // for (let i = 0; i < json.array.length; i++) {
 
-                    }
+                    // }
                     
                 } else{
                   alert("found no item matching")
