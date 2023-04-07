@@ -535,7 +535,7 @@ router.post("/API/getListGlobalItems", verifyToken, (req, res) => {
 
             }
             else {
-                res.json({ msg: `adding found`, array: found })
+                res.json({ msg: `adding found`, found: found })
             }
         })
         .catch((error) => {
