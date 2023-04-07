@@ -492,60 +492,85 @@ router.post("/API/changePassword", verifyToken, (req, res) => {
 
 
 });
+// router.post("/API/getListGlobalItems", verifyToken, (req, res) => {
+//     const filePath = path.resolve() + `/data/Global-Items/Global-Items.json`;
+//     fs.promises.readFile(filePath)                                            //.promises treat data from filePath as a promise
+//         .then((data) => JSON.parse(data))                                       //Converts read data to json format
+//         .then((json) => {
+            
+
+
+
+
+
+//             console.log("barcode is " + req.body.barcode);                        //req.body.barcode = payload as defined in the fetch from html5.js
+//             //Takes read data as input 
+//             let found = false;
+
+//             for (let i = 0; i < json.length; i++) {
+//                 if (json[i].barcodes != undefined) {
+//                     console.log("item has barocode " + json[i].name);
+//                     for (let j = 0; j < json[i].barcodes.length; j++) {
+//                         if (json[i].barcodes[j] == req.body.barcode) {
+//                             found = json[i];
+//                             console.log(found.name);
+//                             break;
+//                         }
+//                     }
+//                 }
+//             }
+//             if (!found) {
+//                 res.json({ msg: "not found" })
+//                 // fs.promises.readFile(path.resolve() + `/data/USERS/${req.user.username}/Barcodes.json`)
+//                 //     .then((data) => JSON.parse(data))
+//                 //     .then((json) => {
+//                 //         for (let i = 0; i < json.length; i++) {
+//                 //             if (json[i].barcode != undefined && json[i].barcode == req.body.barcode) {
+//                 //                 found = json[i].barcode;
+//                 //                 break;
+//                 //             }
+//                 //         }
+//                 //         if (!found) {
+//                 //             res.json({ msg: "create new" })
+//                 //         }
+//                 //         else {
+//                 //             res.json({ msg: "adding found" })
+//                 //         }
+//                 //     })
+//                 //     .catch((err) => {
+//                 //         console.log(err)
+//                 //         res.json({ msg: "something went wrong" });
+//                 //     })
+
+//             }
+//             else {
+//                 res.json({ msg: `adding found ${found.name}` })
+//             }
+//         })
+//         .catch((error) => {
+//             console.log(error);
+//             res.json({ msg: "something went wrong" });
+//         });
+// });
+
+
 router.post("/API/getListGlobalItems", verifyToken, (req, res) => {
     const filePath = path.resolve() + `/data/Global-Items/Global-Items.json`;
-    fs.promises.readFile(filePath)                                            //.promises treat data from filePath as a promise
-        .then((data) => JSON.parse(data))                                       //Converts read data to json format
+    fs.promises.readFile(filePath)
+        .then((fileData) => JSON.parse(fileData))
         .then((json) => {
 
-            console.log("barcode is " + req.body.barcode);                        //req.body.barcode = payload as defined in the fetch from html5.js
-            //Takes read data as input 
-            let found = false;
+            const inputBarcode = req.body.barcode;
+            console.log("barcode is " + inputBarcode);
 
-            for (let i = 0; i < json.length; i++) {
-                console.log(json[i].barcodes != undefined);
-                if (json[i].barcodes != undefined) {
-                    console.log("item has barocode " + json[i].name);
-                    for (let j = 0; j < json[i].barcodes.length; j++) {
-                        if (json[i].barcodes[j] == req.body.barcode) {
-                            found = json[i];
-                            console.log(found.name);
-                            break;
-                        }
-                    }
+            for (let item of json) {
+                if (item.barcodes && item.barcodes.includes(inputBarcode)) {
+                    console.log("Match found: ", item);
                 }
-            }
-            if (!found) {
-                res.json({ msg: "not found" })
-                // fs.promises.readFile(path.resolve() + `/data/USERS/${req.user.username}/Barcodes.json`)
-                //     .then((data) => JSON.parse(data))
-                //     .then((json) => {
-                //         for (let i = 0; i < json.length; i++) {
-                //             if (json[i].barcode != undefined && json[i].barcode == req.body.barcode) {
-                //                 found = json[i].barcode;
-                //                 break;
-                //             }
-                //         }
-                //         if (!found) {
-                //             res.json({ msg: "create new" })
-                //         }
-                //         else {
-                //             res.json({ msg: "adding found" })
-                //         }
-                //     })
-                //     .catch((err) => {
-                //         console.log(err)
-                //         res.json({ msg: "something went wrong" });
-                //     })
-
-            }
-            else {
-                res.json({ msg: `adding found ${found.name}` })
             }
         })
         .catch((error) => {
-            console.log(error);
-            res.json({ msg: "something went wrong" });
+            console.error("Error reading file:", error);
         });
 });
 
