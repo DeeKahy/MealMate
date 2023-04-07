@@ -57,6 +57,6 @@ form.addEventListener("submit", (event) => {
     })
     .catch(error => {
         console.error('There was a problem with the fetch operation:', error);
-        message.innerText = 'Error: Failed to create user.';
+        message.innerText = 'Error: Username already exists.';
     });
 });

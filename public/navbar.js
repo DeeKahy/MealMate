@@ -7,3 +7,19 @@ document.addEventListener("DOMContentLoaded", function() {
         document.querySelector("#nav-placeholder").innerHTML = data;
       });
   });
+
+  setTimeout(() => {
+    const hamburger = document.querySelector('.hamburger');
+    const navMenu = document.querySelector('.nav-menu ul');
+    
+    hamburger.addEventListener('click', () => {
+        hamburger.classList.toggle('active');
+        navMenu.classList.toggle('active');
+        if (navMenu.classList.contains('active')) {
+            navMenu.style.display = 'block';
+        } else {
+            navMenu.style.display = 'none';
+        }
+    });
+  }, 3000);
+

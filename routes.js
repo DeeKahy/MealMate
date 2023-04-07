@@ -8,6 +8,7 @@ router.use(cookieParser());
 import crypto from 'crypto';
 import removeItem from "./functions/removeItem.js"
 
+const userDirectoryPath = "/data/USERS/";
 
 import { listRecipies, topRecipiesForUsers } from './functions/recipe.js'
 router.post('/API/search', verifyToken, (req, res) => {
@@ -100,8 +101,9 @@ router.post("/login", (req, res) => {  // post action declared, will wait for po
 
 
 router.get("/API/getUserName", verifyToken, (req, res) => {
-    res.json({ "username": req.user.username })
-
+    res.json({
+        "username": req.user.username,
+    })
 })
 
 
@@ -348,6 +350,10 @@ router.post('/newuser', (req, res) => {
         return res.status(400).json({ error: 'Username already exists' });
     }
 
+    if (fs.existsSync(`data/USERS/${newUser.username}/`)) {
+        return res.status(400).json({ error: 'Username already exists' });
+      }
+
     // Add the new data to the array
     data.users.push(newUser);
 
@@ -395,17 +401,15 @@ function saveShoppingList(path, shoppingList) {
     fs.writeFileSync(shoppingListFilePath, JSON.stringify(shoppingList));
 }
 
-
-// Add a new item to the shopping list
-router.post("/api/shoppingList", verifyToken, (req, res) => {
+  router.post("/api/shoppingList", verifyToken, (req, res) => {
     const filePath = path.resolve() + `/data/USERS/${req.user.username}/shoppinglist.json`;
     const shoppingList = getShoppingList(filePath);
 
     const newItem = {
         id: uuidv4(),
         name: req.body.name,
-        quantity: req.body.quantity
-    };
+        price: req.body.price
+      };
 
     shoppingList.push(newItem);
     saveShoppingList(filePath, shoppingList);
@@ -435,11 +439,11 @@ router.get("/api/productPrice", async (req, res) => {
     const { query } = req.query;
 
     const response = await fetch(`https://api.sallinggroup.com/v1-beta/product-suggestions/relevant-products?query=${query}`, {
-        headers: {
-            "Authorization": "Bearer ccf79589-89f0-4ff5-a034-2e7d93cdbbf0",
-            "Content-Type": "application/json",
-            "Accept": "application/json"
-        }
+      headers: {
+        "Authorization": "Bearer 3dac909e-0081-464f-aeac-f9a2efe5cf1a",
+        "Content-Type": "application/json",
+        "Accept": "application/json"
+      }
     });
 
     const data = await response.json();
@@ -453,51 +457,40 @@ router.get("/api/productPrice", async (req, res) => {
     res.json(data);
 });
 
-router.post("/API/getListGlobalItems", verifyToken, (req, res) => {
-    const filePath = path.resolve() + `/Global-Items/Global-Items.json`;
-    fs.promises.readFile(filePath)                                            //.promises treat data from filePath as a promise
-        .then((data) => JSON.parse(data))                                       //Converts read data to json format
-        .then((json) => {
-            //Takes read data as input 
-            let found = false;
-            console.log("barcode is " + req.body.barcode);                        //req.body.barcode = payload as defined in the fetch from html5.js
+  router.post("/API/changePassword", verifyToken, (req, res) => {
 
-            for (let i = 0; i < json.length; i++) {
-                if (json[i].barcode != undefined && json[i].barcode == req.body.barcode) {
-                    found = json[i].barcode;
-                    break;
-                }
-            }
-            if (!found) {
-                fs.promises.readFile(path.resolve() + `/data/USERS/${req.user.username}/Barcodes.json`)
-                    .then((data) => JSON.parse(data))
-                    .then((json) => {
-                        for (let i = 0; i < json.length; i++) {
-                            if (json[i].barcode != undefined && json[i].barcode == req.body.barcode) {
-                                found = json[i].barcode;
-                                break;
-                            }
-                        }
-                        if (!found) {
-                            res.json({ msg: "create new" })
-                        }
-                        else {
-                            res.json({ msg: "adding found" })
-                        }
-                    })
-                    .catch((err) => {
-                        console.log(err)
-                        res.json({ msg: "something went wrong" });
-                    })
+    const userDetails = {
+        username: req.user.username,
+        oldPassword: crypto.createHash('sha256').update(req.body.oldPassword).digest('hex'),
+        newPassword1: crypto.createHash('sha256').update(req.body.newPassword1).digest('hex'),
+        newPassword2: crypto.createHash('sha256').update(req.body.newPassword2).digest('hex')
+    };
 
-            }
-            else {
-                res.json({ msg: "adding found" })
-            }
-        })
-        .catch((error) => {
-            console.log(error);
-            res.json({ msg: "something went wrong" });
-        });
-});
+    const filePath = path.join(path.resolve() + "/data/Passwords/users.json");
+
+    const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+
+    const user = data.users.find(user => user.username === userDetails.username);
+
+    // Check if the old password matches with the user's password
+    if (user.password !== userDetails.oldPassword) {
+        return res.status(400).json({ error: 'Old password is incorrect!' });
+    }
+
+    // Check if the new password and confirm password match
+    if (userDetails.newPassword1 !== userDetails.newPassword2) {
+        return res.status(400).json({ error: 'The new password doesnt match!' });
+    }
+
+      // Update the user's password
+      user.password = userDetails.newPassword1;
+
+      // Save the updated data to file
+      fs.writeFileSync(filePath, JSON.stringify(data));
+
+      res.json({ success: true });
+
+
+  });
+
 export default router

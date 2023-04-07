@@ -104,3 +104,4 @@ dist
 .tern-port
 
 data/USERS/*
+DATA/Passwords/users.json
