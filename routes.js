@@ -27,7 +27,7 @@ router.get('/API/userItem', verifyToken, (req, res) => {
         .then((data) => {
             let response = topRecipiesForUsers(data);
             res.json(response);
-    })
+        })
 })
 
 //New Page for forgot password This is the Current tasting page For Tokens login System. Dont touch it is hurting nobody.
@@ -378,26 +378,26 @@ router.post('/newuser', (req, res) => {
     //res.redirect("/login");
 });
 
-  import { v4 as uuidv4 } from 'uuid';
+import { v4 as uuidv4 } from 'uuid';
 
-  function getShoppingList(path) {
+function getShoppingList(path) {
     const shoppingListFilePath = path;
     if (!fs.existsSync(shoppingListFilePath)) {
-      fs.writeFileSync(shoppingListFilePath, '[]');
+        fs.writeFileSync(shoppingListFilePath, '[]');
     }
     const shoppingListData = fs.readFileSync(shoppingListFilePath, 'utf8');
     return JSON.parse(shoppingListData);
-  }
-  
-  // Write the shopping list to the JSON file
-  function saveShoppingList(path, shoppingList) {
+}
+
+// Write the shopping list to the JSON file
+function saveShoppingList(path, shoppingList) {
     const shoppingListFilePath = path;
     fs.writeFileSync(shoppingListFilePath, JSON.stringify(shoppingList));
-  }
+}
 
 
-  // Add a new item to the shopping list
-  router.post("/api/shoppingList", verifyToken, (req, res) => {
+// Add a new item to the shopping list
+router.post("/api/shoppingList", verifyToken, (req, res) => {
     const filePath = path.resolve() + `/data/USERS/${req.user.username}/shoppinglist.json`;
     const shoppingList = getShoppingList(filePath);
 
@@ -405,54 +405,99 @@ router.post('/newuser', (req, res) => {
         id: uuidv4(),
         name: req.body.name,
         quantity: req.body.quantity
-      };
+    };
 
     shoppingList.push(newItem);
     saveShoppingList(filePath, shoppingList);
     res.send('Item added to shopping list: ' + JSON.stringify(newItem));
-  });
-  
-  // Get all items in the shopping list
-  router.get("/api/shoppingList", verifyToken, (req, res) =>
- {
+});
+
+// Get all items in the shopping list
+router.get("/api/shoppingList", verifyToken, (req, res) => {
     const filePath = path.resolve() + `/data/USERS/${req.user.username}/shoppinglist.json`;
     const shoppingList = getShoppingList(filePath);
     res.send(shoppingList);
-  });
-  
-  // Remove an item from the shopping list
-  router.delete("/api/shoppingList/:id", verifyToken, (req, res) => {
+});
+
+// Remove an item from the shopping list
+router.delete("/api/shoppingList/:id", verifyToken, (req, res) => {
     const filePath = path.resolve() + `/data/USERS/${req.user.username}/shoppinglist.json`;
     const itemId = req.params.id;
     const shoppingList = getShoppingList(filePath);
-    const updatedShoppingList = shoppingList.filter(function(item) {
-      return item.id !== itemId;
+    const updatedShoppingList = shoppingList.filter(function (item) {
+        return item.id !== itemId;
     });
     saveShoppingList(filePath, updatedShoppingList);
     res.send('Item removed from shopping list: ' + itemId);
-  });
+});
 
-  router.get("/api/productPrice", async (req, res) => {
+router.get("/api/productPrice", async (req, res) => {
     const { query } = req.query;
-  
+
     const response = await fetch(`https://api.sallinggroup.com/v1-beta/product-suggestions/relevant-products?query=${query}`, {
-      headers: {
-        "Authorization": "Bearer ccf79589-89f0-4ff5-a034-2e7d93cdbbf0",
-        "Content-Type": "application/json",
-        "Accept": "application/json"
-      }
+        headers: {
+            "Authorization": "Bearer ccf79589-89f0-4ff5-a034-2e7d93cdbbf0",
+            "Content-Type": "application/json",
+            "Accept": "application/json"
+        }
     });
-  
+
     const data = await response.json();
-  
- // Check if the response is empty
- if (!data || !data.suggestions || data.suggestions.length === 0) {
-    res.json({ suggestions: [{title: undefined, price: 0}] });
-    return;
-  }
-  
+
+    // Check if the response is empty
+    if (!data || !data.suggestions || data.suggestions.length === 0) {
+        res.json({ suggestions: [{ title: undefined, price: 0 }] });
+        return;
+    }
+
     res.json(data);
-  });
+});
 
+router.post("/API/getListGlobalItems", verifyToken, (req, res) => {
+    const filePath = path.resolve() + `/Global-Items/Global-Items.json`;
+    fs.promises.readFile(filePath)                                            //.promises treat data from filePath as a promise
+        .then((data) => JSON.parse(data))                                       //Converts read data to json format
+        .then((json) => {
+            //Takes read data as input 
+            let found = false;
+            console.log("barcode is " + req.body.barcode);                        //req.body.barcode = payload as defined in the fetch from html5.js
 
+            for (let i = 0; i < json.length; i++) {
+                if (json[i].barcode != undefined && json[i].barcode == req.body.barcode) {
+                    found = json[i].barcode;
+                    break;
+                }
+            }
+            if (!found) {
+                fs.promises.readFile(path.resolve() + `/data/USERS/${req.user.username}/Barcodes.json`)
+                    .then((data) => JSON.parse(data))
+                    .then((json) => {
+                        for (let i = 0; i < json.length; i++) {
+                            if (json[i].barcode != undefined && json[i].barcode == req.body.barcode) {
+                                found = json[i].barcode;
+                                break;
+                            }
+                        }
+                        if (!found) {
+                            res.json({ msg: "create new" })
+                        }
+                        else {
+                            res.json({ msg: "adding found" })
+                        }
+                    })
+                    .catch((err) => {
+                        console.log(err)
+                        res.json({ msg: "something went wrong" });
+                    })
+
+            }
+            else {
+                res.json({ msg: "adding found" })
+            }
+        })
+        .catch((error) => {
+            console.log(error);
+            res.json({ msg: "something went wrong" });
+        });
+});
 export default router
