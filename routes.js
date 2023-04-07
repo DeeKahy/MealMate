@@ -492,7 +492,7 @@ router.post("/API/changePassword", verifyToken, (req, res) => {
 
 
 });
-router.post("/API/getListGlobalItems", (req, res) => {
+router.post("/API/getListGlobalItems", verifyToken, (req, res) => {
     const filePath = path.resolve() + `/data/Global-Items/Global-Items.json`;
     fs.promises.readFile(filePath)                                            //.promises treat data from filePath as a promise
         .then((data) => JSON.parse(data))                                       //Converts read data to json format
