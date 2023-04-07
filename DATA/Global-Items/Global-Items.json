@@ -974,7 +974,8 @@
         "co2 per 1kg": "1.32",
         "protein pr 100 gram": "0.1",
         "carbohydrate pr 100 gram": "8.4",
-        "fat pr 100 gram": "0.6"
+        "fat pr 100 gram": "0.6",
+        "barcodes":["5705010082446"]
     },
     {
         "name": "Pineapple, canned",
