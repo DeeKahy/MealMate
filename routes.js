@@ -503,11 +503,14 @@ router.post("/API/getListGlobalItems", verifyToken, (req, res) => {
             let found = false;
 
             for (let i = 0; i < json.length; i++) {
+                console.log("item has barocode");
                 if (json[i].barcodes != undefined) {
                     for (let j = 0; j < json[i].barcodes.length; j++) {
-                        found = json[i];
-                        console.log(found.name);
-                        break;
+                        if (json[i].barcodes[j] == req.body.barcode) {
+                            found = json[i];
+                            console.log(found.name);
+                            break;
+                        }
                     }
                 }
             }
