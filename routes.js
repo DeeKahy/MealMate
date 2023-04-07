@@ -492,34 +492,25 @@ router.post("/API/changePassword", verifyToken, (req, res) => {
 
 
 });
-router.post("/API/getListGlobalItems", verifyToken, (req, res) => {
+router.post("/API/getListGlobalItems", (req, res) => {
     const filePath = path.resolve() + `/data/Global-Items/Global-Items.json`;
     fs.promises.readFile(filePath)                                            //.promises treat data from filePath as a promise
         .then((data) => JSON.parse(data))                                       //Converts read data to json format
         .then((json) => {
-            
-
-
-
-
-
             console.log("barcode is " + req.body.barcode);                        //req.body.barcode = payload as defined in the fetch from html5.js
-            //Takes read data as input 
-            let found = false;
-
+                                                                                    //Takes read data as input 
+            let found = [];
             for (let i = 0; i < json.length; i++) {
                 if (json[i].barcodes != undefined) {
                     console.log("item has barocode " + json[i].name);
                     for (let j = 0; j < json[i].barcodes.length; j++) {
                         if (json[i].barcodes[j] == req.body.barcode) {
-                            found = json[i];
-                            console.log(found.name);
-                            break;
+                            found.push(json[i]);
                         }
                     }
                 }
             }
-            if (!found) {
+            if (found === []) {
                 res.json({ msg: "not found" })
                 // fs.promises.readFile(path.resolve() + `/data/USERS/${req.user.username}/Barcodes.json`)
                 //     .then((data) => JSON.parse(data))
@@ -544,7 +535,7 @@ router.post("/API/getListGlobalItems", verifyToken, (req, res) => {
 
             }
             else {
-                res.json({ msg: `adding found ${found.name}` })
+                res.json({ msg: `adding found ${found}` })
             }
         })
         .catch((error) => {
@@ -552,26 +543,5 @@ router.post("/API/getListGlobalItems", verifyToken, (req, res) => {
             res.json({ msg: "something went wrong" });
         });
 });
-
-
-// router.post("/API/getListGlobalItems", verifyToken, (req, res) => {
-//     const filePath = path.resolve() + `/data/Global-Items/Global-Items.json`;
-//     fs.promises.readFile(filePath)
-//         .then((fileData) => JSON.parse(fileData))
-//         .then((json) => {
-//             console.log(json);
-//             const inputBarcode = req.body.barcode;
-//             console.log("barcode is " + inputBarcode);
-
-//             for (let item of json) {
-//                 if (item.barcodes && item.barcodes.includes(inputBarcode)) {
-//                     console.log("Match found: ", item);
-//                 }
-//             }
-//         })
-//         .catch((error) => {
-//             console.error("Error reading file:", error);
-//         });
-// });
-
 export default router
+
