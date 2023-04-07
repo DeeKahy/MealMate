@@ -65,7 +65,16 @@ function success(text, result) {
             })
             .then((json) => {
                 //Takes the previously "return response.json();" as input
-                alert(json.msg);
+                if(json.msg === "adding found")
+                {
+                    for (let i = 0; i < json.found.length; i++) {
+                        alert("found " + json.found[i].name)
+                    }
+                    
+                } else{
+                  alert("found no item matching")
+                  //todo
+                }
             });
     }
 }
