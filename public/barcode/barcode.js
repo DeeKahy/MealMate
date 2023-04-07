@@ -68,8 +68,8 @@ function success(text, result) {
                 if(json.msg === "adding found")
                 {
                     confirm("testing");
-                    for (let i = 0; i < json.found.length; i++) {
-                        alert("found " + json.found[i].name)
+                    for (let i = 0; i < json.array.length; i++) {
+                        alert("found " + json.array[i].name)
                     }
                     
                 } else{
