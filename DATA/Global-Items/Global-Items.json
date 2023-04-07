@@ -2246,7 +2246,8 @@
         "co2 per 1kg": "2.5",
         "protein pr 100 gram": "28.4",
         "carbohydrate pr 100 gram": "8.1",
-        "fat pr 100 gram": "53.3"
+        "fat pr 100 gram": "53.3",
+        "barcodes":["5701979994547"]
     },
     {
         "name": "Strawberry, raw",
