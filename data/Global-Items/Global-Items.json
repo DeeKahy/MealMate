@@ -7,7 +7,7 @@
         "carbohydrate pr 100 gram": "0.6",
         "fat pr 100 gram": "81.5",
         "barcodes": [
-            "5701979994"
+            "5701979994574"
         ]
     },
     {
@@ -18,7 +18,8 @@
         "carbohydrate pr 100 gram": "1.1",
         "fat pr 100 gram": "75.5",
         "barcodes": [
-            "5701979994"
+            "5701979994574",
+            "5705010082446"
         ]
     },
     {
@@ -28,6 +29,8 @@
         "protein pr 100 gram": "5.8",
         "carbohydrate pr 100 gram": "48.8",
         "fat pr 100 gram": "23.5",
-        "barcodes":[""]
+        "barcodes": [
+            "5705010082446"
+        ]
     }
 ]
