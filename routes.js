@@ -559,7 +559,7 @@ router.post("/API/getListGlobalItems", verifyToken, (req, res) => {
     fs.promises.readFile(filePath)
         .then((fileData) => JSON.parse(fileData))
         .then((json) => {
-
+            console.log(json);
             const inputBarcode = req.body.barcode;
             console.log("barcode is " + inputBarcode);
 
