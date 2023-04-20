@@ -10,9 +10,10 @@ document.addEventListener("DOMContentLoaded", (e) => {
 
 addItemForm.addEventListener('submit', function(event) {
   event.preventDefault();
+  searchData = null; //Clear cached data
   searchList();
 });
-  
+
 function loadShoppinglist() {
   fetch("/api/shoppingList")
     .then(response => {
@@ -33,7 +34,7 @@ function loadShoppinglist() {
       headerRow.appendChild(header3);
 
       const header4 = document.createElement("th");
-      
+
       header4.textContent = "";
       headerRow.appendChild(header4);
 
@@ -48,7 +49,7 @@ function loadShoppinglist() {
         row.appendChild(cell1);
 
         const cell3 = document.createElement("td");
-        cell3.className = "cell3"; 
+        cell3.className = "cell3";
         cell3.textContent = item.price.toFixed(2) + " kr";
 
         total += item.price;
@@ -121,6 +122,10 @@ function searchList() {
     // Use cached data
     createTable(searchData);
   } else {
+    // Set loading state
+    const tableContainer = document.getElementById("shoppinglist-search");
+    tableContainer.innerHTML = '<p>Loading...</p>';
+
     // Fetch new data
     fetch(`/api/productPrice?query=${itemData.name}`)
       .then(response => {
@@ -217,8 +222,6 @@ function createTable(data) {
           }
           // Clear cached data
           searchData = null;
-          // Add new search
-          searchList();
 
           loadShoppinglist();
         })
