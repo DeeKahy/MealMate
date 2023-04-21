@@ -2,314 +2,2342 @@
   {
     "nameOfRecipe": "Chicken Alfredo Pasta",
     "ingredients": [
-      {"ingredient": "chicken breast", "amount": "500g"},
-      {"ingredient": "fettuccine pasta", "amount": "400g"},
-      {"ingredient": "heavy cream", "amount": "1 cup"},
-      {"ingredient": "parmesan cheese", "amount": "1 cup"},
-      {"ingredient": "garlic", "amount": "3 cloves"},
-      {"ingredient": "butter", "amount": "3 tbsp"},
-      {"ingredient": "salt", "amount": "to taste"},
-      {"ingredient": "pepper", "amount": "to taste"}
+      {
+        "ingredient": "chicken breast",
+        "amount": "500g"
+      },
+      {
+        "ingredient": "fettuccine pasta",
+        "amount": "400g"
+      },
+      {
+        "ingredient": "heavy cream",
+        "amount": "1 cup"
+      },
+      {
+        "ingredient": "parmesan cheese",
+        "amount": "1 cup"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": "3 cloves"
+      },
+      {
+        "ingredient": "butter",
+        "amount": "3 tbsp"
+      },
+      {
+        "ingredient": "salt",
+        "amount": "to taste"
+      },
+      {
+        "ingredient": "pepper",
+        "amount": "to taste"
+      }
     ],
     "instructions": [
-      {"inst": "Season chicken with salt and pepper."},
-      {"inst": "Cook pasta according to package instructions, then drain and set aside."},
-      {"inst": "In a large pan or skillet, melt butter over medium-high heat."},
-      {"inst": "Add minced garlic to the pan and sauté until fragrant, about 1 minute."},
-      {"inst": "Add the seasoned chicken to the pan and cook until browned on all sides, about 5-7 minutes."},
-      {"inst": "Reduce the heat to medium and pour in the heavy cream, stirring to combine with the chicken and garlic."},
-      {"inst": "Let the sauce simmer for 3-5 minutes, or until it begins to thicken slightly."},
-      {"inst": "Add grated parmesan cheese to the pan and stir until it is fully melted and incorporated into the sauce."},
-      {"inst": "Toss the cooked pasta with the sauce until it is evenly coated."},
-      {"inst": "Serve hot, garnished with chopped parsley or additional parmesan cheese if desired."}
+      {
+        "inst": "Season chicken with salt and pepper."
+      },
+      {
+        "inst": "Cook pasta according to package instructions, then drain and set aside."
+      },
+      {
+        "inst": "In a large pan or skillet, melt butter over medium-high heat."
+      },
+      {
+        "inst": "Add minced garlic to the pan and sauté until fragrant, about 1 minute."
+      },
+      {
+        "inst": "Add the seasoned chicken to the pan and cook until browned on all sides, about 5-7 minutes."
+      },
+      {
+        "inst": "Reduce the heat to medium and pour in the heavy cream, stirring to combine with the chicken and garlic."
+      },
+      {
+        "inst": "Let the sauce simmer for 3-5 minutes, or until it begins to thicken slightly."
+      },
+      {
+        "inst": "Add grated parmesan cheese to the pan and stir until it is fully melted and incorporated into the sauce."
+      },
+      {
+        "inst": "Toss the cooked pasta with the sauce until it is evenly coated."
+      },
+      {
+        "inst": "Serve hot, garnished with chopped parsley or additional parmesan cheese if desired."
+      }
     ]
   },
   {
     "nameOfRecipe": "Bolognese Sauce",
     "ingredients": [
-      {"ingredient": "ground beef", "amount": "500g"},
-      {"ingredient": "tomatoes", "amount": "6"},
-      {"ingredient": "onion", "amount": "1"},
-      {"ingredient": "garlic", "amount": "4 cloves"},
-      {"ingredient": "red wine", "amount": "1 cup"},
-      {"ingredient": "olive oil", "amount": "3 tbsp"},
-      {"ingredient": "salt", "amount": "to taste"},
-      {"ingredient": "pepper", "amount": "to taste"}
+      {
+        "ingredient": "ground beef",
+        "amount": "500g"
+      },
+      {
+        "ingredient": "tomatoes",
+        "amount": "6"
+      },
+      {
+        "ingredient": "onion",
+        "amount": "1"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": "4 cloves"
+      },
+      {
+        "ingredient": "red wine",
+        "amount": "1 cup"
+      },
+      {
+        "ingredient": "olive oil",
+        "amount": "3 tbsp"
+      },
+      {
+        "ingredient": "salt",
+        "amount": "to taste"
+      },
+      {
+        "ingredient": "pepper",
+        "amount": "to taste"
+      }
     ],
     "instructions": [
-      {"inst":  "In a pan, heat olive oil and sauté onions and garlic."},
-      {"inst": "Add ground beef and cook until browned."},
-      {"inst": "Add tomatoes and red wine."},
-      {"inst": "Let it simmer for 30 minutes."},
-      {"inst": "Season with salt and pepper."},
-      {"inst": "Serve over pasta."}
+      {
+        "inst": "In a pan, heat olive oil and sauté onions and garlic."
+      },
+      {
+        "inst": "Add ground beef and cook until browned."
+      },
+      {
+        "inst": "Add tomatoes and red wine."
+      },
+      {
+        "inst": "Let it simmer for 30 minutes."
+      },
+      {
+        "inst": "Season with salt and pepper."
+      },
+      {
+        "inst": "Serve over pasta."
+      }
     ]
   },
   {
     "nameOfRecipe": "Vegetable Stir Fry",
     "ingredients": [
-      {"ingredient": "broccoli", "amount": "1 head"},
-      {"ingredient": "carrots", "amount": "3"},
-      {"ingredient": "bell pepper", "amount": "1"},
-      {"ingredient": "onion", "amount": "1"},
-      {"ingredient": "garlic", "amount": "3 cloves"},
-      {"ingredient": "soy sauce", "amount": "3 tbsp"},
-      {"ingredient": "cornstarch", "amount": "1 tbsp"},
-      {"ingredient": "water", "amount": "1/2 cup"}
+      {
+        "ingredient": "broccoli",
+        "amount": "1 head"
+      },
+      {
+        "ingredient": "carrots",
+        "amount": "3"
+      },
+      {
+        "ingredient": "bell pepper",
+        "amount": "1"
+      },
+      {
+        "ingredient": "onion",
+        "amount": "1"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": "3 cloves"
+      },
+      {
+        "ingredient": "soy sauce",
+        "amount": "3 tbsp"
+      },
+      {
+        "ingredient": "cornstarch",
+        "amount": "1 tbsp"
+      },
+      {
+        "ingredient": "water",
+        "amount": "1/2 cup"
+      }
     ],
     "instructions": [
-      {"inst": "Cut vegetables into bite-sized pieces."},
-      {"inst": "In a large pan or wok, heat oil over high heat."},
-      {"inst": "Add minced garlic and onions to the pan and stir fry until fragrant, about 1-2 minutes."},
-      {"inst": "Add the prepared vegetables to the pan and stir fry for 5-7 minutes, or until they are tender-crisp."},
-      {"inst": "In a small bowl, whisk together soy sauce, cornstarch, and water until smooth."},
-      {"inst": "Pour the sauce over the vegetables in the pan and mix well to coat."},
-      {"inst": "Let the vegetables simmer in the sauce for 2-3 minutes, or until the sauce thickens and the vegetables are fully coated."},
-      {"inst": "Serve hot over rice, garnished with sliced green onions or sesame seeds if desired."}
-      ]
+      {
+        "inst": "Cut vegetables into bite-sized pieces."
+      },
+      {
+        "inst": "In a large pan or wok, heat oil over high heat."
+      },
+      {
+        "inst": "Add minced garlic and onions to the pan and stir fry until fragrant, about 1-2 minutes."
+      },
+      {
+        "inst": "Add the prepared vegetables to the pan and stir fry for 5-7 minutes, or until they are tender-crisp."
+      },
+      {
+        "inst": "In a small bowl, whisk together soy sauce, cornstarch, and water until smooth."
+      },
+      {
+        "inst": "Pour the sauce over the vegetables in the pan and mix well to coat."
+      },
+      {
+        "inst": "Let the vegetables simmer in the sauce for 2-3 minutes, or until the sauce thickens and the vegetables are fully coated."
+      },
+      {
+        "inst": "Serve hot over rice, garnished with sliced green onions or sesame seeds if desired."
+      }
+    ]
   },
   {
     "nameOfRecipe": "Garlic Shrimp Pasta",
     "ingredients": [
-      {"ingredient": "shrimp", "amount": "500g"},
-      {"ingredient": "spaghetti pasta", "amount": "400g"},
-      {"ingredient": "butter", "amount": "3 tbsp"},
-      {"ingredient": "garlic", "amount": "3 cloves"},
-      {"ingredient": "lemon juice", "amount": "1/4 cup"},
-      {"ingredient": "olive oil", "amount": "3 tbsp"},
-      {"ingredient": "salt", "amount": "to taste"},
-      {"ingredient": "pepper", "amount": "to taste"}
+      {
+        "ingredient": "shrimp",
+        "amount": "500g"
+      },
+      {
+        "ingredient": "spaghetti pasta",
+        "amount": "400g"
+      },
+      {
+        "ingredient": "butter",
+        "amount": "3 tbsp"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": "3 cloves"
+      },
+      {
+        "ingredient": "lemon juice",
+        "amount": "1/4 cup"
+      },
+      {
+        "ingredient": "olive oil",
+        "amount": "3 tbsp"
+      },
+      {
+        "ingredient": "salt",
+        "amount": "to taste"
+      },
+      {
+        "ingredient": "pepper",
+        "amount": "to taste"
+      }
     ],
     "instructions": [
-      {"inst": "Season shrimp with salt and pepper, set aside."},
-      {"inst": "Cook pasta according to package instructions, drain and set aside."},
-      {"inst": "In a large pan, heat butter and olive oil over medium-high heat."},
-      {"inst": "Add minced garlic to the pan and sauté until fragrant, about 1-2 minutes."},
-      {"inst": "Add the seasoned shrimp to the pan and cook until they turn pink, about 2-3 minutes per side."},
-      {"inst": "Pour in lemon juice and let it simmer for a minute or two to let the flavors meld."},
-      {"inst": "Add the cooked pasta to the pan with the shrimp and sauce."},
-      {"inst": "Toss the pasta until it is evenly coated with the sauce."},
-      {"inst": "Serve hot, garnished with chopped parsley if desired."}
-      ]
+      {
+        "inst": "Season shrimp with salt and pepper, set aside."
+      },
+      {
+        "inst": "Cook pasta according to package instructions, drain and set aside."
+      },
+      {
+        "inst": "In a large pan, heat butter and olive oil over medium-high heat."
+      },
+      {
+        "inst": "Add minced garlic to the pan and sauté until fragrant, about 1-2 minutes."
+      },
+      {
+        "inst": "Add the seasoned shrimp to the pan and cook until they turn pink, about 2-3 minutes per side."
+      },
+      {
+        "inst": "Pour in lemon juice and let it simmer for a minute or two to let the flavors meld."
+      },
+      {
+        "inst": "Add the cooked pasta to the pan with the shrimp and sauce."
+      },
+      {
+        "inst": "Toss the pasta until it is evenly coated with the sauce."
+      },
+      {
+        "inst": "Serve hot, garnished with chopped parsley if desired."
+      }
+    ]
   },
   {
     "nameOfRecipe": "Beef Stroganoff",
     "ingredients": [
-      {"ingredient": "beef sirloin", "amount": "500g"},
-      {"ingredient": "onion", "amount": "1"},
-      {"ingredient": "mushrooms", "amount": "10"},
-      {"ingredient": "sour cream", "amount": "1 cup"},
-      {"ingredient": "beef broth", "amount": "1 cup"},
-      {"ingredient": "flour", "amount": "2 tbsp"},
-      {"ingredient": "butter", "amount": "3 tbsp"},
-      {"ingredient": "salt", "amount": "to taste"},
-      {"ingredient": "pepper", "amount": "to taste"}
+      {
+        "ingredient": "beef sirloin",
+        "amount": "500g"
+      },
+      {
+        "ingredient": "onion",
+        "amount": "1"
+      },
+      {
+        "ingredient": "mushrooms",
+        "amount": "10"
+      },
+      {
+        "ingredient": "sour cream",
+        "amount": "1 cup"
+      },
+      {
+        "ingredient": "beef broth",
+        "amount": "1 cup"
+      },
+      {
+        "ingredient": "flour",
+        "amount": "2 tbsp"
+      },
+      {
+        "ingredient": "butter",
+        "amount": "3 tbsp"
+      },
+      {
+        "ingredient": "salt",
+        "amount": "to taste"
+      },
+      {
+        "ingredient": "pepper",
+        "amount": "to taste"
+      }
     ],
     "instructions": [
-      {"inst": "Slice beef into thin strips and set aside."},
-      {"inst": "In a large pan, melt butter over medium-high heat and sauté onions until softened and lightly browned."},
-      {"inst": "Add the beef strips to the pan and cook until browned on all sides, stirring occasionally."},
-      {"inst": "Add sliced mushrooms to the pan and cook until they release their moisture and become tender."},
-      {"inst": "Sprinkle flour over the mixture and stir until the flour is fully absorbed."},
-      {"inst": "Slowly pour in beef broth while stirring constantly to avoid lumps."},
-      {"inst": "Bring the mixture to a simmer and let it cook for a few minutes, until the sauce thickens."},
-      {"inst": "Stir in sour cream until fully combined."},
-      {"inst": "Season the beef stroganoff with salt and pepper to taste."},
-      {"inst": "Serve hot over rice or noodles."}
+      {
+        "inst": "Slice beef into thin strips and set aside."
+      },
+      {
+        "inst": "In a large pan, melt butter over medium-high heat and sauté onions until softened and lightly browned."
+      },
+      {
+        "inst": "Add the beef strips to the pan and cook until browned on all sides, stirring occasionally."
+      },
+      {
+        "inst": "Add sliced mushrooms to the pan and cook until they release their moisture and become tender."
+      },
+      {
+        "inst": "Sprinkle flour over the mixture and stir until the flour is fully absorbed."
+      },
+      {
+        "inst": "Slowly pour in beef broth while stirring constantly to avoid lumps."
+      },
+      {
+        "inst": "Bring the mixture to a simmer and let it cook for a few minutes, until the sauce thickens."
+      },
+      {
+        "inst": "Stir in sour cream until fully combined."
+      },
+      {
+        "inst": "Season the beef stroganoff with salt and pepper to taste."
+      },
+      {
+        "inst": "Serve hot over rice or noodles."
+      }
     ]
   },
   {
     "nameOfRecipe": "Tomato Soup",
     "ingredients": [
-      {"ingredient": "tomatoes", "amount": "8"},
-      {"ingredient": "onion", "amount": "1"},
-      {"ingredient": "garlic", "amount": "3 cloves"},
-      {"ingredient": "vegetable broth", "amount": "4 cups"},
-      {"ingredient": "heavy cream", "amount": "1 cup"},
-      {"ingredient": "butter", "amount": "3 tbsp"},
-      {"ingredient": "salt", "amount": "to taste"},
-      {"ingredient": "pepper", "amount": "to taste"}
+      {
+        "ingredient": "tomatoes",
+        "amount": "8"
+      },
+      {
+        "ingredient": "onion",
+        "amount": "1"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": "3 cloves"
+      },
+      {
+        "ingredient": "vegetable broth",
+        "amount": "4 cups"
+      },
+      {
+        "ingredient": "heavy cream",
+        "amount": "1 cup"
+      },
+      {
+        "ingredient": "butter",
+        "amount": "3 tbsp"
+      },
+      {
+        "ingredient": "salt",
+        "amount": "to taste"
+      },
+      {
+        "ingredient": "pepper",
+        "amount": "to taste"
+      }
     ],
     "instructions": [
-      {"inst": "In a pot, melt butter over medium heat and sauté onions and garlic until fragrant and softened."},
-      {"inst": "Add canned tomatoes and vegetable broth to the pot."},
-      {"inst": "Bring the mixture to a simmer and let it cook for 30 minutes."},
-      {"inst": "Using an immersion blender, blend the soup until it is smooth and creamy."},
-      {"inst": "Pour the blended soup back into the pot."},
-      {"inst": "Add heavy cream to the pot and stir until fully combined."},
-      {"inst": "Season the soup with salt and pepper to taste."},
-      {"inst": "Serve hot with croutons on top."}
+      {
+        "inst": "In a pot, melt butter over medium heat and sauté onions and garlic until fragrant and softened."
+      },
+      {
+        "inst": "Add canned tomatoes and vegetable broth to the pot."
+      },
+      {
+        "inst": "Bring the mixture to a simmer and let it cook for 30 minutes."
+      },
+      {
+        "inst": "Using an immersion blender, blend the soup until it is smooth and creamy."
+      },
+      {
+        "inst": "Pour the blended soup back into the pot."
+      },
+      {
+        "inst": "Add heavy cream to the pot and stir until fully combined."
+      },
+      {
+        "inst": "Season the soup with salt and pepper to taste."
+      },
+      {
+        "inst": "Serve hot with croutons on top."
+      }
     ]
   },
   {
     "nameOfRecipe": "Pesto Pasta",
     "ingredients": [
-      {"ingredient": "spaghetti pasta", "amount": "400g"},
-      {"ingredient": "basil leaves", "amount": "2 cups"},
-      {"ingredient": "garlic", "amount": "3 cloves"},
-      {"ingredient": "parmesan cheese", "amount": "1/2 cup"},
-      {"ingredient": "pine nuts", "amount": "1/4 cup"},
-      {"ingredient": "olive oil", "amount": "1/2 cup"},
-      {"ingredient": "salt", "amount": "to taste"},
-      {"ingredient": "pepper", "amount": "to taste"}
+      {
+        "ingredient": "spaghetti pasta",
+        "amount": "400g"
+      },
+      {
+        "ingredient": "basil leaves",
+        "amount": "2 cups"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": "3 cloves"
+      },
+      {
+        "ingredient": "parmesan cheese",
+        "amount": "1/2 cup"
+      },
+      {
+        "ingredient": "pine nuts",
+        "amount": "1/4 cup"
+      },
+      {
+        "ingredient": "olive oil",
+        "amount": "1/2 cup"
+      },
+      {
+        "ingredient": "salt",
+        "amount": "to taste"
+      },
+      {
+        "ingredient": "pepper",
+        "amount": "to taste"
+      }
     ],
     "instructions": [
-      {"inst": "Cook the pasta according to the package instructions until al dente."},
-      {"inst": "In a blender or food processor, combine fresh basil leaves, minced garlic, grated parmesan cheese, pine nuts, salt, and pepper."},
-      {"inst": "With the blender running, slowly pour in olive oil until the mixture is smooth and well combined."},
-      {"inst": "Toss the cooked pasta with the pesto sauce until fully coated."},
-      {"inst": "Serve hot with extra parmesan cheese on top."}
-      ]
+      {
+        "inst": "Cook the pasta according to the package instructions until al dente."
+      },
+      {
+        "inst": "In a blender or food processor, combine fresh basil leaves, minced garlic, grated parmesan cheese, pine nuts, salt, and pepper."
+      },
+      {
+        "inst": "With the blender running, slowly pour in olive oil until the mixture is smooth and well combined."
+      },
+      {
+        "inst": "Toss the cooked pasta with the pesto sauce until fully coated."
+      },
+      {
+        "inst": "Serve hot with extra parmesan cheese on top."
+      }
+    ]
   },
   {
     "nameOfRecipe": "Mushroom Risotto",
     "ingredients": [
-      {"ingredient": "arborio rice", "amount": "1 cup"},
-      {"ingredient": "mushrooms", "amount": "10"},
-      {"ingredient": "onion", "amount": "1"},
-      {"ingredient": "garlic", "amount": "3 cloves"},
-      {"ingredient": "white wine", "amount": "1/2 cup"},
-      {"ingredient": "chicken broth", "amount": "4 cups"},
-      {"ingredient": "butter", "amount": "3 tbsp"},
-      {"ingredient": "olive oil", "amount": "3 tbsp"},
-      {"ingredient": "parmesan cheese", "amount": "1/2 cup"},
-      {"ingredient": "salt", "amount": "to taste"},
-      {"ingredient": "pepper", "amount": "to taste"}
+      {
+        "ingredient": "arborio rice",
+        "amount": "1 cup"
+      },
+      {
+        "ingredient": "mushrooms",
+        "amount": "10"
+      },
+      {
+        "ingredient": "onion",
+        "amount": "1"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": "3 cloves"
+      },
+      {
+        "ingredient": "white wine",
+        "amount": "1/2 cup"
+      },
+      {
+        "ingredient": "chicken broth",
+        "amount": "4 cups"
+      },
+      {
+        "ingredient": "butter",
+        "amount": "3 tbsp"
+      },
+      {
+        "ingredient": "olive oil",
+        "amount": "3 tbsp"
+      },
+      {
+        "ingredient": "parmesan cheese",
+        "amount": "1/2 cup"
+      },
+      {
+        "ingredient": "salt",
+        "amount": "to taste"
+      },
+      {
+        "ingredient": "pepper",
+        "amount": "to taste"
+      }
     ],
     "instructions": [
-      {"inst": "In a pot, heat olive oil over medium heat and sauté onions and garlic until fragrant and softened."},
-      {"inst": "Add sliced mushrooms and cook until tender and lightly browned."},
-      {"inst": "Stir in arborio rice and cook for 1-2 minutes, until the grains are coated with the oil."},
-      {"inst": "Pour in white wine and cook, stirring constantly, until the liquid has been absorbed."},
-      {"inst": "Gradually add chicken broth, one cup at a time, stirring occasionally and allowing each cup to be absorbed before adding the next."},
-      {"inst": "Continue cooking the risotto until the rice is tender and creamy, about 20-25 minutes in total."},
-      {"inst": "Stir in butter and grated parmesan cheese until fully melted and combined."},
-      {"inst": "Season with salt and pepper to taste."},
-      {"inst": "Serve hot."}
-      ]
+      {
+        "inst": "In a pot, heat olive oil over medium heat and sauté onions and garlic until fragrant and softened."
+      },
+      {
+        "inst": "Add sliced mushrooms and cook until tender and lightly browned."
+      },
+      {
+        "inst": "Stir in arborio rice and cook for 1-2 minutes, until the grains are coated with the oil."
+      },
+      {
+        "inst": "Pour in white wine and cook, stirring constantly, until the liquid has been absorbed."
+      },
+      {
+        "inst": "Gradually add chicken broth, one cup at a time, stirring occasionally and allowing each cup to be absorbed before adding the next."
+      },
+      {
+        "inst": "Continue cooking the risotto until the rice is tender and creamy, about 20-25 minutes in total."
+      },
+      {
+        "inst": "Stir in butter and grated parmesan cheese until fully melted and combined."
+      },
+      {
+        "inst": "Season with salt and pepper to taste."
+      },
+      {
+        "inst": "Serve hot."
+      }
+    ]
   },
   {
     "nameOfRecipe": "Beef and Broccoli Stir Fry",
     "ingredients": [
-      {"ingredient": "beef sirloin", "amount": "500g"},
-      {"ingredient": "broccoli", "amount": "1 head"},
-      {"ingredient": "garlic", "amount": "3 cloves"},
-      {"ingredient": "soy sauce", "amount": "3 tbsp"},
-      {"ingredient": "cornstarch", "amount": "1 tbsp"},
-      {"ingredient": "water", "amount": "1/2 cup"},
-      {"ingredient": "olive oil", "amount": "3 tbsp"},
-      {"ingredient": "salt", "amount": "to taste"},
-      {"ingredient": "pepper", "amount": "to taste"}
+      {
+        "ingredient": "beef sirloin",
+        "amount": "500g"
+      },
+      {
+        "ingredient": "broccoli",
+        "amount": "1 head"
+      },
+      {
+        "ingredient": "garlic",
+        "amount": "3 cloves"
+      },
+      {
+        "ingredient": "soy sauce",
+        "amount": "3 tbsp"
+      },
+      {
+        "ingredient": "cornstarch",
+        "amount": "1 tbsp"
+      },
+      {
+        "ingredient": "water",
+        "amount": "1/2 cup"
+      },
+      {
+        "ingredient": "olive oil",
+        "amount": "3 tbsp"
+      },
+      {
+        "ingredient": "salt",
+        "amount": "to taste"
+      },
+      {
+        "ingredient": "pepper",
+        "amount": "to taste"
+      }
     ],
     "instructions": [
-      {"inst": "Thinly slice the beef into strips."},
-      {"inst": "Cut the broccoli into small florets."},
-      {"inst": "In a small bowl, whisk together soy sauce, cornstarch, and water."},
-      {"inst": "Heat olive oil in a pan over medium heat, and add minced garlic. Cook until fragrant."},
-      {"inst": "Add the sliced beef to the pan and cook until browned."},
-      {"inst": "Add the broccoli florets to the pan and stir-fry for 3-5 minutes, until tender but still slightly crisp."},
-      {"inst": "Pour the sauce mixture over the beef and broccoli."},
-      {"inst": "Let the mixture simmer for 2-3 minutes, until the sauce thickens and coats the beef and broccoli."},
-      {"inst": "Season with salt and pepper to taste."},
-      {"inst": "Serve hot with rice."}
-      ]
+      {
+        "inst": "Thinly slice the beef into strips."
+      },
+      {
+        "inst": "Cut the broccoli into small florets."
+      },
+      {
+        "inst": "In a small bowl, whisk together soy sauce, cornstarch, and water."
+      },
+      {
+        "inst": "Heat olive oil in a pan over medium heat, and add minced garlic. Cook until fragrant."
+      },
+      {
+        "inst": "Add the sliced beef to the pan and cook until browned."
+      },
+      {
+        "inst": "Add the broccoli florets to the pan and stir-fry for 3-5 minutes, until tender but still slightly crisp."
+      },
+      {
+        "inst": "Pour the sauce mixture over the beef and broccoli."
+      },
+      {
+        "inst": "Let the mixture simmer for 2-3 minutes, until the sauce thickens and coats the beef and broccoli."
+      },
+      {
+        "inst": "Season with salt and pepper to taste."
+      },
+      {
+        "inst": "Serve hot with rice."
+      }
+    ]
   },
   {
     "nameOfRecipe": "Creamy Tomato Basil Soup",
     "ingredients": [
-    {"ingredient": "canned whole tomatoes", "amount": "28 oz"},
-    {"ingredient": "heavy cream", "amount": "1 cup"},
-    {"ingredient": "onion, chopped", "amount": "1"},
-    {"ingredient": "garlic cloves, minced", "amount": "3"},
-    {"ingredient": "butter", "amount": "2 tbsp"},
-    {"ingredient": "chicken or vegetable broth", "amount": "2 cups"},
-    {"ingredient": "fresh basil leaves, chopped", "amount": "1/4 cup"},
-    {"ingredient": "salt", "amount": "to taste"},
-    {"ingredient": "pepper", "amount": "to taste"}
+      {
+        "ingredient": "canned whole tomatoes",
+        "amount": "28 oz"
+      },
+      {
+        "ingredient": "heavy cream",
+        "amount": "1 cup"
+      },
+      {
+        "ingredient": "onion, chopped",
+        "amount": "1"
+      },
+      {
+        "ingredient": "garlic cloves, minced",
+        "amount": "3"
+      },
+      {
+        "ingredient": "butter",
+        "amount": "2 tbsp"
+      },
+      {
+        "ingredient": "chicken or vegetable broth",
+        "amount": "2 cups"
+      },
+      {
+        "ingredient": "fresh basil leaves, chopped",
+        "amount": "1/4 cup"
+      },
+      {
+        "ingredient": "salt",
+        "amount": "to taste"
+      },
+      {
+        "ingredient": "pepper",
+        "amount": "to taste"
+      }
     ],
     "instructions": [
-    {"inst": "Melt butter in a pot and sauté onions and garlic until tender."},
-    {"inst": "Add canned tomatoes and chicken broth."},
-    {"inst": "Bring to a simmer and cook for 20 minutes."},
-    {"inst": "Remove from heat and let cool for a few minutes."},
-    {"inst": "Using an immersion blender, blend the soup until smooth."},
-    {"inst": "Stir in heavy cream and basil."},
-    {"inst": "Season with salt and pepper to taste."},
-    {"inst": "Serve hot and enjoy!"}
+      {
+        "inst": "Melt butter in a pot and sauté onions and garlic until tender."
+      },
+      {
+        "inst": "Add canned tomatoes and chicken broth."
+      },
+      {
+        "inst": "Bring to a simmer and cook for 20 minutes."
+      },
+      {
+        "inst": "Remove from heat and let cool for a few minutes."
+      },
+      {
+        "inst": "Using an immersion blender, blend the soup until smooth."
+      },
+      {
+        "inst": "Stir in heavy cream and basil."
+      },
+      {
+        "inst": "Season with salt and pepper to taste."
+      },
+      {
+        "inst": "Serve hot and enjoy!"
+      }
     ]
   },
   {
     "nameOfRecipe": "Roasted Carrot and Beet Salad",
     "ingredients": [
-    {"ingredient": "carrots, peeled and sliced", "amount": "4"},
-    {"ingredient": "beets, peeled and sliced", "amount": "2"},
-    {"ingredient": "baby arugula leaves", "amount": "4 cups"},
-    {"ingredient": "goat cheese, crumbled", "amount": "1/2 cup"},
-    {"ingredient": "walnuts, chopped", "amount": "1/4 cup"},
-    {"ingredient": "olive oil", "amount": "2 tbsp"},
-    {"ingredient": "honey", "amount": "1 tbsp"},
-    {"ingredient": "lemon juice", "amount": "2 tbsp"},
-    {"ingredient": "salt", "amount": "to taste"},
-    {"ingredient": "pepper", "amount": "to taste"}
+      {
+        "ingredient": "carrots, peeled and sliced",
+        "amount": "4"
+      },
+      {
+        "ingredient": "beets, peeled and sliced",
+        "amount": "2"
+      },
+      {
+        "ingredient": "baby arugula leaves",
+        "amount": "4 cups"
+      },
+      {
+        "ingredient": "goat cheese, crumbled",
+        "amount": "1/2 cup"
+      },
+      {
+        "ingredient": "walnuts, chopped",
+        "amount": "1/4 cup"
+      },
+      {
+        "ingredient": "olive oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "ingredient": "honey",
+        "amount": "1 tbsp"
+      },
+      {
+        "ingredient": "lemon juice",
+        "amount": "2 tbsp"
+      },
+      {
+        "ingredient": "salt",
+        "amount": "to taste"
+      },
+      {
+        "ingredient": "pepper",
+        "amount": "to taste"
+      }
     ],
     "instructions": [
-    {"inst": "Preheat oven to 375°F."},
-    {"inst": "Toss carrots and beets with olive oil, salt and pepper."},
-    {"inst": "Spread in a single layer on a baking sheet."},
-    {"inst": "Roast in the oven for 25-30 minutes, or until tender and lightly browned."},
-    {"inst": "In a small bowl, whisk together honey and lemon juice to make the dressing."},
-    {"inst": "Arrange arugula leaves on a serving plate."},
-    {"inst": "Top with roasted carrots and beets."},
-    {"inst": "Sprinkle goat cheese and walnuts on top."},
-    {"inst": "Drizzle with the honey and lemon dressing"}
+      {
+        "inst": "Preheat oven to 375°F."
+      },
+      {
+        "inst": "Toss carrots and beets with olive oil, salt and pepper."
+      },
+      {
+        "inst": "Spread in a single layer on a baking sheet."
+      },
+      {
+        "inst": "Roast in the oven for 25-30 minutes, or until tender and lightly browned."
+      },
+      {
+        "inst": "In a small bowl, whisk together honey and lemon juice to make the dressing."
+      },
+      {
+        "inst": "Arrange arugula leaves on a serving plate."
+      },
+      {
+        "inst": "Top with roasted carrots and beets."
+      },
+      {
+        "inst": "Sprinkle goat cheese and walnuts on top."
+      },
+      {
+        "inst": "Drizzle with the honey and lemon dressing"
+      }
     ]
   },
   {
     "nameOfRecipe": "Crispy Baked Chicken Tenders",
     "ingredients": [
-    {"ingredient": "chicken breast tenderloins", "amount": "1 lb"},
-    {"ingredient": "panko breadcrumbs", "amount": "1 cup"},
-    {"ingredient": "parmesan cheese, grated", "amount": "1/4 cup"},
-    {"ingredient": "paprika", "amount": "1 tsp"},
-    {"ingredient": "garlic powder", "amount": "1 tsp"},
-    {"ingredient": "salt", "amount": "to taste"},
-    {"ingredient": "pepper", "amount": "to taste"},
-    {"ingredient": "egg", "amount": "1"},
-    {"ingredient": "olive oil", "amount": "2 tbsp"}
+      {
+        "ingredient": "chicken breast tenderloins",
+        "amount": "1 lb"
+      },
+      {
+        "ingredient": "panko breadcrumbs",
+        "amount": "1 cup"
+      },
+      {
+        "ingredient": "parmesan cheese, grated",
+        "amount": "1/4 cup"
+      },
+      {
+        "ingredient": "paprika",
+        "amount": "1 tsp"
+      },
+      {
+        "ingredient": "garlic powder",
+        "amount": "1 tsp"
+      },
+      {
+        "ingredient": "salt",
+        "amount": "to taste"
+      },
+      {
+        "ingredient": "pepper",
+        "amount": "to taste"
+      },
+      {
+        "ingredient": "egg",
+        "amount": "1"
+      },
+      {
+        "ingredient": "olive oil",
+        "amount": "2 tbsp"
+      }
     ],
     "instructions": [
-    {"inst": "Preheat oven to 400°F."},
-    {"inst": "Mix panko breadcrumbs, parmesan cheese, paprika, garlic powder, salt, and pepper in a shallow dish."},
-    {"inst": "Beat the egg in a separate shallow dish."},
-    {"inst": "Dip chicken tenderloins in the egg, then coat in the breadcrumb mixture."},
-    {"inst": "Arrange on a baking sheet and drizzle with olive oil."},
-    {"inst": "Bake in the oven for 15-20 minutes, or until crispy and golden brown."},
-    {"inst": "Serve hot with your favorite dipping sauce and enjoy!"}
+      {
+        "inst": "Preheat oven to 400°F."
+      },
+      {
+        "inst": "Mix panko breadcrumbs, parmesan cheese, paprika, garlic powder, salt, and pepper in a shallow dish."
+      },
+      {
+        "inst": "Beat the egg in a separate shallow dish."
+      },
+      {
+        "inst": "Dip chicken tenderloins in the egg, then coat in the breadcrumb mixture."
+      },
+      {
+        "inst": "Arrange on a baking sheet and drizzle with olive oil."
+      },
+      {
+        "inst": "Bake in the oven for 15-20 minutes, or until crispy and golden brown."
+      },
+      {
+        "inst": "Serve hot with your favorite dipping sauce and enjoy!"
+      }
     ]
-    },
-    {
+  },
+  {
     "nameOfRecipe": "Stuffed Bell Peppers",
     "ingredients": [
-    {"ingredient": "bell peppers, halved and seeded", "amount": "4"},
-    {"ingredient": "ground beef", "amount": "1 lb"},
-    {"ingredient": "cooked rice", "amount": "1 cup"},
-    {"ingredient": "onion, chopped", "amount": "1"},
-    {"ingredient": "garlic cloves, minced", "amount": "3"},
-    {"ingredient": "canned diced tomatoes", "amount": "14 oz"},
-    {"ingredient": "shredded cheddar cheese", "amount": "1 cup"},
-    {"ingredient": "salt", "amount": "to taste"},
-    {"ingredient": "pepper", "amount": "to taste"}
+      {
+        "ingredient": "bell peppers, halved and seeded",
+        "amount": "4"
+      },
+      {
+        "ingredient": "ground beef",
+        "amount": "1 lb"
+      },
+      {
+        "ingredient": "cooked rice",
+        "amount": "1 cup"
+      },
+      {
+        "ingredient": "onion, chopped",
+        "amount": "1"
+      },
+      {
+        "ingredient": "garlic cloves, minced",
+        "amount": "3"
+      },
+      {
+        "ingredient": "canned diced tomatoes",
+        "amount": "14 oz"
+      },
+      {
+        "ingredient": "shredded cheddar cheese",
+        "amount": "1 cup"
+      },
+      {
+        "ingredient": "salt",
+        "amount": "to taste"
+      },
+      {
+        "ingredient": "pepper",
+        "amount": "to taste"
+      }
     ],
     "instructions": [
-    {"inst": "Preheat oven to 375°F."},
-    {"inst": "In a skillet, cook ground beef until browned."},
-    {"inst": "Add onion and garlic and sauté for 5 minutes."},
-    {"inst": "Stir in canned diced tomatoes and cooked rice."},
-    {"inst": "Season with salt and pepper to taste."},
-    {"inst": "Fill each halved bell pepper with the beef and rice mixture."},
-    {"inst": "Top with shredded cheddar cheese."},
-    {"inst": "Bake in the oven for 25-30 minutes, or until the peppers are tender and the cheese is melted and bubbly."},
-    {"inst": "Serve hot and enjoy!"}
+      {
+        "inst": "Preheat oven to 375°F."
+      },
+      {
+        "inst": "In a skillet, cook ground beef until browned."
+      },
+      {
+        "inst": "Add onion and garlic and sauté for 5 minutes."
+      },
+      {
+        "inst": "Stir in canned diced tomatoes and cooked rice."
+      },
+      {
+        "inst": "Season with salt and pepper to taste."
+      },
+      {
+        "inst": "Fill each halved bell pepper with the beef and rice mixture."
+      },
+      {
+        "inst": "Top with shredded cheddar cheese."
+      },
+      {
+        "inst": "Bake in the oven for 25-30 minutes, or until the peppers are tender and the cheese is melted and bubbly."
+      },
+      {
+        "inst": "Serve hot and enjoy!"
+      }
     ]
-    }
+  },
+  {
+    "nameOfRecipe": "Spaghetti and Meatballs",
+    "totaltime": "70 min",
+    "serving": "6 pers.",
+    "food_class": "Dinner",
+    "URL": "https://www.simplyrecipes.com/recipes/spaghetti_and_meatballs/",
+    "ingredients": [
+      {
+        "ingredient": "extra virgin olive oil",
+        "amount": "2 tbls"
+      },
+      {
+        "ingredient": "sweet yellow onion, chopped",
+        "amount": "1/2"
+      },
+      {
+        "ingredient": "garlic, chopped",
+        "amount": "3 cloves"
+      },
+      {
+        "ingredient": "very finely chopped carrots",
+        "amount": "1 cup"
+      },
+      {
+        "ingredient": "chopped cremini brown mushrooms",
+        "amount": "1 cup"
+      },
+      {
+        "ingredient": "tomato paste",
+        "amount": "3 tbls"
+      },
+      {
+        "ingredient": "Italian plum tomatoes",
+        "amount": "2 (28-oz) cans"
+      },
+      {
+        "ingredient": "chopped fresh Italian parsley",
+        "amount": "1/4 cup"
+      },
+      {
+        "ingredient": "chopped fresh basil",
+        "amount": "1/4 cup"
+      },
+      {
+        "ingredient": "red wine",
+        "amount": "1/4 cup"
+      },
+      {
+        "ingredient": "grated Parmesan-Romano cheese blend",
+        "amount": "1/4 cup"
+      },
+      {
+        "ingredient": "Salt",
+        "amount": "to taste (about 1 teaspoon)"
+      },
+      {
+        "ingredient": "ground beef (at least 16% fat)",
+        "amount": "1 pound"
+      },
+      {
+        "ingredient": "fresh bulk Italian-style pork sausage",
+        "amount": "1/2 pound"
+      },
+      {
+        "ingredient": "finely chopped basil",
+        "amount": "2 tbls"
+      },
+      {
+        "ingredient": "finely chopped Italian parsley",
+        "amount": "2 tbls"
+      },
+      {
+        "ingredient": "finely chopped cremini brown mushrooms",
+        "amount": "1/2 cup"
+      },
+      {
+        "ingredient": "large eggs",
+        "amount": "2"
+      },
+      {
+        "ingredient": "unseasoned breadcrumbs",
+        "amount": "3/4 cup"
+      },
+      {
+        "ingredient": "grated Parmesan-Romano cheese blend",
+        "amount": "1/4 cup"
+      },
+      {
+        "ingredient": "sea salt",
+        "amount": "2 teaspoons"
+      },
+      {
+        "ingredient": "fresh ground black pepper",
+        "amount": "2 teaspoons"
+      },
+      {
+        "ingredient": "spaghetti",
+        "amount": "1 1/2 pounds dry 100% semolina spaghetti, thin spaghetti, or bucatini"
+      },
+      {
+        "ingredient": "Salt",
+        "amount": "for the pasta water"
+      },
+      {
+        "ingredient": "red wine",
+        "amount": "1 splash"
+      }
+    ],
+    "instructions": [
+      {
+        "inst": "Prepare the sauce:Heat the olive oil in a 4 to 5-quart pot on medium-high heat. Add the onions and cook for 2 minutes. Add the garlic and cook for 30 seconds longer or until fragrant."
+      },
+      {
+        "inst": "Add the carrots and mushrooms, and cook for 2 minutes. Add the tomato paste, stir to blend, and cook for a minute longer."
+      },
+      {
+        "inst": "Add the canned tomatoes, parsley, and basil. Mash and stir the tomatoes with a potato masher until the sauce starts to thicken, about 5 minutes over medium-high heat."
+      },
+      {
+        "inst": "Reduce the heat to low and simmer gently while preparing meatballs, stirring occasionally."
+      },
+      {
+        "inst": "Form the meatballs:In a large bowl, use your hands to mix the beef, Italian sausage, basil, parsley, mushrooms, eggs, breadcrumbs, cheese, salt, and pepper. Do not over-mix or the meatballs will be tough."
+      },
+      {
+        "inst": "Use a small melon baller, cookie scoop, or heaping teaspoon to form 1-inch round meatballs. Roll and compress into tight balls, but don't overwork the mixture."
+      },
+      {
+        "inst": "In a separate wide, shallow pan, heat the olive oil on medium-high heat. Brown the meatballs on all sides, about 2 to 3 minutes."
+      },
+      {
+        "inst": "Depending on pan size you may need to brown 2 batches of the meatballs. Cook them in a single layer; do not crowd the pan by stacking them."
+      },
+      {
+        "inst": "Do not overcook the meatballs; they will continue to cook in the sauce. You just want to brown them on all sides. Towards the end of browning the meatballs, add a little bit of red wine to deglaze the pan."
+      },
+      {
+        "inst": "Finish and simmer the sauce: Add the red wine to the sauce and stir in the cheese. Add salt to taste. Add the browned meatballs and gently stir. Simmer the sauce and meatballs for 30 to 45 minutes, stirring occasionally."
+      },
+      {
+        "inst": "Red Wine and Parmesan Added to Pot of Sauce for Spaghetti and Meatballs Recipe"
+      },
+      {
+        "inst": "Meatballs Added to Pot of Sauce"
+      },
+      {
+        "inst": "Meatballs Stirred into Pot of Sauce With a Wooden Spoon"
+      },
+      {
+        "inst": "Cook the spaghetti: While the sauce is simmering, bring a large pot with 4 quarts of salted water to a boil (1 tablespoon of salt for every 2 quarts of water). When the water returns to a boil add the pasta to the pot."
+      },
+      {
+        "inst": "Leave the pot uncovered while you cook the pasta on high heat with a vigorous boil. Put a timer on for 8 to 10 minutes, or according to package directions for al dente pasta (cooked but still a little firm). Drain."
+      },
+      {
+        "inst": "Cooked Spaghetti in a Colander for Spaghetti and Meatballs"
+      },
+      {
+        "inst": "Serve: To serve, place a thin layer of sauce on each plate, add the pasta, add sauce and meatballs, and then sprinkle with grated Parmesan-Romano cheese."
+      }
+    ]
+  },
+  {
+    "nameOfRecipe": "Kai Jeow (Thai Omelet)",
+    "food_class": "Lunch",
+    "totaltime": "10 min",
+    "serving": "1 serving",
+    "URL": "https://www.simplyrecipes.com/kai-jeow-thai-omelet-recipe-6831375",
+    "ingredients": [
+      {
+        "ingredient": "Large eggs",
+        "amount": "3"
+      },
+      {
+        "ingredient": "Fish sauce",
+        "amount": "2 teaspoons"
+      },
+      {
+        "ingredient": "Brown sugar",
+        "amount": "1/4 teaspoon"
+      },
+      {
+        "ingredient": "Scallion, minced",
+        "amount": "1"
+      },
+      {
+        "ingredient": "Thai chili, minced",
+        "amount": "1/2 (optional, can add more if desired)"
+      },
+      {
+        "ingredient": "Black pepper",
+        "amount": "1/4 teaspoon"
+      },
+      {
+        "ingredient": "Vegetable oil",
+        "amount": "2 to 3 tbls"
+      },
+      {
+        "ingredient": "Cooked jasmine rice",
+        "amount": "1 cup"
+      },
+      {
+        "ingredient": "Cucumber, sliced",
+        "amount": "4 slices"
+      },
+      {
+        "ingredient": "Romaine lettuce, sliced",
+        "amount": "Slices"
+      },
+      {
+        "ingredient": "Sriracha",
+        "amount": "(optional)"
+      }
+    ],
+    "instructions": [
+      {
+        "inst": "In a medium bowl, whisk together the eggs, fish sauce, brown sugar, scallion, Thai chili (if using) and black pepper until well combined and no egg whites are visible."
+      },
+      {
+        "inst": "Heat the vegetable oil in a small nonstick skillet over medium-high heat until the oil is hot and smoking lightly."
+      },
+      {
+        "inst": "Hold the bowl of egg mixture 12 inches above the skillet and pour it into the skillet. The egg will immediately start to fry and become puffy. Cook until lightly browned on the bottom."
+      },
+      {
+        "inst": "While you wait, use a small spatula or chopsticks to push the edges of the omelet inward and tilt the pan to encourage the raw eggs in the center to come in contact with the pan. Cook the first side for approximately 3 minutes."
+      },
+      {
+        "inst": "Once the omelet is firm, flip the omelet by either flicking your wrist to flip the omelet like a pancake or use a large spatula. Allow it to cook until the other side is browned, approximately 15 seconds."
+      },
+      {
+        "inst": "Serve immediately with cooked rice, cucumber slices, romaine lettuce, and sriracha (if using). You can create a lettuce wrap with the romaine lettuce if you’d like. In the wrap, you can add cucumber, omelet, and rice."
+      }
+    ]
+  },
+  {
+    "nameOfRecipe": "Skillet Eggplant Parmesan",
+    "food_class": "Dinner",
+    "totaltime": "75 mins",
+    "serving": "4 servings",
+    "URL": "https://www.simplyrecipes.com/skillet-eggplant-parmesan-recipe-7254594",
+    "ingredients": [
+      {
+        "ingredient": "globe eggplant, cut into 1/2-inch rounds",
+        "amount": "1 medium (1 lbs) "
+      },
+      {
+        "ingredient": "all-purpose flour",
+        "amount": "1/4 cup"
+      },
+      {
+        "ingredient": "kosher salt",
+        "amount": "1/2 teaspoon "
+      },
+      {
+        "ingredient": "black pepper",
+        "amount": "1/4 teaspoon "
+      },
+      {
+        "ingredient": "garlic powder",
+        "amount": "1/4 teaspoon "
+      },
+      {
+        "ingredient": "lightly beaten",
+        "amount": "2 large eggs"
+      },
+      {
+        "ingredient": "whole milk",
+        "amount": "2 tbls"
+      },
+      {
+        "ingredient": "Italian-style breadcrumbs",
+        "amount": "1 cup "
+      },
+      {
+        "ingredient": "dried oregano",
+        "amount": "1 teaspoon"
+      },
+      {
+        "ingredient": "dried thyme",
+        "amount": "1 teaspoon"
+      },
+      {
+        "ingredient": "garlic powder",
+        "amount": "1 teaspoon"
+      },
+      {
+        "ingredient": "olive oil, plus more as needed",
+        "amount": "3 tbls"
+      },
+      {
+        "ingredient": "olive oil",
+        "amount": "3 tbls"
+      },
+      {
+        "ingredient": "finely diced",
+        "amount": "1 medium yellow onion"
+      },
+      {
+        "ingredient": "garlic, minced",
+        "amount": "3 cloves"
+      },
+      {
+        "ingredient": "can of diced tomatoes",
+        "amount": "1 (28-oz)"
+      },
+      {
+        "ingredient": "granulated sugar",
+        "amount": "1 teaspoon"
+      },
+      {
+        "ingredient": "red chili flakes",
+        "amount": "1/4 teaspoon"
+      },
+      {
+        "ingredient": "kosher salt, plus more to taste",
+        "amount": "1/4 teaspoon"
+      },
+      {
+        "ingredient": "shredded mozzarella cheese",
+        "amount": "1 cup"
+      },
+      {
+        "ingredient": "grated Parmesan cheese",
+        "amount": "1/4 cup"
+      },
+      {
+        "ingredient": "black pepper",
+        "amount": "1/2 teaspoon"
+      },
+      {
+        "ingredient": "chopped fresh basil leaves",
+        "amount": "1/4 cup"
+      }
+    ],
+    "instructions": [
+      {
+        "inst": "Preheat the oven to 350°F."
+      },
+      {
+        "inst": "If you have time, salt both sides of the eggplant with 1 tablespoon of kosher salt and let sit for 20 minutes. Rinse the eggplant briefly under cold water, then pat dry with a paper towel. If you’re short on time, you can skip salting and resting the eggplant."
+      },
+      {
+        "inst": "To a shallow bowl, add the flour, salt, pepper, and garlic powder. To a second shallow bowl, add the eggs and milk, whisking to combine. To a third bowl, add the breadcrumbs, oregano, thyme, and garlic powder."
+      },
+      {
+        "inst": "Dip a slice of eggplant into the flour mix, coating both sides. Dip the dredged eggplant into the egg mixture to coat, then into the breadcrumb mixture, pressing the crumbs to coat. Set aside on a plate while you bread all the eggplant slices."
+      },
+      {
+        "inst": "Add 3 tbls of olive oil over medium heat to a deep, 9 or 10-inch cast-iron skillet. Once hot but not smoking, add the eggplant 3 to 4 pieces at a time, careful not to overcrowd the pan. Cook until golden, 3 to 4 minutes per side. Once cooked, set aside on the plate. Repeat with the remaining eggplant—you will likely have 2 batches. If needed, add more oil to the pan between batches."
+      },
+      {
+        "inst": "Turn off the heat and carefully use a paper towel to wipe out the pan (I like to grip a paper towel with tongs and wipe to avoid burning myself)."
+      },
+      {
+        "inst": "Add 3 tbls of olive oil to the skillet over medium heat. Add the chopped onion and garlic and cook until the onions have softened slightly, 5 to 6 minutes. Add the tomatoes, sugar, chili flakes, and salt."
+      },
+      {
+        "inst": "Increase the heat to high, bring to a boil, and reduce to low heat and simmer until slightly thickened 10 to 12 minutes."
+      },
+      {
+        "inst": "Taste and season with additional salt, if needed."
+      },
+      {
+        "inst": "Arrange the eggplant and add the cheese:"
+      },
+      {
+        "inst": "Return the cooked eggplant to the skillet, overlapping slightly in a circular pattern and nestling it into the sauce."
+      },
+      {
+        "inst": "Top the eggplant with the mozzarella, Parmesan cheese, and black pepper."
+      },
+      {
+        "inst": "Place the skillet in the preheated oven and bake until the cheese has melted and everything is warmed through, about 10 minutes."
+      },
+      {
+        "inst": "Top with fresh basil and serve."
+      },
+      {
+        "inst": "Store leftovers in an airtight container in the fridge for up to 5 days. Reheat in the microwave, or transfer to an oven-safe dish and reheat at 350°F until warmed through."
+      }
+    ]
+  },
+  {
+    "nameOfRecipe": "Creamy One Pot Pasta with Zucchini",
+    "food_class": "Dinner",
+    "totaltime": "30 mins",
+    "serving": "6 to 8 servings",
+    "URL": "https://www.simplyrecipes.com/creamy-one-pot-pasta-with-zucchini-recipe-5498699",
+    "ingredients": [
+      {
+        "ingredient": "olive oil",
+        "amount": "1/4 cup"
+      },
+      {
+        "ingredient": "zucchini, coarsely grated",
+        "amount": "4 large or 5 medium (2 pounds)"
+      },
+      {
+        "ingredient": "kosher salt, divided, plus more to taste",
+        "amount": "2 1/2 teaspoons"
+      },
+      {
+        "ingredient": "freshly ground black pepper, plus more to taste",
+        "amount": "1/2 teaspoon"
+      },
+      {
+        "ingredient": "water",
+        "amount": "3 1/4 cups"
+      },
+      {
+        "ingredient": "dry rigatoni or penne pasta",
+        "amount": "1 pound"
+      },
+      {
+        "ingredient": "cream cheese, softened",
+        "amount": "6 oz"
+      },
+      {
+        "ingredient": "lemon, zested and juiced",
+        "amount": "1"
+      },
+      {
+        "ingredient": "toasted walnuts",
+        "amount": "1/4 cup chopped"
+      }
+    ],
+    "instructions": [
+      {
+        "inst": "Heat the oil in a large heavy-bottomed pot or Dutch oven over medium-high heat. Add the zucchini and season with 1 teaspoon salt and 1/2 teaspoon black pepper. Cook the zucchini, stirring occasionally, until it expels liquid, the liquid cooks off, and the zucchini caramelizes into a jam-like, spreadable consistency, 10 to 12 minutes."
+      },
+      {
+        "inst": "If you start to notice any browning at the bottom of your pot, reduce the heat to medium. Once jammy, transfer the zucchini into a medium bowl and set it aside."
+      },
+      {
+        "inst": "In the same pot (don’t worry about wiping off any browned bits or pieces of zucchini that might be left in the pot), add 3 1/4 cups water and bring it to a boil over high heat. Season the water with the remaining 1 1/2 teaspoons salt."
+      },
+      {
+        "inst": "Once water is boiling, add the pasta and cream cheese, and reduce the heat to medium-high. Break up the cream cheese with the back of a wooden spoon to disperse throughout. It’s okay if the pasta isn’t completely submerged in liquid. Cook, stirring frequently until the pasta is al dente and liquid is reduced and creamy, 11 to 13 minutes. If all the moisture cooks off and the pasta is still undercooked, add a splash of water."
+      },
+      {
+        "inst": "Add the cooked zucchini, lemon zest, and lemon juice and cook until warmed through, 2 minutes. Add a splash of water to create a thin, glossy sauce, if needed. Season to taste with salt and pepper, if needed. Divide between bowls and top with toasted walnuts. Serve."
+      },
+      {
+        "inst": "Though it’s best enjoyed immediately, you can always refrigerate leftovers in an airtight container for up to 3 days and reheat it in the microwave or in a saucepan with a splash of water."
+      }
+    ]
+  },
+  {
+    "nameOfRecipe": "Adobo Chicken Meatballs",
+    "food_class": "Dinner",
+    "totaltime": "40 mins",
+    "serving": "4 servings",
+    "URL": "https://www.simplyrecipes.com/adobo-chicken-meatballs-recipe-7097608",
+    "ingredients": [
+      {
+        "ingredient": "ground chicken (90% lean or leaner)",
+        "amount": "1 pound"
+      },
+      {
+        "ingredient": "egg",
+        "amount": "1"
+      },
+      {
+        "ingredient": "panko breadcrumbs",
+        "amount": "1/2 cup"
+      },
+      {
+        "ingredient": "onion powder",
+        "amount": "1 teaspoon"
+      },
+      {
+        "ingredient": "garlic powder",
+        "amount": "1/2 teaspoon"
+      },
+      {
+        "ingredient": "kosher salt",
+        "amount": "1/2 teaspoon"
+      },
+      {
+        "ingredient": "ground black pepper",
+        "amount": "1/4 teaspoon"
+      },
+      {
+        "ingredient": "chicken broth",
+        "amount": "1/2 cup"
+      },
+      {
+        "ingredient": "coconut milk",
+        "amount": "1/2 cup"
+      },
+      {
+        "ingredient": "soy sauce",
+        "amount": "1/4 cup"
+      },
+      {
+        "ingredient": "distilled white vinegar",
+        "amount": "2 1/2 tbls"
+      },
+      {
+        "ingredient": "brown sugar",
+        "amount": "2 teaspoons"
+      },
+      {
+        "ingredient": "ground black pepper",
+        "amount": "1/4 teaspoon"
+      },
+      {
+        "ingredient": "vegetable oil",
+        "amount": "2 tbls"
+      },
+      {
+        "ingredient": "garlic, thinly sliced",
+        "amount": "4 cloves"
+      },
+      {
+        "ingredient": "medium yellow onion, sliced",
+        "amount": "1"
+      },
+      {
+        "ingredient": "large carrots, sliced into 1/4-inch thick rounds",
+        "amount": "4"
+      },
+      {
+        "ingredient": "bay leaf",
+        "amount": "1"
+      },
+      {
+        "ingredient": "green onion, sliced, for serving",
+        "amount": "1"
+      }
+    ],
+    "instructions": [
+      {
+        "inst": "Make the meatball mixture: In a medium bowl, stir together the ground chicken, egg, breadcrumbs, onion powder, garlic powder, salt, and pepper until evenly mixed."
+      },
+      {
+        "inst": "Make the adobo sauce mixture: In a 2-cup liquid measuring cup, mix together the broth, coconut milk, soy sauce, vinegar, sugar, and pepper."
+      },
+      {
+        "inst": "Cook the meatballs: Place a large braising pan or high-sided skillet with a lid over medium heat and add the oil. When the oil is shimmering, use a small (1 1/2 tablespoon) cookie scoop or a spoon and your hands, shape the mixture into meatballs and gently drop them into the skillet as you go. Brown the meatballs for about 2 minutes on their first side, until golden brown. Use a spatula to gently turn them and brown them on another side, for 2 minutes more. Sauté them for one more minute, so all the sides have a little color or are at least opaque."
+      },
+      {
+        "inst": "Add the remaining ingredients and simmer: Scoot the meatballs to one side of the pan, and add the garlic cloves to the other side of the pan. Sauté for 1 minute, making sure they all come into contact with the oil and get a bit browned. Spread out the meatballs and add the onion, carrots, and bay leaf, using a spatula to poke them down around the meatballs. Pour the adobo sauce mixture over the meatballs and vegetables. When the mixture comes up to a simmer, cover the pan and turn the heat to medium-low. Let simmer for 15 minutes."
+      },
+      {
+        "inst": "Remove the lid, turn the heat up to medium-high, stir, and let simmer for another 5 to 7 minutes, stirring occasionally, until the sauce is reduced, thickened, and glossy. Sprinkle green onions on top. Serve with rice or cauliflower rice. Store any leftovers in a tightly lidded container in the refrigerator. To reheat, microwave each serving until piping hot, about 1 1/2 minutes. Store any leftovers in a tightly lidded container in the refrigerator. To reheat, microwave each serving until piping hot, about 1 1/2 minutes."
+      }
+    ]
+  },
+  {
+    "nameOfRecipe": "Burger on the Stove",
+    "food_class": "Dinner",
+    "totaltime": "15 mins",
+    "serving": "3 servings",
+    "URL": "https://www.simplyrecipes.com/how-to-make-a-burger-on-the-stove-6890850",
+    "ingredients": [
+      {
+        "ingredient": "kosher salt",
+        "amount": "1 tablespoon"
+      },
+      {
+        "ingredient": "black pepper",
+        "amount": "1 tablespoon"
+      },
+      {
+        "ingredient": "garlic powder",
+        "amount": "1 teaspoon"
+      },
+      {
+        "ingredient": "mayonnaise",
+        "amount": "1/4 cup"
+      },
+      {
+        "ingredient": "Dijon mustard",
+        "amount": "1 tablespoon"
+      },
+      {
+        "ingredient": "ketchup",
+        "amount": "1 tablespoon"
+      },
+      {
+        "ingredient": "ground chuck (90:10)",
+        "amount": "1 pound"
+      },
+      {
+        "ingredient": "potato or brioche buns",
+        "amount": "3"
+      },
+      {
+        "ingredient": "American cheese",
+        "amount": "6 slices"
+      },
+      {
+        "ingredient": "Nonstick spray",
+        "amount": "as needed"
+      },
+      {
+        "ingredient": "Green lettuce leaves",
+        "amount": "as needed"
+      },
+      {
+        "ingredient": "Thinly sliced red onion",
+        "amount": "as needed"
+      },
+      {
+        "ingredient": "Thinly sliced fresh tomato",
+        "amount": "as needed"
+      }
+    ],
+    "instructions": [
+      {
+        "inst": "Prepare the optional burger seasoning mix: Before you start cooking, prepare the seasoning mix. In a small bowl, mix together the salt, pepper, and garlic powder. Set aside."
+      },
+      {
+        "inst": "Make the sauce: In another small bowl, mix the mayonnaise, mustard, and ketchup together until smooth. Set aside."
+      },
+      {
+        "inst": "Form the burgers: Preheat a large sturdy skillet (cast iron is best) over medium heat. Loosely divide the ground beef into three 1/3-pound patties. Shape into discs about 1/2 inch thick and put a divot in the center of each patty to prevent swelling in the center. Season the patties with 1/2 teaspoon of seasoning mix per side of the patty, if using."
+      },
+      {
+        "inst": "Cook the burgers: Turn on the fan over the stove and open a window to help with air flow. Spray your skillet with a little non-stick spray and place burgers in the skillet. Press down on each patty with a spatula for 10 seconds. This is to encourage browning. Cook the burgers over medium heat for 4 minutes. Don’t touch them too much so you get a nice crust on the first side. Use a sturdy metal spatula to flip the burgers, being sure to scrape up any caramelization with the burger."
+      },
+      {
+        "inst": "Flip the burgers: After you flip the burgers, add the cheese, if using, and continue to cook for 3 minutes until the burger is cooked to desired doneness, usually medium. If you are only cooking one burger, you can toast your buns in the same skillet as your patty, or you can toast them separately if you are cooking multiple burgers at once. If you want the cheese to be very melted, cover the burgers with a lid for the last minute of cooking."
+      },
+      {
+        "inst": "Build the burgers and serve: Build your burgers by spreading some burger sauce on each bun. Put the burgers on the bottom bun and top with the lettuce, onions, tomatoes, and the top bun. Serve immediately with a cold drink."
+      }
+    ]
+  },
+  {
+    "nameOfRecipe": "Antipasto Salad",
+    "food_class": "Lunch",
+    "totaltime": "30 mins",
+    "serving": "4 to 8 servings",
+    "URL": "https://www.simplyrecipes.com/antipasto-salad-recipe-7254795",
+    "ingredients": [
+      {
+        "ingredient": "baguette or Italian bread torn into craggy, bite-size pieces",
+        "amount": "2 heaping cups"
+      },
+      {
+        "ingredient": "extra-virgin olive oil",
+        "amount": "1 tablespoon"
+      },
+      {
+        "ingredient": "kosher salt",
+        "amount": "Big pinch"
+      },
+      {
+        "ingredient": "chopped hearts of Romaine lettuce (about 2 large hearts)",
+        "amount": "8 packed cups"
+      },
+      {
+        "ingredient": "cherry tomatoes, halved (1 heaping cup)",
+        "amount": "7 oz"
+      },
+      {
+        "ingredient": "marinated artichokes hearts, drained well and quartered (1 heaping cup)",
+        "amount": "5 oz"
+      },
+      {
+        "ingredient": "chickpeas, rinsed and drained well",
+        "amount": "1 (15-oz) can"
+      },
+      {
+        "ingredient": "mini mozzarella balls (pearls)",
+        "amount": "5 oz (3/4 cup)"
+      },
+      {
+        "ingredient": "quartered Italian sweet cherry peppers",
+        "amount": "1/2 cup"
+      },
+      {
+        "ingredient": "thinly sliced pepperoncini",
+        "amount": "1/2 cup"
+      },
+      {
+        "ingredient": "hard salami, cut into 1/3-inch cubes (heaping 1/2 cup)",
+        "amount": "3 1/2 oz"
+      },
+      {
+        "ingredient": "pitted green olives (halved if large)",
+        "amount": "2/3 cup"
+      },
+      {
+        "ingredient": "freshly grated Parmesan cheese",
+        "amount": "1/4 cup"
+      },
+      {
+        "ingredient": "anchovies packed in oil",
+        "amount": "3"
+      },
+      {
+        "ingredient": "olive oil",
+        "amount": "1/2 cup"
+      },
+      {
+        "ingredient": "red wine vinegar",
+        "amount": "1/4 cup"
+      },
+      {
+        "ingredient": "Dijon mustard",
+        "amount": "1 teaspoon"
+      },
+      {
+        "ingredient": "dried oregano",
+        "amount": "1 teaspoon"
+      },
+      {
+        "ingredient": "garlic powder",
+        "amount": "1 teaspoon"
+      },
+      {
+        "ingredient": "kosher salt, plus more to taste",
+        "amount": "1/2 teaspoon"
+      }
+    ],
+    "instructions": [
+      {
+        "inst": "Preheat the oven to 400°F."
+      },
+      {
+        "inst": "Make the croutons:"
+      },
+      {
+        "inst": "Pile the bread in the center of a large rimmed baking sheet. Drizzle with the oil, sprinkle with salt, and toss to coat."
+      },
+      {
+        "inst": "Spread the bread out and bake just until beginning to brown, about 5 minutes. Remove from oven and set aside."
+      },
+      {
+        "inst": "Assemble the salad:"
+      },
+      {
+        "inst": "Put the lettuce into a large salad bowl. Arrange the tomatoes, artichoke hearts, chickpeas, mozzarella balls, sweet cherry peppers, pepperoncini, salami, and olives in piles in a pinwheel on top of the greens."
+      },
+      {
+        "inst": "Make the dressing:"
+      },
+      {
+        "inst": "Place the anchovies on a cutting board and use the back side of a fork to smash them into a purée. Scoop into a glass jar with a lid along with the olive oil, vinegar, Dijon, oregano, garlic powder, and salt."
+      },
+      {
+        "inst": "Screw on the lid and shake vigorously to blend."
+      },
+      {
+        "inst": "Dress the salad:"
+      },
+      {
+        "inst": "Add the croutons to the salad. Drizzle about half the dressing over the top and toss well. Taste and add more dressing as needed. Taste again and add salt, if desired. Divide the salad onto plates or bowls. Shower each serving with finely grated Parmesan cheese. "
+      },
+      {
+        "inst": "Store leftovers in a covered container in the fridge. Undressed salad will keep for up to 3 days. Once dressed, it will hold up reasonably well overnight. "
+      }
+    ]
+  },
+  {
+    "nameOfRecipe": "Tortilla Española (Spanish Tortilla)",
+    "food_class": "Lunch",
+    "totaltime": "30 mins",
+    "serving": "2 to 4 servings",
+    "URL": "https://www.simplyrecipes.com/recipes/spanish_tortilla/",
+    "ingredients": [
+      {
+        "ingredient": "beaten eggs",
+        "amount": "6"
+      },
+      {
+        "ingredient": "Yukon Gold potatoes",
+        "amount": "2"
+      },
+      {
+        "ingredient": "chopped up to the light green parts green onions",
+        "amount": "2 to 3"
+      },
+      {
+        "ingredient": "extra virgin olive oil",
+        "amount": "1/4 cup"
+      },
+      {
+        "ingredient": "Salt",
+        "amount": "to taste"
+      }
+    ],
+    "instructions": [
+      {
+        "inst": "Slice the potatoes: Slice the potatoes (peeled or unpeeled) into disks between 1/4 and 1/8 inch wide. (It helps to use a mandoline for this purpose.)"
+      },
+      {
+        "inst": "Fry the potato slices in batches: Pour the olive oil into a cast-iron or hard anodized aluminum pan (a pan that will be able to take the heat of a broiler in the oven) and heat it over medium-high heat. When it is hot enough to sizzle the potatoes as soon as they hit the oil—test this with an end piece—start frying them in one layer."
+      },
+      {
+        "inst": "Working in batches, fry until they are lightly browned, not crispy. When they are done, let the potatoes dry on a paper towel and salt them well. Keep frying until they are all cooked."
+      },
+      {
+        "inst": "Sauté the onions, arrange the fried potato slices on top: When the potatoes are all done, pour off all but a tablespoon of the oil and sauté the onions. When the onions are just starting to crisp, turn off the heat. Arrange the onions so they are evenly covering the bottom of the pan. Arrange the potatoes on top of the onions in a scalloped pattern."
+      },
+      {
+        "inst": "Add the beaten eggs: Return the heat to medium and add the beaten eggs. Add a generous pinch of salt. Shake the pan so the eggs coat everything in the pan."
+      },
+      {
+        "inst": "Let this cook until you see the edges of the tortilla begin to set, then put the pan under the broiler."
+      },
+      {
+        "inst": "Broil to brown the top: Cook it under the broiler for 5 minutes, or until the top browns. (If you prefer to finish the tortilla on the stovetop instead of the broiler, slide the tortilla out of the pan onto a plate. Then invert the pan over the plate, and flip the whole thing, pan and plate so that the tortilla falls back into the pan, less-cooked side down.)"
+      },
+      {
+        "inst": "Remove the pan and set it to cool for at least 5 minutes. (Be careful, the handle is hot! Drape with a potholder.)"
+      },
+      {
+        "inst": "Cut into wedges and serve: It’s also good at room temperature, and will keep a couple days in the fridge."
+      }
+    ]
+  },
+  {
+    "nameOfRecipe": "BLT Wraps",
+    "food_class": "Lunch",
+    "totaltime": "30 mins",
+    "serving": "6 servings",
+    "URL": "simplyrecipes.com/blt-wraps-recipe-5524667",
+    "ingredients": [
+      {
+        "ingredient": "bacon",
+        "amount": "1 pound"
+      },
+      {
+        "ingredient": "head butter lettuce, leaves roughly chopped",
+        "amount": "1"
+      },
+      {
+        "ingredient": " mall ripe tomatoes, sliced",
+        "amount": "3"
+      },
+      {
+        "ingredient": "large burrito-size tortilla wraps",
+        "amount": "6"
+      },
+      {
+        "ingredient": "mayo",
+        "amount": "1/2 cup"
+      },
+      {
+        "ingredient": "thinly sliced fresh chives",
+        "amount": "2 tbls"
+      },
+      {
+        "ingredient": "lemon juice",
+        "amount": "1 tablespoon"
+      },
+      {
+        "ingredient": "garlic powder",
+        "amount": "1/2 teaspoon"
+      },
+      {
+        "ingredient": "kosher salt",
+        "amount": "1/8 teaspoon"
+      }
+    ],
+    "instructions": [
+      {
+        "inst": "Preheat oven to 375˚F."
+      },
+      {
+        "inst": "Cook the bacon: Arrange the bacon on a few baking sheets with foil or elevate them on a wire rack, making sure the bacon is not overlapping."
+      },
+      {
+        "inst": "Bake the bacon for 15-20 minutes until it’s browned and crispy. Then remove the bacon from the baking sheet and let it drain on a few paper towels."
+      },
+      {
+        "inst": "Make the chive mayo: In a medium bowl combine the mayo, chives, lemon juice, garlic powder, and salt. Set aside."
+      },
+      {
+        "inst": "Assemble the wraps: Spread about 2 tbls of the chive mayo onto your wrap. Then layer with butter lettuce, tomato slices, followed by 3-4 strips of crispy bacon. Fold the edges over on the wrap and roll it into a tight cylinder. Cut the wrap in half for easier eating. Continue until all wraps are assembled."
+      },
+      {
+        "inst": "Packing the wrap for lunch: Roll the wrap tightly in foil and keep it in the fridge until you leave. I like to pack the wraps in a bag with a cold pack, but they are fine wrapped up for a few hours also. I think the wrap is best when the lettuce is nice and crispy and cold."
+      },
+      {
+        "inst": "Wrap ingredients all keep well in the fridge for 1 week. Make wraps on the day you are eating them!"
+      }
+    ]
+  },
+  {
+    "nameOfRecipe": "Sesame Peanut Noodles",
+    "food_class": "Lunch",
+    "totaltime": "20 mins",
+    "serving": "4 servings",
+    "URL": "https://www.simplyrecipes.com/quick-and-easy-sesame-peanut-noodles-5498716",
+    "ingredients": [
+      {
+        "ingredient": "dry soba, rice, or egg noodles",
+        "amount": "8 oz"
+      },
+      {
+        "ingredient": "toasted sesame oil, divided",
+        "amount": "2 tbls"
+      },
+      {
+        "ingredient": "natural peanut butter",
+        "amount": "3 tbls"
+      },
+      {
+        "ingredient": "soy sauce",
+        "amount": "1/4 cup"
+      },
+      {
+        "ingredient": "honey",
+        "amount": "1 1/2 tbls"
+      },
+      {
+        "ingredient": "rice vinegar",
+        "amount": "1 1/2 tbls"
+      },
+      {
+        "ingredient": "clove garlic, grated",
+        "amount": "1"
+      },
+      {
+        "ingredient": "toasted sesame seeds, for garnish (optional)",
+        "amount": "1 tablespoon"
+      },
+      {
+        "ingredient": "green onion, sliced, for garnish (optional)",
+        "amount": "1"
+      }
+    ],
+    "instructions": [
+      {
+        "inst": "Cook the noodles: Bring a large pot of water to a boil over high heat. Add the noodles and cook following package instructions. Drain into a colander set in the sink, then rinse with cold running water until cool to the touch. Drain well."
+      },
+      {
+        "inst": "Transfer into a medium bowl and toss them with 1 tablespoon sesame oil so that they don’t stick to each other. Cover with plastic wrap and place them in the fridge to keep cool while you prepare the sauce."
+      },
+      {
+        "inst": "Prepare the sauce: In a small bowl, add the remaining 1 tablespoon sesame oil, peanut butter, soy sauce, honey, rice vinegar, and garlic. Whisk with a fork until combined and smooth."
+      },
+      {
+        "inst": "Assemble the noodles: Scrape the peanut sesame sauce on the cold noodles and toss to combine. Garnish with sesame seeds and green onions, if desired."
+      },
+      {
+        "inst": "Leftovers can be stored in an airtight container in the fridge for up to 3 days. Before serving them again, toss with a little warm water to thin out the sauce."
+      }
+    ]
+  },
+  {
+    "nameOfRecipe": "Banana Pancakes",
+    "food_class": "Breakfast",
+    "totaltime": "35 mins",
+    "serving": "4 servings",
+    "URL": "https://www.simplyrecipes.com/banana-pancakes-7098142",
+    "ingredients": [
+      {
+        "ingredient": "all-purpose flour",
+        "amount": "2 cups (250g)"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": "2 tablespoons"
+      },
+      {
+        "ingredient": "baking powder",
+        "amount": "2 teaspoons"
+      },
+      {
+        "ingredient": "baking soda",
+        "amount": "1/4 teaspoon"
+      },
+      {
+        "ingredient": "cinnamon",
+        "amount": "1/4 teaspoon"
+      },
+      {
+        "ingredient": "salt",
+        "amount": "1/4 teaspoon"
+      },
+      {
+        "ingredient": "ripe bananas (mashed)",
+        "amount": "1 1/4 cups (3 small or 2 large bananas)"
+      },
+      {
+        "ingredient": "eggs (large)",
+        "amount": "2"
+      },
+      {
+        "ingredient": "buttermilk",
+        "amount": "1 cup"
+      },
+      {
+        "ingredient": "whole milk",
+        "amount": "1/3 cup"
+      },
+      {
+        "ingredient": "vegetable or canola oil",
+        "amount": "1/4 cup"
+      },
+      {
+        "ingredient": "vanilla extract",
+        "amount": "1 teaspoon"
+      },
+      {
+        "ingredient": "cooking spray",
+        "amount": ""
+      }
+    ],
+    "instructions": [
+      {
+        "inst": "In a medium bowl, whisk together the flour, sugar, baking powder, baking soda, cinnamon, and salt."
+      },
+      {
+        "inst": "In a large bowl, whisk together the mashed bananas and eggs. Add the buttermilk, whole milk, oil, and vanilla extract and mix until all ingredients are evenly combined."
+      },
+      {
+        "inst": "Add the dry ingredients to the wet ingredients and whisk until all ingredients are just combined in a smooth batter. It is okay if your batter has some small lumps; don’t overmix."
+      },
+      {
+        "inst": "Heat a large non-stick skillet or griddle to medium-low heat. Spray with cooking spray."
+      },
+      {
+        "inst": "Scoop 1/3 cup of batter onto the skillet. If you have room, repeat to form 2 to 4 pancakes, without their edges touching, depending on the size of your pan or griddle. Cook until you see bubbles come to the surface of the pancake and the edges appear to be cooked, approximately 3 minutes. Flip and cook until golden brown on the other side and cooked through, about 2 minutes. Transfer the cooked pancakes to a serving plate."
+      },
+      {
+        "inst": "Repeat (greasing the pan each time) until you have used up all of the batter."
+      },
+      {
+        "inst": "Serve the pancakes warm with your choice of toppings, like butter, maple syrup, and banana slices."
+      },
+      {
+        "inst": "Leftover banana pancakes can be stored in an airtight container in the freezer for up to 3 months. To reheat, microwave on high for 1 minute. If they are not heated through after 1 minute, microwave in 30-second intervals until warmed through."
+      }
+    ]
+  },
+  {
+    "nameOfRecipe": "Kale and Mushroom Egg Bites",
+    "food_class": "Breakfast",
+    "totaltime": "43 mins",
+    "serving": "6 servings",
+    "URL": "https://www.simplyrecipes.com/kale-and-mushroom-egg-bites-recipe-6754301",
+    "ingredients": [
+      {
+        "ingredient": "unsalted butter, divided",
+        "amount": "2 tablespoons"
+      },
+      {
+        "ingredient": "large leaves fresh kale, stems removed and roughly chopped",
+        "amount": "5"
+      },
+      {
+        "ingredient": "portobello mushroom caps, cleaned and roughly chopped",
+        "amount": "3"
+      },
+      {
+        "ingredient": "kosher salt, divided",
+        "amount": "1 teaspoon"
+      },
+      {
+        "ingredient": "large eggs",
+        "amount": "9"
+      },
+      {
+        "ingredient": "half and half",
+        "amount": "1/4 cup"
+      },
+      {
+        "ingredient": "Aleppo pepper or smoked paprika,(optional)",
+        "amount": "to taste "
+      }
+    ],
+    "instructions": [
+      {
+        "inst": "Preheat the oven to 325ºF."
+      },
+      {
+        "inst": "Prepare the muffin tin: Microwave 1 tablespoon of the butter in a microwave-safe bowl or measuring cup until melted, 15 to 20 seconds. Using a brush or paper towel, thoroughly coat each well in a 12-well muffin or cupcake tin generously with the melted butter."
+      },
+      {
+        "inst": "Process the filling: Using a food processor, pulse the chopped kale for 5-10 seconds, or until shredded into small pieces. Transfer to a bowl and repeat with the chopped portobello mushrooms, pulsing until diced."
+      },
+      {
+        "inst": "Cook the filling: Place a large skillet over medium heat and add 1 tablespoon butter. When the butter is foamy, add the processed mushrooms and 1/4 teaspoon of salt. Sauté for 4 to 5 minutes, stirring frequently, or until all liquid from the mushrooms has been released (the mushrooms will reduce in volume significantly). Add the kale and another 1/4 teaspoon salt to the skillet and sauté until wilted and tender, 4 to 5 minutes more. Remove the skillet from the heat and allow the vegetables to cool slightly."
+      },
+      {
+        "inst": "Prepare the egg mixture: Using an immersion blender or regular blender, blend the eggs, half and half, and 1/2 teaspoon salt until the mixture is frothy and completely homogenous, 10 to 15 seconds. Alternatively, whisk together thoroughly in a bowl."
+      },
+      {
+        "inst": "Fill the wells: Divide the cooled kale and portobello mushroom mixture among the 12 buttered wells of the muffin tin, then carefully fill each well no more than 3/4 full with the egg mixture. Use a small spoon or butter knife to combine the ingredients in each well, then finish with a sprinkle of smoked paprika or Aleppo pepper on top of each well, if desired."
+      },
+      {
+        "inst": "Bake the egg bites: Bake the egg bites, rotating the muffin tin halfway through to ensure even baking, 16 to 19 minutes. When finished, the egg bites will be puffed and barely set in the middle, but not at all hard. Test for doneness occasionally by poking the center of each egg bite—perfectly cooked egg bites will be bouncy and just set, as they’ll continue to set up as they cool."
+      },
+      {
+        "inst": "Serve or store the egg bites: Remove the cooked egg bites from the oven and run a butter knife around the edge of each well to release any stuck-on bits. Let cool slightly, then remove to a plate. Serve warm, or allow to cool to room temperature and store in an airtight container in the refrigerator for up to 5 days."
+      }
+    ]
+  },
+  {
+    "nameOfRecipe": "Oat and Tahini Breakfast Cookies",
+    "food_class": "Breakfast",
+    "totaltime": "27 mins",
+    "serving": "12 servings",
+    "URL": "https://www.simplyrecipes.com/oat-and-tahini-breakfast-cookies-5112560",
+    "ingredients": [
+      {
+        "ingredient": "pepitas",
+        "amount": "1/4 cup"
+      },
+      {
+        "ingredient": "walnuts, coarsely chopped",
+        "amount": "1/4 cup"
+      },
+      {
+        "ingredient": "whole almonds",
+        "amount": "1/4 cup"
+      },
+      {
+        "ingredient": "old fashioned rolled oats, divided",
+        "amount": "1 1/2 cups"
+      },
+      {
+        "ingredient": "baking powder",
+        "amount": "1/2 teaspoon"
+      },
+      {
+        "ingredient": "salt",
+        "amount": "1/2 teaspoon"
+      },
+      {
+        "ingredient": "1/2 stick unsalted butter, at room temperature",
+        "amount": ""
+      },
+      {
+        "ingredient": "brown sugar",
+        "amount": "1/4 cup "
+      },
+      {
+        "ingredient": "large egg",
+        "amount": "1"
+      },
+      {
+        "ingredient": "large egg white",
+        "amount": "1"
+      },
+      {
+        "ingredient": "tahini",
+        "amount": "1/4 cup"
+      },
+      {
+        "ingredient": "vanilla",
+        "amount": "1 teaspoon"
+      },
+      {
+        "ingredient": "finely grated orange zest",
+        "amount": "1 teaspoon"
+      },
+      {
+        "ingredient": "raisins, diced apricots, and/or cranberries, alone or in combination",
+        "amount": "3/4 cup"
+      }
+    ],
+    "instructions": [
+      {
+        "inst": "Preheat the oven to 375ºF."
+      },
+      {
+        "inst": "Set an oven rack in the middle position. Line a baking sheet with parchment."
+      },
+      {
+        "inst": "On the baking sheet, spread the pumpkin seeds, walnuts, and almonds. Roast for 8 to 10 minutes, or until the nuts are fragrant. Let cool briefly."
+      },
+      {
+        "inst": "In a food processor, finely grind 1/2 cup of the oats to make oat flour. Add the baking powder and salt and pulse to combine."
+      },
+      {
+        "inst": "In the bowl of a stand mixer fitted with the paddle attachment or by hand with a wooden spoon, beat the butter and sugar together until creamy. Add the egg, egg white, tahini, vanilla, and orange zest. Mix until combined, scraping down the bowl as needed."
+      },
+      {
+        "inst": "Add the oat flour mixture to the dough and mix on low speed until blended."
+      },
+      {
+        "inst": "Add the remaining 1 cup of oats, pumpkin seeds, walnuts, almonds, and dried fruit, and stir to combine."
+      },
+      {
+        "inst": "Use a cookie scoop or a two spoons to drop the dough blobs (about a 1/4 cup each) onto the baking sheet, spacing them about 2 inches apart. Wet your fingers and gently press the dough to form 3-inch circles with a flat top."
+      },
+      {
+        "inst": "Bake the cookies for 10 to 12 minutes, or until they are light brown. Remove from the oven and leave to cool completely on the baking sheet."
+      }
+    ]
+  },
+  {
+    "nameOfRecipe": "Breakfast Pizza with Cheddar, Bacon, and Eggs",
+    "food_class": "Breakfast",
+    "totaltime": "8 hrs 35 mins",
+    "serving": "4 servings",
+    "URL": "https://www.simplyrecipes.com/breakfast-pizza-with-cheddar-bacon-and-eggs-recipe-5213474",
+    "ingredients": [
+      {
+        "ingredient": "Vegetable oil or spray",
+        "amount": ""
+      },
+      {
+        "ingredient": "corn meal",
+        "amount": "1 tablespoon"
+      },
+      {
+        "ingredient": "1/2 recipe of No-Knead Pizza Dough left to rise overnight or store-bought pizza dough",
+        "amount": "1 pound"
+      },
+      {
+        "ingredient": "slices bacon, cut into thirds",
+        "amount": "6 / 6 oz"
+      },
+      {
+        "ingredient": "olive oil",
+        "amount": "2 tablespoons"
+      },
+      {
+        "ingredient": "golf-ball size tomatoes, sliced (optional)",
+        "amount": "3-4"
+      },
+      {
+        "ingredient": "loosely packed grated cheddar cheese",
+        "amount": "2 1/2 cups / 6 oz"
+      },
+      {
+        "ingredient": "large eggs",
+        "amount": "4"
+      },
+      {
+        "ingredient": "chopped fresh basil, parsley, or oregano (for garnish)",
+        "amount": "2 tablespoons"
+      }
+    ],
+    "instructions": [
+      {
+        "inst": "Preheat the oven to 450°F. Lightly oil a baking sheet or spray with vegetable oil. Sprinkle lightly with corn meal."
+      },
+      {
+        "inst": "Flour a work surface. Place the ball of pizza dough on top and flatten it with your hands into a circle, around 1-inch thick. Dimple it with your fingers to help spread it out and cover it with a dishtowel."
+      },
+      {
+        "inst": "Let it rest while you cook the bacon to allow the gluten to relax for easier shaping. If using no-knead dough, you may want to knead in 1 to 2 tablespoons of flour if the dough is very slack (wet.)"
+      },
+      {
+        "inst": "In a large skillet over medium heat, cook the bacon for 4 to 5 minutes, or until much of the fat has rendered and the bacon is starting to turn golden, but not is yet crisp. Transfer it to a paper towel-lined plate and set aside."
+      },
+      {
+        "inst": "Stretch the dough with your hands or roll it with a rolling pin into a large oval about the size of your baking sheet and transfer it to the baking sheet. It doesn’t have to fit into the corners or touch the edges of the pan; it should be a large oval (not square) that takes up most of the space on the baking sheet."
+      },
+      {
+        "inst": "Brush the dough with olive oil using a pastry brush. Before you add the toppings, use a coffee cup to mark out four 3 to 4-inch spaces for the eggs. Leave the spaces you marked for the eggs free of pizza toppings and top the rest of the pizza with the tomatoes, bacon, and then sprinkle on the cheese, leaving some of the bacon and tomatoes uncovered."
+      },
+      {
+        "inst": "Bake for 8 to 10 minutes, or until the dough is set and has started to brown at the edges. Remove the pan from the oven."
+      },
+      {
+        "inst": "Crack one egg into a cup or small bowl and gently slide it onto the pizza, placing it on top of one of the empty spaces with no toppings. Repeat with the remaining eggs."
+      },
+      {
+        "inst": "Return the pan to the oven and continue to bake for 7 to 8 minutes, or until the egg."
+      },
+      {
+        "inst": "Sprinkle with herbs and cut the pizza into serving pieces. Serve while hot."
+      }
+    ]
+  },
+  {
+    "nameOfRecipe": "Banana Bread",
+    "ingredients": [
+      {
+        "ingredient": "ripe bananas",
+        "amount": "3"
+      },
+      {
+        "ingredient": "all-purpose flour",
+        "amount": "2 cups"
+      },
+      {
+        "ingredient": "baking soda",
+        "amount": "1 tsp"
+      },
+      {
+        "ingredient": "salt",
+        "amount": "1/4 tsp"
+      },
+      {
+        "ingredient": "unsalted butter, melted",
+        "amount": "1/2 cup"
+      },
+      {
+        "ingredient": "brown sugar",
+        "amount": "3/4 cup"
+      },
+      {
+        "ingredient": "egg",
+        "amount": "1"
+      },
+      {
+        "ingredient": "vanilla extract",
+        "amount": "1 tsp"
+      },
+      {
+        "ingredient": "chocolate chips or nuts (optional)",
+        "amount": "1/2 cup"
+      }
+    ],
+    "instructions": [
+      {
+        "inst": "Preheat oven to 350°F and grease a 9x5 inch loaf pan."
+      },
+      {
+        "inst": "In a large bowl, mash the bananas with a fork until smooth."
+      },
+      {
+        "inst": "In a medium bowl, whisk together the flour, baking soda, and salt."
+      },
+      {
+        "inst": "Add the melted butter, brown sugar, egg, and vanilla to the banana mixture and stir well to combine."
+      },
+      {
+        "inst": "Fold in the chocolate chips or nuts if using."
+      },
+      {
+        "inst": "Pour the batter into the prepared pan and smooth the top."
+      },
+      {
+        "inst": "Bake for 50-60 minutes, or until a toothpick inserted in the center comes out clean."
+      },
+      {
+        "inst": "Let the bread cool slightly in the pan before transferring to a wire rack to cool completely."
+      }
+    ]
+  },
+  {
+    "nameOfRecipe": "Creamy Tomato Soup",
+    "ingredients": [
+      {
+        "ingredient": "olive oil",
+        "amount": "2 tbsp"
+      },
+      {
+        "ingredient": "onion, chopped",
+        "amount": "1"
+      },
+      {
+        "ingredient": "garlic, minced",
+        "amount": "3 cloves"
+      },
+      {
+        "ingredient": "tomato paste",
+        "amount": "2 tbsp"
+      },
+      {
+        "ingredient": "flour",
+        "amount": "2 tbsp"
+      },
+      {
+        "ingredient": "chicken or vegetable broth",
+        "amount": "4 cups"
+      },
+      {
+        "ingredient": "28 oz can of crushed tomatoes",
+        "amount": 1
+      },
+      {
+        "ingredient": "basil, oregano, salt, and pepper",
+        "amount": "to taste"
+      },
+      {
+        "ingredient": "heavy cream or half and half",
+        "amount": "1/2 cup"
+      }
+    ],
+    "instructions": [
+      {
+        "inst": "In a large pot over medium-high heat, heat olive oil and sauté onion and garlic until soft, about 10 minutes."
+      },
+      {
+        "inst": "Stir in tomato paste and cook for another minute."
+      },
+      {
+        "inst": "Sprinkle flour over the onion mixture and cook for another minute, stirring constantly."
+      },
+      {
+        "inst": "Gradually whisk in broth and bring to a boil."
+      },
+      {
+        "inst": "Add crushed tomatoes and season with basil, oregano, salt, and pepper. Simmer for 15 minutes."
+      },
+      {
+        "inst": "Using an immersion blender or a regular blender, puree the soup until smooth. Return to the pot if using a regular blender."
+      },
+      {
+        "inst": "Stir in cream or half and half and heat through. Do not boil."
+      },
+      {
+        "inst": "Serve hot with crusty bread or grilled cheese sandwiches."
+      }
+    ]
+  },
+  {
+    "nameOfRecipe": "Churros",
+    "ingredients": [
+      {
+        "ingredient": "water",
+        "amount": "2 1/2 dl"
+      },
+      {
+        "ingredient": "butter",
+        "amount": "25g"
+      },
+      {
+        "ingredient": "sugar",
+        "amount": "25g"
+      },
+      {
+        "ingredient": "salt",
+        "amount": "1 pinch"
+      },
+      {
+        "ingredient": "vanilla sugar",
+        "amount": "1 tsp"
+      },
+      {
+        "ingredient": "all-purpose flour",
+        "amount": "175g"
+      },
+      {
+        "ingredient": "egg",
+        "amount": "1"
+      },
+      {
+        "ingredient": "neutral oil for frying",
+        "amount": "1 liter"
+      }
+    ],
+    "instructions": [
+      {
+        "inst": "In a small pot, bring water, butter, sugar, salt, and vanilla sugar to a boil."
+      },
+      {
+        "inst": "Meanwhile, weigh the flour in a separate bowl."
+      },
+      {
+        "inst": "When the water mixture boils, pour it into the flour and whisk well with a hand mixer."
+      },
+      {
+        "inst": "Add the egg and continue to whisk until the dough is smooth and shiny."
+      },
+      {
+        "inst": "The dough will be quite thick. If it's too thick to whisk smoothly, add a little extra water - just 1 tbsp at a time, until the dough can be smoothed out. Remember that the dough still needs to hold its shape when piped into the oil, so don't add too much water."
+      },
+      {
+        "inst": "Transfer the dough to a piping bag fitted with a small star tip."
+      },
+      {
+        "inst": "Heat the oil in a small pot with high edges. The temperature should be around 180°C. Use a thermometer if needed to check the temperature."
+      },
+      {
+        "inst": "Pipe churros about 10 cm long into the hot oil, cutting them off with scissors, and fry for a few minutes on each side until they are golden and fully cooked. It may be necessary to turn them a couple of times during cooking."
+      },
+      {
+        "inst": "Let the fried churros drain on a piece of kitchen paper and serve them warm with powdered sugar, cinnamon sugar, or plain sugar."
+      },
+      {
+        "inst": "Churros should be eaten freshly made, otherwise, they will become soft. However, churros can be reheated in the oven before serving to make them crispy again. They can also be frozen and reheated in the oven after thawing."
+      }
+    ]
+  }
 ]

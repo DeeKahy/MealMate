@@ -8,11 +8,24 @@ form.addEventListener("submit", (event) => {
 
     const userData = {
         username: formData.get('username'), // Replace 'username' with the name of your username input field
-        password: formData.get('password') // Replace 'password' with the name of your password input field
+        email: formData.get('email'),
+        birthday: formData.get('birthday'),
+        password: formData.get('password'), // Replace 'password' with the name of your password input field
+        confirmPassword: formData.get('confirmPassword')
     };
 
     if (!userData.username) {
         message.innerText = 'Error: Please enter a username';
+        return;
+    }
+
+    if (!userData.email) {
+        message.innerText = 'Error: Please enter a email';
+        return;
+    }
+
+    if (userData.password !== userData.confirmPassword) {
+        message.innerText = 'Error: Password doesnt match';
         return;
     }
     
@@ -25,6 +38,8 @@ form.addEventListener("submit", (event) => {
         message.innerText = 'Error: Password must be at least 6 characters long';
         return;
     }
+
+    console.log(userData);
 
     const options = {
         method: 'POST',

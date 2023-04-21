@@ -2,6 +2,14 @@ body {
     font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
 }
 
+tr.expand {
+    max-height: 1000px;
+    max-width: 500px;
+    overflow: visible;
+    transition: max-height 0.5s ease-in-out;
+  }
+
+
 header {
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
@@ -11,12 +19,6 @@ header {
     margin: 20px;
     padding: 10px;
     text-align: center;
-}
-#New_private_Item{
-    display: none;
-    color:rgba(248, 248, 248, 0.8);
-    visibility: visible;
-    background: rgba(158, 8, 8, 0.8);
 }
 
 h1 {
@@ -190,16 +192,6 @@ table td {
     visibility: visible;
     background: rgba(158, 8, 8, 0.8);
 }
-
-tr.hiddenrow_container {
-    max-height: 1000px;
-    max-width: 500px;
-    overflow: visible;
-    transition: max-height 0.5s ease-in-out;
-  }
-
-  
-
 
 #backdrop {
     position: absolute;

@@ -3,50 +3,36 @@ import fs from 'fs';
 
 const recipies = JSON.parse(fs.readFileSync(path.resolve() + '/data/listofrecipes.json'));
 
-
 export function listRecipies(items, itemsWant) {
     try {
         const recipies1 = JSON.parse(JSON.stringify(recipies));
-        let recipiesSaved = [];
-        let sorted;
-        recipies1.forEach(recipe => {
+        let sorted = recipies1.map(recipe => {
+            recipe.score = 0;
             recipe.ingredients.forEach(element => {
                 items.forEach(item => {
-                    //Specific when it comes to items? should we have .includes()?
                     if (element.ingredient.toLowerCase() === item.name.toLowerCase()) {
-                        if (recipe.score != undefined) {
-                            recipe.score++;
-                        }
-                        else {
-                            recipe.score = 1;
-                        }
+                        recipe.score++;
                     }
-                })
-
-                itemsWant.forEach(itemWant => {
-                    if (element.ingredient.toLowerCase() == itemWant.toLowerCase()) {
-                        if (recipe.score != undefined) {
-                            recipe.score++;
-                        }
-                        else {
-                            recipe.score = 1;
-                        }
+                });
+                itemsWant.forEach(want => {
+                    if (element.ingredient.toLowerCase().includes(want.toLowerCase())) {
+                        recipe.score++;
                     }
-                })
-            })
-        });
-        recipies1.forEach(el => {
-            if (el.score != undefined) {
-                recipiesSaved.push(el);
-            }
-        })
-        sorted = recipiesSaved.sort((a, b) => (b.score / b.ingredients.length) - (a.score / a.ingredients.length));
-        // let recipieSorted = sortRecipes(recipiesSaved, items);
+                });
+            });
+            // recipies1.forEach(el => {
+            //     if (el.score != undefined) {
+            //         recipiesSaved.push(el);
+            //     }
+            // })
+            return recipe;
+        }).sort((a, b) => (b.score / b.ingredients.length) - (a.score / a.ingredients.length));
         return sorted;
     } catch (error) {
         console.log(error);
     }
 }
+
 export function topRecipiesForUsers(userItems) {
     try {
         const recipies2 = JSON.parse(JSON.stringify(recipies));

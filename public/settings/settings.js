@@ -1,19 +1,22 @@
-document.addEventListener("DOMContentLoaded", (e) => {
-    fetch("/API/getUserName")
-        .then(response => {
-            if (response.ok) {
-                return response.json();
-            }
-            throw new Error("response was not in the 200 range " + response.Error)
-        })
-        .then(data => {
+    document.addEventListener("DOMContentLoaded", (e) => {
+      fetch("/API/getSettings")
+          .then(response => {
+              if (response.ok) {
+                  return response.json();
+              }
+              throw new Error("response was not in the 200 range " + response.Error)
+          })
+          .then(data => {
+
             let str = data.username;
             let username = str.charAt(0).toUpperCase() + str.slice(1); // Makes first letter of username capital
-
-            // Selecting h1 element containing a welcome message and inserts username
+              
             document.querySelector("#username-placeholder").textContent = username;
-        })
-    })
+            document.querySelector("#email-placeholder").textContent = data.email;
+            document.querySelector("#date-of-birth-placeholder").textContent = data.birthday;
+
+          })
+      })
 
     document.addEventListener("DOMContentLoaded", (e) => {
         const form = document.querySelector("#myForm");

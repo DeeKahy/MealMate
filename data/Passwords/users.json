@@ -1,5 +1,16 @@
 {
   "users": [
-
+    {
+      "username": "mathias",
+      "email": "mathiasml@hotmail.dk",
+      "birthday": "2001-09-01",
+      "password": "671ec2e08b1393475d553dd927a49b0c7053e3015c48ccb77fec48b1d9541be6"
+    },
+    {
+      "username": "user",
+      "email": "randomubefkjwbfkjbqgkjqbgkjwqbgkjb@gmail.com",
+      "birthday": "1111-11-11",
+      "password": "96cae35ce8a9b0244178bf28e4966c2ce1b8385723a96a6b838858cdd6ca0a1e"
+    }
   ]
 }

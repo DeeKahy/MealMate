@@ -57,7 +57,37 @@ function loadShoppinglist() {
 
         row.appendChild(cell3);
 
+
+
         const cell4 = document.createElement("td");
+
+        const checkButton = document.createElement("input");
+        checkButton.type = "checkbox";
+        checkButton.className = "css-checkbox";
+        checkButton.id = `checkbutton-${item.id}`;
+        
+        const label = document.createElement("label");
+        label.htmlFor = checkButton.id;
+        
+        if (item.bought === true) {
+          checkButton.checked = true;
+        }
+        
+        checkButton.onclick = () => {
+          fetch(`/api/shoppingListCheck/${item.id}`, {
+            method: 'POST'
+          })
+          .then(response => {
+            if (response.ok) {
+              loadShoppinglist();
+            }
+          })
+          .catch(error => console.error(error));
+        };
+        
+        cell4.appendChild(checkButton);
+        cell4.appendChild(label);
+
         const deleteButton = document.createElement("button");
         deleteButton.textContent = "Delete";
         deleteButton.onclick = () => {
