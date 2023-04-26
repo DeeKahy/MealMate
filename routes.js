@@ -434,7 +434,7 @@ router.post('/newuser', async (req, res) => {
     data.users.push(newUser);
     users44.push(newUser);
     // Write the updated data back to the JSON file
-    await fs.promises.writeFileSync(dataPath, JSON.stringify(data, null, 2));
+    fs.writeFileSync(dataPath, JSON.stringify(data, null, 2));
 
     await fs.promises.mkdir(`data/USERS/${newUser.username}`, (err) => {
         if (err) throw err;
