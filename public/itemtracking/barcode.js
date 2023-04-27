@@ -48,8 +48,8 @@ scan_button.addEventListener("click", (e) => {
     "reader",
     {
       qrbox: {
-        width: 500,
-        height: 500,
+        width: reader.clientWidth * 0.75,
+        height: reader.clientHeight * 0.75,
       },
       fps: 20,
     },
