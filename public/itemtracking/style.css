@@ -352,3 +352,8 @@ tr.hiddenrow_container {
 #expirationDate {
     margin-top: 20px;
 }
+#reader{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+}

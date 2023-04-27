@@ -29,32 +29,42 @@ confirm_button.addEventListener("click", (e) => {
 
 
   postlist(name_of_item.textContent, expirationDate2.value, weight_of_item.textContent, location_hidden.textContent)
-window.location.reload();
+  window.location.reload();
 
 })
 
 close_barcode.addEventListener("click", (e) => {
   e.preventDefault();
   barcode_backdrop.style.visibility = "hidden"
-  if_barcode_no_item.style.visibility="hidden"
+  if_barcode_no_item.style.visibility = "hidden"
 })
 
-let resoult_of_scan4 = 8710508551175;
-let reoult_of_barcode_no_item = 871050855117102;
-let resoult_of_scan2 = null
-let resoult_of_scan = reoult_of_barcode_no_item
+
 
 scan_button.addEventListener("click", (e) => {
   e.preventDefault();
+  const scanner = new Html5QrcodeScanner(
+    "reader",
+    {
+      qrbox: {
+        width: 500,
+        height: 500,
+      },
+      fps: 20,
+    },
+    false
+  );
+  scanner.render(success, error);
   //Here goes barcode code start scanning
   //Here goes Test Barcode
+})
+function error(result) {
+  console.warn(result);
+}
+function success(text, result) {
+  if (result.result.format.formatName === "EAN_13") {
 
-  if (typeof resoult_of_scan !== "number") {
-    alert("sorry did not find any barcode")//If no barcode is found
-  } else {// if it is found
-
-
-    resoult_of_scan = "" + resoult_of_scan;
+    let resoult_of_scan = text;
 
     //So now that we have validated that it is a number, now we need to scan through our know list,
     const matchingObject = private_user_Item_property_data.find(obj => obj.barcode === resoult_of_scan);
@@ -73,14 +83,15 @@ scan_button.addEventListener("click", (e) => {
       if_barcode_no_item.style.visibility = "visible"
       barcode_scanned_label.textContent = resoult_of_scan
     }
+
   }
+}
 
 
-})
 
 
 function checkInputs() {
-  if (new_item_pp.value && expirationDate5.value &&  weight_of_new_item.value) {
+  if (new_item_pp.value && expirationDate5.value && weight_of_new_item.value) {
     confirm_button2.disabled = false;
   } else {
     confirm_button2.disabled = true;
@@ -96,14 +107,14 @@ confirm_button2.addEventListener("click", (e) => {
 
   let search_item = new_item_pp.value
 
-  resoult_of_scan = "" + resoult_of_scan;
+
   const matching = private_user_Item_property_data.find(obj => obj.name === search_item);//here we try to find the item the user try to search for
   if (matching) {// if its found we link the item with the barcode, and then add the item to the users list.
-    
+
     newproperty(search_item, "barcode", resoult_of_scan)
-    
-postlist(matching.name, expirationDate5.value, matching.weight, matching.location)
-    
+
+    postlist(matching.name, expirationDate5.value, matching.weight, matching.location)
+
 
 
     console.log("linked item to barcode")
@@ -131,22 +142,22 @@ postlist(matching.name, expirationDate5.value, matching.weight, matching.locatio
       .catch(error => {
         console.error("Error sending POST request:", error);
       });
-location2 = document.getElementById("location2")
+    location2 = document.getElementById("location2")
 
 
-async function executeFunctionsInOrder() {
-  await newproperty(search_item, "barcode", resoult_of_scan);
-  await newproperty(search_item, "weight", weight_of_new_item.value);
-  await newproperty(search_item, "location", location2.value);
-  await postlist(search_item, expirationDate5.value, weight_of_new_item.value, location2.value);
-  console.log("Created new item & linked barcode")
-  window.location.reload();
-}
-executeFunctionsInOrder();
-      }
+    async function executeFunctionsInOrder() {
+      await newproperty(search_item, "barcode", resoult_of_scan);
+      await newproperty(search_item, "weight", weight_of_new_item.value);
+      await newproperty(search_item, "location", location2.value);
+      await postlist(search_item, expirationDate5.value, weight_of_new_item.value, location2.value);
+      console.log("Created new item & linked barcode")
+      window.location.reload();
+    }
+    executeFunctionsInOrder();
+  }
 })
 
- function postlist(itemname, experation, weight, location){
+function postlist(itemname, experation, weight, location) {
   let data_add_item = {
     "name": itemname,
     "expirationDate": experation,
