@@ -48,16 +48,14 @@ scan_button.addEventListener("click", (e) => {
     "reader",
     {
       qrbox: {
-        width: 500,
-        height: 500,
+        width: 700,
+        height: 700,
       },
       fps: 20,
     },
     false
   );
   scanner.render(success, error);
-  reader.style.width = reader.clientWidth * 0.75;
-  reader.style.height =  reader.clientHeight * 0.75;
   //Here goes barcode code start scanning
   //Here goes Test Barcode
 })
