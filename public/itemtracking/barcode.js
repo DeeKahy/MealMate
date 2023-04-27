@@ -1,19 +1,20 @@
-scan_button = document.getElementById("barcode");
-barcode_backdrop = document.getElementById("barcode_backdrop")
-close_barcode = document.getElementById("close_barcode")
-name_of_item = document.getElementById("name_of_item")
-weight_of_item = document.getElementById("weight_of_item")
-found_barcode = document.getElementById("found_barcode")
-confirm_button = document.getElementById("confirm_button")
-expirationDate2 = document.getElementById("expirationDate2")
-location_hidden = document.getElementById("location_hidden")
-barcode_scanned_label = document.getElementById("barcode_scanned_label")
-confirm_button2 = document.getElementById("confirm_button2")
-new_item_pp = document.getElementById("new_item_pp")
-expirationDate5 = document.getElementById("expirationDate5")
-if_barcode_no_item = document.getElementById("if_barcode_no_item")
-weight_of_new_item = document.getElementById("weight_of_new_item")
-
+let scan_button = document.getElementById("barcode");
+let barcode_backdrop = document.getElementById("barcode_backdrop")
+let close_barcode = document.getElementById("close_barcode")
+let name_of_item = document.getElementById("name_of_item")
+let weight_of_item = document.getElementById("weight_of_item")
+let found_barcode = document.getElementById("found_barcode")
+let confirm_button = document.getElementById("confirm_button")
+let expirationDate2 = document.getElementById("expirationDate2")
+let location_hidden = document.getElementById("location_hidden")
+let barcode_scanned_label = document.getElementById("barcode_scanned_label")
+let confirm_button2 = document.getElementById("confirm_button2")
+let new_item_pp = document.getElementById("new_item_pp")
+let expirationDate5 = document.getElementById("expirationDate5")
+let if_barcode_no_item = document.getElementById("if_barcode_no_item")
+let weight_of_new_item = document.getElementById("weight_of_new_item")
+let reader = document.querySelector("#reader");
+let resoult_of_scan;
 
 function checkInputs2() {
   if (expirationDate2) {
@@ -63,8 +64,11 @@ function error(result) {
 }
 function success(text, result) {
   if (result.result.format.formatName === "EAN_13") {
-
-    let resoult_of_scan = text;
+    while (reader.lastChild)
+    {
+      reader.removeChild(reader.lastChild);
+    }
+    resoult_of_scan = text;
 
     //So now that we have validated that it is a number, now we need to scan through our know list,
     const matchingObject = private_user_Item_property_data.find(obj => obj.barcode === resoult_of_scan);
@@ -82,6 +86,7 @@ function success(text, result) {
       barcode_backdrop.style.visibility = "visible"
       if_barcode_no_item.style.visibility = "visible"
       barcode_scanned_label.textContent = resoult_of_scan
+      
     }
 
   }
