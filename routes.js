@@ -160,8 +160,8 @@ router.post("/API/consumeditem", verifyToken, (req, res) => {
 })
 
 
-router.post("/API/waisteditem", verifyToken, (req, res) => {
-    removeItem.waisteItem(req, res)
+router.post("/API/wasteditem", verifyToken, (req, res) => {
+    removeItem.wasteItem(req, res)
 })
 
 import helpers from "./functions/helpers.js"
