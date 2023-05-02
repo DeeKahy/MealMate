@@ -46,7 +46,7 @@ const removeItem = {
     fs.readFile(filePathitems, { encoding: 'utf8' }, (err, data) => {
       if (err) {
         console.error(err);
-        res.status(500).send("Internal Server Error");
+        res.status(500).send("Internal Server Error 1");
       } else {
         let filejson = JSON.parse(data);
         item = filejson[req.body.index];
@@ -59,7 +59,7 @@ const removeItem = {
           fs.readFile(filePathConsumed, { encoding: 'utf8' }, (err, data) => {
             if (err) {
               console.error(err);
-              res.status(500).send("Internal Server Error");
+              res.status(500).send("Internal Server Error 2");
             } else {
               let filejson = JSON.parse(data);
               item.wastedDate = new Date().toISOString().slice(0, 10); // add the new attribute "wastedDate" with the current date in "yyyy-mm-dd" format
