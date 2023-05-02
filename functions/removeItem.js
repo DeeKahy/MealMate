@@ -41,7 +41,7 @@ const removeItem = {
   },
   wasteItem: (req, res) => {
     const filePathitems = path.resolve() + `/data/USERS/${req.user.username}/items.json`;
-    const filePathConsumed = path.resolve() + `/data/USERS/${req.user.username}/wasteditems.json`;
+    const filePathConsumed = path.resolve() + `/data/USERS/${req.user.username}/wastedItems.json`;
     let item;
     fs.readFile(filePathitems, { encoding: 'utf8' }, (err, data) => {
       if (err) {
