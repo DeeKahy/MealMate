@@ -1,3 +1,23 @@
+    const submitButton = document.getElementById("submitdata");
+    const householdSelector = document.getElementById("household-placeholder");
+
+    submitButton.addEventListener("click", (event) => {
+      event.preventDefault();
+
+      const selectedValue = householdSelector.value;
+
+      const requestOptions = {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ household: selectedValue })
+      };
+
+      fetch('/API/saveSettings', requestOptions)
+        .then(response => response.json())
+        .then(data => console.log(data))
+        .catch(error => console.log(error));
+    });    
+    
     document.addEventListener("DOMContentLoaded", (e) => {
       fetch("/API/getSettings")
           .then(response => {
@@ -14,6 +34,8 @@
             document.querySelector("#username-placeholder").textContent = username;
             document.querySelector("#email-placeholder").textContent = data.email;
             document.querySelector("#date-of-birth-placeholder").textContent = data.birthday;
+            document.querySelector("#household-placeholder").value = data.household;
+
 
           })
       })

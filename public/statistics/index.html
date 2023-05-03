@@ -17,6 +17,9 @@
     <section id="module1">
         <h2>General Statistics</h2>
         <p>Here you can find some general statistics about our users:</p>
+        <h3 id="waste-ratio"></h3>
+        <h3 id="waste-ratio-2"></h3>
+        <h3 id="co2-wasted"></h3>
         <div class="tab">
             <button class="tablink2" onclick="openTab2(event, 'weekly')">Weekly waste</button>
             <button class="tablink2" onclick="openTab2(event, 'monthly')">Monthly waste</button>
@@ -34,20 +37,20 @@
             </table>
           </div>
     </section>
-    
-    <section id="module2">
-        <h2>Most Wasted Items</h2>
-        <table id="Json-table">
-            <!-- Table content -->
-        </table>
-    </section>
+
 
 
     <section id="module3">
-        <h2>Monthly Trends</h2>
-        <p>A graph showcasing the monthly trends in food waste could be added here.</p>
+        <h3><u>Weekly Trends In Food Waste</u></h3>
         <canvas id="compareNowChart"></canvas>
         <canvas id="compareBeforeChart"></canvas>
+    </section>
+
+    <section id="module3">
+        <h3><u>Weekly Trends In CO2 Emissions</u></h3>
+        <p><b>Data In Procent (%)</b></p><button id="RawData" type="button">View Data in kilogram</button>
+        <canvas id="compareNowChartCO2"></canvas>
+        <canvas id="compareBeforeChartCO2"></canvas>
     </section>
     
 

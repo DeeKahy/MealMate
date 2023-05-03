@@ -20,38 +20,110 @@
   <main>
     <section id="itemtracking">
       <div id="h1Container">
-        <h1>item tracking</h1> <h2><a href="/pproterties">Pproperties</a></h2> 
-        <button id="additem">add item</button>
+        <h1>item tracking</h1>
+        <h2><a href="/pproterties">Custom Properties</a></h2>
+
+        <button id="additem">add item</button> <button id ="barcode">Scan barcode</button>
       </div>
       <div id="input">
         <div id="backdrop">
         </div>
 
         <form id="itemForm">
-          <label for="location">Location:</label> 
-          <select id="location" name="location">
-            <option value="fridge" selected>Fridge</option>  
-            <option value="pantry">Pantry</option>
-            <option value="other">Other</option>
-          </select><br /><br />
+          <div>
+            <div class="title">
+              <h2>Adding a new item</h2>
+            </div>
+            <div>
+              <label for="location">Location:</label>
+              <select id="location" name="location">
+                <option value="fridge" selected>Fridge</option>
+                <option value="pantry">Pantry</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
 
-          <label for="name">Name:</label>
-          <input type="text" id="name" name="name" autocomplete="off" placeholder="Item name" /> <!--placeholder added--><br /><br />
-          <div id="autocomplete-list"></div>                                              <!--div added-->
-          <label for="expirationDate">Expiration Date:</label>
-          <input type="date" id="expirationDate" name="expirationDate" /><br /><br />
+            <div>
+              <label for="weight">Weight in g</label><input id="weight" type="number" name="weight" placeholder="Weight in g" required>
+            </div>
+            <div>
+              <label for="name">Name:</label>
+              <input type="text" id="name" name="name" autocomplete="off" placeholder="Item name" required/>
+            </div>
+            <div id="autocomplete-list"></div> <!--div added-->
+            <div>
+              <label for="expirationDate">Expiration Date:</label>
+              <input type="date" id="expirationDate" name="expirationDate" required/>
+            </div>
 
-          <button type="submit">Import to personal item list</button> <br /><br />
-          <div id ="New_private_Item">
-            <label>Hey That item dont exist yet, do you what to add properties to it?</label> <button id ="privateitem_submit">Submit new item</button><br /><br />
-            <label>Calories per 100gram</label> <input type="number" id="Calories"><br /><br />
-            <label>Co2 per 1kg</label> <input type="number" id="CO2"><br /><br />
-            <label>Protein pr 100 gram</label> <input type="number" id ="Protein"><br /><br />
-            <label>Carbohydrate pr 100 gram</label> <input type="number" id="Carbonhydrate"><br /><br />
-            <label>Fat pr 100 gram</label> <input type="number" id="Fat">
+            <button type="submit">Add Item</button>
           </div>
-          
+          <div id="New_private_Item">
+            <div>
+              <label>Hey That item dont exist yet, do you what to add properties to it?</label> <button type="button"
+                id="privateitem_submit">Submit new item</button>
+            </div>
+            <div>
+              <label for="Calories">Calories per 100gram</label> <input type="number" id="Calories">
+            </div>
+            <div>
+              <label for="CO2">Co2 per 1kg</label> <input type="number" id="CO2">
+            </div>
+            <div> <label for="Protein">Protein pr 100 gram</label> <input type="number" id="Protein"></div>
+            <div><label for="Carbonhydrate">Carbohydrate pr 100 gram</label> <input type="number" id="Carbonhydrate">
+            </div>
+            <div><label for="Fat">Fat pr 100 gram</label> <input type="number" id="Fat"></div>
+          </div>
+
         </form>
+        <form id="removeItem">
+          <p><b>Click on circle to select how much % you have eaten or next to it within green box for 0%</b></p>
+          <p>Ps. the rest will be considered waisted</p>
+          <canvas></canvas>
+          <div>
+          <button type="button" id="clear">Cancel</button>
+          <button type="button" id="ate">I ate nothing</button>
+        </div>
+        </form>
+
+        <form id =barcode_backdrop>
+
+          <button id="close_barcode">Close scanner</button> <br>
+          <div id ="found_barcode">
+          <label>Name of item: </label><label id ="name_of_item"> Placeholder</label> <label id="location_hidden">Unknown</label><br>
+          <label>Weight: </label><label id = "weight_of_item"> Placeholder</label> <br>
+          <label >Expiration Date:</label>
+          <input type="date" id="expirationDate2" name="expirationDate"/> <br>
+          <button id ="confirm_button" disabled>Confirm item</button> <br>
+         </div>
+          <div id ="if_barcode_no_item">
+            <label>This barcode has no item linked. Do you want to create or link item?</label> <br>
+            <label>Item:</label><input type="text" id="new_item_pp" name="name" autocomplete="off" placeholder="Item name" /> <label>Barcode:</label> <label id ="barcode_scanned_label">Unknown</label>
+            <div id="autocomplete-list"></div> 
+            <input type="date" id="expirationDate5" name="expirationDate" /> <br>
+            <label>If you know this is a new item, please also enter weight and chose location: </label> <input id="weight_of_new_item" type="number"> <br>
+            <label>Location:</label>
+              <select id="location2" name="location">
+                <option value="fridge" selected>Fridge</option>
+                <option value="pantry">Pantry</option>
+                <option value="other">Other</option>
+              </select>
+            <button id ="confirm_button2" disabled>Add item to private list</button>
+            
+          </div>
+          <br>
+           
+
+                                                       <!--div added-->
+          
+         
+          <div id ="New_private_Item">
+            
+          </div>
+
+        </form>
+
+
       </div>
 
       <table id="container">
@@ -63,7 +135,7 @@
           <th>buttons:</th>
         </tr>
       </table>
-      
+
     </section>
   </main>
 
@@ -71,6 +143,9 @@
     <a href="https://github.com/TheCodeCrusaders/MealMate">Open Source Project</a>
   </footer>
   <script src="/itemtracking/stuff.js"></script>
+  <script src="/itemtracking/barcode.js"></script>
+  <script src="removeItem.js"></script>
+
 </body>
 
 </html>

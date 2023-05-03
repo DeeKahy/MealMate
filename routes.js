@@ -87,7 +87,7 @@ router.post("/login", (req, res) => {  // post action declared, will wait for po
     });
     if (user) {// if the correct information is typed in the user will be given a token
 
-        const token = jwt.sign({ username: user.username }, 'secret', { expiresIn: '1h' });// Generate an authentication token with experation day, 1 hour i milisecounds
+        const token = jwt.sign({ username: user.username }, 'secret', { expiresIn: '24h' });// Generate an authentication token with experation day, 1 hour i milisecounds
 
         res.cookie('token', token, { httpOnly: true });// Set the token as a cookie on the client's browser
         //the { httpOnly: true }  option means that the cookie can only be accessed via HTTP/S and not via JavaScript, which helps to prevent cross-site scripting (XSS) attacks.
@@ -119,9 +119,38 @@ router.get("/API/getSettings", verifyToken, (req, res) => {
     res.json({
         "username": user.username,
         "email": user.email,
-        "birthday": user.birthday
+        "birthday": user.birthday,
+        "household": user.household
     })
 })
+
+router.post("/API/saveSettings", verifyToken, (req, res) => {
+    const filePath = path.join(path.resolve() + "/data/Passwords/users.json");
+
+    const userDetails = {
+        household: req.body.household
+    };
+
+    const data = JSON.parse(fs.readFileSync(filePath, 'utf8'));
+
+    const user = data.users.find(user => user.username === req.user.username);
+
+    if (user) {
+        user.household = userDetails.household;
+
+        fs.writeFile(filePath, JSON.stringify(data), (err) => {
+            if (err) {
+                console.log(err);
+                res.status(500).send("Error updating user's household value");
+            } else {
+                res.status(200).send("User's household value updated successfully");
+            }
+        });
+    } else {
+        res.status(404).send("User not found");
+    }
+})
+
 
 router.post("/API/Private_properties", verifyToken, (req, res)=>{
 const userdatanewproperties =[]
@@ -160,8 +189,8 @@ router.post("/API/consumeditem", verifyToken, (req, res) => {
 })
 
 
-router.post("/API/waisteditem", verifyToken, (req, res) => {
-    removeItem.waisteItem(req, res)
+router.post("/API/wasteditem", verifyToken, (req, res) => {
+    removeItem.wasteItem(req, res)
 })
 
 import helpers from "./functions/helpers.js"
@@ -281,86 +310,169 @@ router.get("/API/getWastedItems", verifyToken, (req, res) => {
     });
 });
 
-router.get("/API/getweeklyWaste", verifyToken, (req, res) => {
-    const filePath = path.resolve() + `/data/USERS/${req.user.username}/wastedItems.json`;
-
-    fs.readFile(filePath, (err, data) => {
-        if (err) {
-            console.error(err);
-            res.status(500).send("Internal Server Error");
-        } else {
-            const jsonData = JSON.parse(data.toString("utf8"));
-
-            // Get the date from one week ago
-            const oneWeekAgo = new Date();
-            oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
-
-            // Filter the data based on the wastedDate attribute
-            const filteredData = jsonData.filter(item => {
-                const itemDate = new Date(item.wastedDate);
-                return itemDate >= oneWeekAgo;
-            });
-
-            res.json(filteredData);
-        }
-    });
+router.get("/API/getweeklyWaste", verifyToken, async (req, res) => {
+    const data = await getWeeklyWaste(req, res);
+    res.json(data);
+});
+router.get("/API/prevous7days", verifyToken, async (req, res) => {
+    const data = await prevous7days(req, res);
+    res.json(data);
+});
+router.get("/API/getmonthlyWaste", verifyToken, async (req, res) => {
+    const data = await getmonthlyWaste(req, res);
+    res.json(data);
 });
 
 
-router.get("/API/prevous7days", verifyToken, (req, res) => {
+async function prevous7days(req, res) {
     const filePath = path.resolve() + `/data/USERS/${req.user.username}/wastedItems.json`;
 
-    fs.readFile(filePath, (err, data) => {
-        if (err) {
-            console.error(err);
-            res.status(500).send("Internal Server Error");
-        } else {
-            const jsonData = JSON.parse(data.toString("utf8"));
+    return new Promise((resolve, reject) => {
+        fs.readFile(filePath, (err, data) => {
+            if (err) {
+                console.error(err);
+                reject("Internal Server Error");
+            } else {
+                const jsonData = JSON.parse(data.toString("utf8"));
+    
+                // Get the date from 14 days ago
+                const twoWeeksAgo = new Date();
+                twoWeeksAgo.setDate(twoWeeksAgo.getDate() - 14);
+    
+                // Get the date from 7 days ago
+                const oneWeekAgo = new Date();
+                oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
+    
+                // Filter the data based on the wastedDate attribute
+                const filteredData = jsonData.filter(item => {
+                    const itemDate = new Date(item.wastedDate);
+                    return itemDate >= twoWeeksAgo && itemDate < oneWeekAgo;
+                });
+    
+                resolve(filteredData);
+            }
+        });
+    });
+}
 
-            // Get the date from 14 days ago
-            const twoWeeksAgo = new Date();
-            twoWeeksAgo.setDate(twoWeeksAgo.getDate() - 14);
 
-            // Get the date from 7 days ago
-            const oneWeekAgo = new Date();
-            oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
+async function getmonthlyWaste(req, res) {
+    const filePath = path.resolve() + `/data/USERS/${req.user.username}/wastedItems.json`;
 
-            // Filter the data based on the wastedDate attribute
-            const filteredData = jsonData.filter(item => {
-                const itemDate = new Date(item.wastedDate);
-                return itemDate >= twoWeeksAgo && itemDate < oneWeekAgo;
-            });
+    return new Promise((resolve, reject) => {
+        fs.readFile(filePath, (err, data) => {
+            if (err) {
+                console.error(err);
+                reject("Internal Server Error");
+            } else {
+                const jsonData = JSON.parse(data.toString("utf8"));
+    
+                // Get the date from one week ago
+                const oneWeekAgo = new Date();
+                oneWeekAgo.setDate(oneWeekAgo.getDate() - 30);
+    
+                // Filter the data based on the wastedDate attribute
+                const filteredData = jsonData.filter(item => {
+                    const itemDate = new Date(item.wastedDate);
+                    return itemDate >= oneWeekAgo;
+                });
+    
+                resolve(filteredData);
+            }
+        });
+    });
+}
+async function getWeeklyWaste(req, res) {
+    const filePath = path.resolve() + `/data/USERS/${req.user.username}/wastedItems.json`;
 
-            res.json(filteredData);
+    return new Promise((resolve, reject) => {
+        fs.readFile(filePath, (err, data) => {
+            if (err) {
+                console.error(err);
+                reject("Internal Server Error");
+            } else {
+                const jsonData = JSON.parse(data.toString("utf8"));
+
+                // Get the date from one week ago
+                const oneWeekAgo = new Date();
+                oneWeekAgo.setDate(oneWeekAgo.getDate() - 7);
+
+                // Filter the data based on the wastedDate attribute
+                const filteredData = jsonData.filter(item => {
+                    const itemDate = new Date(item.wastedDate);
+                    return itemDate >= oneWeekAgo;
+                });
+                resolve(filteredData);
+            }
+        });
+    });
+}
+
+// router.get("/API/getWeeklyForRoundCO2", verifyToken, async (req, res) => {
+//     const wasted = await getmonthlyWaste(req, res);
+//     const dataPath = path.join(path.resolve() + "/data/Global-Items/Global-Items.json");
+
+//     let data = {};
+//     try {
+//         data = JSON.parse(fs.readFileSync(dataPath));
+//     } catch (error) { }
+
+//     let co2 = 0;
+//     wasted.forEach(item => {
+//         const dataItem = data.find(itemData => itemData.name === item.name);
+//         if (dataItem) {
+//             const amountWasted = (item.weight - item.eaten) * (dataItem.co2_per_1kg / 1000);
+//             co2 += amountWasted;
+//         }
+//     });
+//     res.json(co2);
+// });
+
+
+
+
+
+router.get("/API/getWeeklyCO2", verifyToken, async (req, res) => {
+    const wasted = await getWeeklyWaste(req, res);
+    const dataPath = path.join(path.resolve() + "/data/Global-Items/Global-Items.json");
+
+    let data = {};
+    try {
+        data = JSON.parse(fs.readFileSync(dataPath));
+    } catch (error) { }
+
+    let co2 = 0;
+    wasted.forEach(item => {
+        const dataItem = data.find(itemData => itemData.name === item.name);
+        if (dataItem && dataItem.co2_per_1kg !== undefined) {
+            const amountWasted = (item.weight - item.eaten) * (dataItem.co2_per_1kg / 1000);
+            co2 += amountWasted;
         }
     });
+
+    res.json({ co2 });
 });
 
 
+router.get("/API/prevous7daysCO2", verifyToken, async (req, res) => {
+    const wasted = await prevous7days(req, res);
+    const dataPath = path.join(path.resolve() + "/data/Global-Items/Global-Items.json");
 
-router.get("/API/getmonthlyWaste", verifyToken, (req, res) => {
-    const filePath = path.resolve() + `/data/USERS/${req.user.username}/wastedItems.json`;
+    let data = {};
+    try {
+        data = JSON.parse(fs.readFileSync(dataPath));
+    } catch (error) { }
 
-    fs.readFile(filePath, (err, data) => {
-        if (err) {
-            console.error(err);
-            res.status(500).send("Internal Server Error");
-        } else {
-            const jsonData = JSON.parse(data.toString("utf8"));
-
-            // Get the date from one week ago
-            const oneWeekAgo = new Date();
-            oneWeekAgo.setDate(oneWeekAgo.getDate() - 30);
-
-            // Filter the data based on the wastedDate attribute
-            const filteredData = jsonData.filter(item => {
-                const itemDate = new Date(item.wastedDate);
-                return itemDate >= oneWeekAgo;
-            });
-
-            res.json(filteredData);
+    let co2 = 0;
+    wasted.forEach(item => {
+        const dataItem = data.find(itemData => itemData.name === item.name);
+        if (dataItem && dataItem.co2_per_1kg !== undefined) {
+            const amountWasted = (item.weight - item.eaten) * (dataItem.co2_per_1kg / 1000);
+            co2 += amountWasted;
         }
     });
+
+    res.json({ co2 });
 });
 
 // write list to file (still neds to be modified for real login system)
@@ -405,13 +517,14 @@ router.post("/API/edititem", verifyToken, (req, res) => {
 
 
 //This is where The register Function start, This is the code that creates the users files. 
-router.post('/newuser', (req, res) => {
+router.post('/newuser', async (req, res) => {
     // Extract the new user data from the request body
     const newUser = {
         username: req.body.username,
         email: req.body.email,
         birthday: req.body.birthday,
-        password: crypto.createHash('sha256').update(req.body.password).digest('hex') //Requests the password from the frontend and encrypts it using the security standard AES256-bit encryption method.
+        password: crypto.createHash('sha256').update(req.body.password).digest('hex'), //Requests the password from the frontend and encrypts it using the security standard AES256-bit encryption method.
+        household: 1
     };
 
     const dataPath = path.join(path.resolve() + "/data/Passwords/users.json");
@@ -436,26 +549,26 @@ router.post('/newuser', (req, res) => {
     // Write the updated data back to the JSON file
     fs.writeFileSync(dataPath, JSON.stringify(data, null, 2));
 
-    fs.mkdir(`data/USERS/${newUser.username}`, (err) => {
+    await fs.promises.mkdir(`data/USERS/${newUser.username}`, (err) => {
         if (err) throw err;
     });
 
     const itemsStandard = '[]';
 
     //Creating the 3 standard data files for the user
-    fs.writeFile(`data/USERS/${newUser.username}/consumedItems.json`, itemsStandard, (err) => {
+    await fs.promises.writeFile(`data/USERS/${newUser.username}/consumedItems.json`, itemsStandard, (err) => {
         if (err) throw err;
     });
 
-    fs.writeFile(`data/USERS/${newUser.username}/items.json`, itemsStandard, (err) => {
+    await fs.promises.writeFile(`data/USERS/${newUser.username}/items.json`, itemsStandard, (err) => {
         if (err) throw err;
     });
 
-    fs.writeFile(`data/USERS/${newUser.username}/wastedItems.json`, itemsStandard, (err) => {
+    await fs.promises.writeFile(`data/USERS/${newUser.username}/wastedItems.json`, itemsStandard, (err) => {
         if (err) throw err;
     });
 
-    fs.writeFile(`data/USERS/${newUser.username}/Private_item_property_list.json`, itemsStandard, (err) => {
+    await fs.promises.writeFile(`data/USERS/${newUser.username}/Private_item_property_list.json`, itemsStandard, (err) => {
         if (err) throw err;
     });
 

@@ -2,6 +2,13 @@ body {
     font-family: Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif;
 }
 
+:root {
+    --red: #af4c6a;
+    --row: #f2f2f2;;
+}
+body{
+    position: relative;
+}
 header {
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
@@ -12,13 +19,25 @@ header {
     padding: 10px;
     text-align: center;
 }
-#New_private_Item{
-    display: none;
-    color:rgba(248, 248, 248, 0.8);
-    visibility: visible;
-    background: rgba(158, 8, 8, 0.8);
+.title{
+    background-color: var(--red);
 }
+.title h2{
+    margin: 5px
+}
+#itemForm #New_private_Item {
+    display: none;
+    /* color: rgba(248, 248, 248, 0.8); */
+    visibility: visible;
+    /* background: rgba(158, 8, 8, 0.8); */
 
+    flex-direction: column;
+    justify-content: space-around;
+}
+#itemForm #New_private_Item>div{
+    display:flex;
+    justify-content: space-between;
+}
 h1 {
     margin: 0;
 }
@@ -44,7 +63,9 @@ main {
     display: inline-block;
 }
 
-
+#input .bigger{
+    height: 900px;
+}
 section {
     border-radius: 10px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
@@ -52,7 +73,7 @@ section {
     padding: 20px;
     margin: 20px;
     width: 100%;
-    position: relative;
+    /* position: relative; */
     top: -100px;
     opacity: 0;
     animation-name: fall;
@@ -161,8 +182,63 @@ table td {
 #container {
     border-collapse: collapse;
 }
-
 #itemForm {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 300px;
+    height: 400px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s ease-out;
+    background-color: var(--row);
+    border-radius: 10px;
+    padding: 10px;
+
+}
+#itemForm>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+#input .bigger>div{
+    height: 50%;
+}
+#itemForm input, #itemForm select{
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: block;
+    font-size: 16px;
+
+    padding: 10px;
+    box-sizing: border-box;
+}
+#itemForm>div>div{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#itemForm #autocomplete-list{
+    display:block;
+}
+.bigger #autocomplete-list
+{
+    top:300px;
+}
+#autocomplete-list
+{
+    top:280px;
+}
+#itemForm.visible {
+    top: 50%;
+    opacity: 1;
+    visibility: visible;
+}
+#barcode_backdrop {
     position: absolute;
     top: -100%;
     left: 0;
@@ -179,16 +255,28 @@ table td {
     padding: 10px;
 }
 
-#itemForm.visible {
+#barcode_backdrop {
     top: 50%;
     opacity: 1;
-    visibility: visible;
+    visibility: hidden;
 }
+
+#found_barcode{
+ display: none;   
+}
+
+
 #New_private_Item{
     display: none;
     color:rgba(248, 248, 248, 0.8);
     visibility: visible;
     background: rgba(158, 8, 8, 0.8);
+}
+#location_hidden{
+    display: none;
+}
+#if_barcode_no_item{
+visibility: hidden;    
 }
 
 tr.hiddenrow_container {
@@ -196,9 +284,9 @@ tr.hiddenrow_container {
     max-width: 500px;
     overflow: visible;
     transition: max-height 0.5s ease-in-out;
-  }
+}
 
-  
+
 
 
 #backdrop {
@@ -214,6 +302,10 @@ tr.hiddenrow_container {
 
 }
 
+#removeItem{
+    display: none;    
+}
+
 @media (max-width: 600px) {
     #container>div {
         display: grid;
@@ -222,7 +314,7 @@ tr.hiddenrow_container {
     }
 }
 
-/*GPT CSS**/ 
+/*GPT CSS**/
 #itemForm #autocomplete-list {
     position: absolute;
     max-height: 200px;
@@ -251,12 +343,12 @@ tr.hiddenrow_container {
 
 /*custom*/
 
-#itemForm #autocomplete-list{
-    left:10px;
+#itemForm #autocomplete-list {
+    left: 10px;
     padding-left: 5px;
     width: 90%;
 }
 
-#expirationDate{
+#expirationDate {
     margin-top: 20px;
 }

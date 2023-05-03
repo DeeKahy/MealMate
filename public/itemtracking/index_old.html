@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="/itemtracking/style.css">
+  <link href="/../navbar.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <a href="/dashboard"><img src="/IMG/logo.svg" alt="Mealmate" width="300" height="50"></a> <!-- Clickable logo -->
+    <div id="nav-placeholder">
+    </div>
+    <script src="/../navbar.js"></script>
+  </header>
+  <main>
+    <section id="itemtracking">
+      <div id="h1Container">
+        <h1>item tracking</h1>
+        <h2><a href="/pproterties">Pproperties</a></h2>
+        <button id="additem">add item</button>
+      </div>
+      <div id="input">
+        <div id="backdrop">
+        </div>
+
+        <form id="itemForm">
+          <div>
+            <label for="location">Location:</label>
+            <select id="location" name="location">
+              <option value="fridge" selected>Fridge</option>
+              <option value="pantry">Pantry</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" autocomplete="off" placeholder="Item name" />
+          </div>
+          <div>
+            <label for="weight">Weight in gm</label><input id="weight" type="number" placeholder="Weight in gm">
+          </div>
+          <div id="autocomplete-list"></div> <!--div added-->
+          <div>
+            <label for="expirationDate">Expiration Date:</label>
+            <input type="date" id="expirationDate" name="expirationDate" />
+          </div>
+
+          <button type="submit">Import to personal item list</button>
+          <div id="New_private_Item">
+            <div>
+              <label>Hey That item dont exist yet, do you what to add properties to it?</label> <button type="button"
+                id="privateitem_submit">Submit new item</button>
+            </div>
+            <div>
+              <label for="Calories">Calories per 100gram</label> <input type="number" id="Calories">
+            </div>
+            <div>
+              <label for="CO2">Co2 per 1kg</label> <input type="number" id="CO2">
+            </div>
+            <div> <label for="Protein">Protein pr 100 gram</label> <input type="number" id="Protein"></div>
+            <div><label for="Carbonhydrate">Carbohydrate pr 100 gram</label> <input type="number" id="Carbonhydrate">
+            </div>
+            <div><label for="Fat">Fat pr 100 gram</label> <input type="number" id="Fat"></div>
+          </div>
+
+        </form>
+      </div>
+
+      <table id="container">
+        <tr>
+          <th>name:</th>
+          <th>location:</th>
+          <th>Exp Date:</th>
+          <th>Days left:</th>
+          <th>buttons:</th>
+        </tr>
+      </table>
+
+    </section>
+  </main>
+
+  <footer>
+    <a href="https://github.com/TheCodeCrusaders/MealMate">Open Source Project</a>
+  </footer>
+  <script src="/itemtracking/stuff.js"></script>
+</body>
+
+</html>

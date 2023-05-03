@@ -7,8 +7,7 @@
     <link href="style-dashboard.css" rel="stylesheet">
     <link href="/../navbar.css" rel="stylesheet">
 </head>
-<body onload="move(40)"> <!-- Running move() function to set process bar) -->
-<script src="settings.js"></script>
+
     <header>
         <a href="/dashboard"><img src="/IMG/logo.svg" alt="Mealmate" width="300" height="50"></a> <!-- Clickable logo -->
         <div id="nav-placeholder">
@@ -31,9 +30,25 @@
                 <th>Date of birth</th>
                 <td id="date-of-birth-placeholder"></td>
             </tr>
+            <tr>
+                <th>Amount in household</th>
+                <td>
+                    <select name="household-placeholder" id="household-placeholder">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                      </select>
+                </td>
+
+            </tr>
         </table>
 
-
+        <button type="submit" id="submitdata">Save</button>
 
 
 
@@ -74,5 +89,6 @@
 <script>
     
 </script>
+<script src="settings.js"></script>
 </body>
 </html>
