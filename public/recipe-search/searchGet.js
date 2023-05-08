@@ -14,6 +14,7 @@ function fetchNew() {
     let data = {
         "itemsSaved": itemsSaved,
     };
+    data.itemsSaved = [...new Set(data.itemsSaved)];
     fetch("/API/search", {
         method: "POST", // *GET, POST, PUT, DELETE, etc.
         mode: "cors", // no-cors, *cors, same-origin
@@ -29,6 +30,7 @@ function fetchNew() {
     })
         .then(result => result.json())
         .then(jsonData => listCreation(jsonData))
+        .catch(error => console.log(error))
 }
 
 function listCreation(recipies) {
@@ -54,32 +56,42 @@ function listCreation(recipies) {
 
 function createButton() {
     const itemName = document.createElement('span');
-    itemName.textContent = `[${document.querySelector('#search').value}]`;
-    itemName.className = 'item-name';
-    itemsSaved.push(document.querySelector('#search').value);
-    form.appendChild(itemName);
+    let searchMethod = document.querySelector('#search').value;
+    console.log(searchMethod);
+    if (!itemsSaved.includes(searchMethod)) {
+        itemName.textContent = `[${searchMethod}]`;
+        itemName.className = 'item-name';
+        itemsSaved.push(document.querySelector('#search').value);
+        form.appendChild(itemName);
+    }
     const resetFilter = document.querySelector('#resetFilter');
     resetFilter.addEventListener('click', function () {
         while (itemsSaved.length > 0) {
             itemsSaved.pop();
             form.lastChild.remove();
         }
+        location.reload();
     })
 }
 
 const listItems = document.querySelector('.list');
 
-function showOrHide(e) {
-    //If the clicked element is a <ul>
-    if (e.target.tagName === 'UL') {
-        //Convert it to array form
+let ShowRecipies = true;
+listItems.addEventListener('click', (e) => {
+    if (ShowRecipies) {
+        ShowRecipies = false;
+        // Convert it to array form
         const childList = Array.from(e.target.querySelectorAll('li'));
-        //Loops through all the list items and shows them
+        // Loops through all the list items and shows them
         for (const lists of childList) {
-            lists.style.display = e.type === 'click' ? 'block' : 'none';
+            lists.style.display = 'block';
+        }
+    } else {
+        ShowRecipies = true;
+        const childList = Array.from(e.target.querySelectorAll('li'));
+        // Loops through all the list items and shows them
+        for (const lists of childList) {
+            lists.style.display = 'none';
         }
     }
-}
-
-listItems.addEventListener('click', showOrHide);
-listItems.addEventListener('dblclick', showOrHide);
+})

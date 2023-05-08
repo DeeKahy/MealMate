@@ -8,6 +8,8 @@ body {
 }
 body{
     position: relative;
+    background-image: url('../IMG/tegning.svg');
+    background-size: cover;
 }
 header {
     border-radius: 10px;

@@ -10,7 +10,8 @@ export function listRecipies(items, itemsWant) {
             recipe.score = 0;
             recipe.ingredients.forEach(element => {
                 items.forEach(item => {
-                    if (element.ingredient.toLowerCase() === item.name.toLowerCase()) {
+                    const itemNameSplit = item.name.split(',')[0].trim();
+                    if (element.ingredient.toLowerCase().includes(itemNameSplit.toLowerCase())) {
                         recipe.score++;
                     }
                 });
@@ -20,11 +21,6 @@ export function listRecipies(items, itemsWant) {
                     }
                 });
             });
-            // recipies1.forEach(el => {
-            //     if (el.score != undefined) {
-            //         recipiesSaved.push(el);
-            //     }
-            // })
             return recipe;
         }).sort((a, b) => (b.score / b.ingredients.length) - (a.score / a.ingredients.length));
         return sorted;
@@ -40,8 +36,8 @@ export function topRecipiesForUsers(userItems) {
         recipies2.forEach(recipe => {
             recipe.ingredients.forEach(element => {
                 userItems.forEach(item => {
-                    //Specific when it comes to items? should we have .includes()?
-                    if (element.ingredient.toLowerCase() === item.name.toLowerCase()) {
+                    const itemNameSplit = item.name.split(',')[0].trim();
+                    if (element.ingredient.toLowerCase().includes(itemNameSplit.toLowerCase())) {
                         if (recipe.score != undefined) {
                             recipe.score++;
                         }

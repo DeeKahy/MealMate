@@ -1,5 +1,7 @@
 body {
     font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+    background-image: url('../IMG/tegning.svg');
+    background-size: cover;
 }
 header {
     border-radius: 10px;
@@ -83,9 +85,14 @@ footer {
 }
 
 .list ul li {
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
   font-size: 16px;
   color: #333;
   margin: 10px;
-  text-align: center;
+  text-align: left;
+}
+
+.searchPlaceHolder {
+    background-image: url('../IMG/tegning.svg');
+    background-size: auto;
 }

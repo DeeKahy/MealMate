@@ -290,7 +290,7 @@ function addNewItemToPersonalList(itemId) {
             })
             .then(response => {
               if (response.ok) {
-                loadShoppinglist();
+                location.reload();
               }
             })
         } else {

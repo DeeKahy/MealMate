@@ -1,5 +1,7 @@
 body {
     font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+    background-image: url('../IMG/tegning.svg');
+    background-size: cover;
 }
 header {
     border-radius: 10px;
