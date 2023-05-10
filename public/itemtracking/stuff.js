@@ -201,6 +201,7 @@ function createItem(element, index) {
     let daysLeft = document.createElement("td");
 
 
+    //daysLeft.textContent = `${Math.ceil(timeLeft / (1000 * 60 * 60 * 24))}`     //set textcontent to show the time left before the expirey date
     name.textContent = element.name;
     location.textContent = element.location;
     expirationDate.textContent = element.expirationDate;
@@ -470,6 +471,9 @@ function OnStartfetchDataOnce() {
     fetch("/API/GetPrivateProtertyList")
 
         .then((response) => {
+            if(response.redirected){
+                window.location.href=response.url;
+              }     
             if (response.ok) {
                 return response.json();
             }

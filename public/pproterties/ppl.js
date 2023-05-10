@@ -7,7 +7,10 @@ document.addEventListener("DOMContentLoaded", (e) => {
 let private_user_Item_property_data;
 function OnStartfetchDataOnce() {
     fetch("/API/GetPrivateProtertyList")        
-    .then((response) => {               
+    .then((response) => {     
+        if(response.redirected){
+          window.location.href=response.url;
+        }          
         if (response.ok) {              
             return response.json();
         }

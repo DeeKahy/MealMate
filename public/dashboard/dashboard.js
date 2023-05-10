@@ -61,6 +61,9 @@ document.addEventListener("DOMContentLoaded", (e) => {
 document.addEventListener("DOMContentLoaded", (e) => {    
             fetch("/API/getSettings")
                 .then(response => {
+                    if(response.redirected){
+                        window.location.href=response.url;
+                      }     
                     if (response.ok) {
                         return response.json();
                     }

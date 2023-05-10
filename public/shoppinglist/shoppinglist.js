@@ -243,6 +243,9 @@ function createTable(data) {
         body: JSON.stringify(rowData)
       })
         .then(response => {
+          if(response.redirected){
+            window.location.href=response.url;
+          }     
           if (!response.ok) {
             throw new Error('There was an error adding the item to the shopping list.');
           }

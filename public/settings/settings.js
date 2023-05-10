@@ -73,6 +73,9 @@
             },
           })
           .then((response) => {
+            if(response.redirected){
+              window.location.href=response.url;
+            }     
             if (response.ok) {
                 return response.json();
             } else {
