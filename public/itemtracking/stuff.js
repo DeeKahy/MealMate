@@ -96,7 +96,6 @@ form.addEventListener("submit", (e) => {
     e.preventDefault();
     if (refIndex === undefined) {
 
-
         let data = {
             "location": form.location.value,
             "name": form.name.value,

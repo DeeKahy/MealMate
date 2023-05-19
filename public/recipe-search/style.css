@@ -96,3 +96,17 @@ footer {
     background-image: url('../IMG/tegning.svg');
     background-size: auto;
 }
+
+/* .favorite {
+    background-color: white;
+    display: flex;
+}
+
+.favorite-click {
+    background-color: red;
+    display: flex;
+}
+.deleter {
+    background-color: white;
+    display: flex;
+} */

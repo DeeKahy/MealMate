@@ -2,15 +2,15 @@ let itemsSaved = [];
 
 const form = document.querySelector("#searchForm");
 document.addEventListener("DOMContentLoaded", (e) => {
-    fetchNew();
+    fetchForItemsSaved();
 })
 form.addEventListener("submit", (e) => {
     createButton();
     e.preventDefault();
-    fetchNew();
+    fetchForItemsSaved();
 })
 
-function fetchNew() {
+function fetchForItemsSaved() {
     let data = {
         "itemsSaved": itemsSaved,
     };
@@ -28,25 +28,32 @@ function fetchNew() {
         referrerPolicy: "no-referrer", // no-referrer, *no-referrer-when-downgrade, origin, origin-when-cross-origin, same-origin, strict-origin, strict-origin-when-cross-origin, unsafe-url
         body: JSON.stringify(data), // body data type must match "Content-Type" header
     })
-        .then(result => result.json())
+        .then(response => {
+            if (response.redirected) {
+                window.location.href = response.url;
+            }
+            if (response.ok) {
+                return response.json()
+            }
+        })
         .then(jsonData => listCreation(jsonData))
         .catch(error => console.log(error))
 }
 
-function listCreation(recipies) {
+function listCreation(recipes) {
     form.reset();
     const allList = document.getElementById('resultList');
     allList.textContent = '';
-    recipies.forEach(ULelement => {
-        recipieListOrder = document.createElement('ul');
+    recipes.forEach(ULelement => {
+        const recipieListOrder = document.createElement('ul');
         recipieListOrder.textContent = `${ULelement.nameOfRecipe} ${ULelement.score} / ${ULelement.ingredients.length}`;
         ULelement.ingredients.forEach(LIelement => {
-            listIngredients = document.createElement('li');
+            const listIngredients = document.createElement('li');
             listIngredients.textContent = `${LIelement.ingredient} amount: ${LIelement.amount}`
             recipieListOrder.appendChild(listIngredients);
         });
         ULelement.instructions.forEach(instelement => {
-            listInstructions = document.createElement('li');
+            const listInstructions = document.createElement('li');
             listInstructions.textContent = instelement.inst;
             recipieListOrder.appendChild(listInstructions)
         });
@@ -54,11 +61,11 @@ function listCreation(recipies) {
     });
 }
 
+
 function createButton() {
     const itemName = document.createElement('span');
     let searchMethod = document.querySelector('#search').value;
-    console.log(searchMethod);
-    if (!itemsSaved.includes(searchMethod)) {
+    if (!itemsSaved.includes(searchMethod) && isNaN(Number(searchMethod)) && searchMethod.length !== 0) {
         itemName.textContent = `[${searchMethod}]`;
         itemName.className = 'item-name';
         itemsSaved.push(document.querySelector('#search').value);
@@ -95,3 +102,4 @@ listItems.addEventListener('click', (e) => {
         }
     }
 })
+

@@ -6,11 +6,18 @@ import jwt from 'jsonwebtoken';
 import cookieParser from 'cookie-parser';
 router.use(cookieParser());
 import crypto from 'crypto';
-import removeItem from "./functions/removeItem.js"
+
+import postlist from './functions/Itemtracking-postlist/postlist.js';
+import removeItem from "./functions/removeItem/removeItem.js"
+import login_validation_function from './functions/loginpage/login_validation_function.cjs'; // Unitest test 
+import save_single_prop from './functions/pproperties/save_new_single_property.js'
+import save_single_prop_real from './functions/pproperties/save_existing_propperties.js';
+import getWeeklyWaste from './functions/statistics/get_weekly_waste_statistics.js';
+//import { pp_filepath } from './functions/pproperties/save_single_property.cjs';
 
 const userDirectoryPath = "/data/USERS/";
 
-import { listRecipies, topRecipiesForUsers } from './functions/recipe.js'
+import { listRecipies, topRecipiesForUsers } from './functions/Recipiefeature/recipe.js'
 router.post('/API/search', verifyToken, (req, res) => {
     fs.promises.readFile(`${path.resolve()}/data/USERS/${req.user.username}/items.json`)
         .then((result) => JSON.parse(result))
@@ -58,12 +65,9 @@ function verifyToken(req, res, next) {
 
     try {
         const decoded = jwt.verify(token, 'secret');// Here we decode our token
-        //console.log(decoded)
+       
         req.user = decoded;// here we acces the user
-        // console.log(req.user)
-        // console.log(token)
-        // console.log(req.user.username);
-        // console.log(decoded.exp)
+    
 
         if (decoded.exp * 1000 <= Date.now()) { // Check if the token has expired the  it must be multiplied by 1000, beacuse it has to be in secounds. because the start time is from 1970
             return res.redirect('/login');
@@ -76,29 +80,7 @@ function verifyToken(req, res, next) {
 }
 
 
-router.post("/login", (req, res) => {  // post action declared, will wait for post from front end                                
-    let usernametest = req.body.username; //gets username from front end
-    let passwordtest = crypto.createHash('sha256').update(req.body.password).digest('hex'); //gets password from front end
-
-    // console.log(`${usernametest} tried to login`)// THis will log who tried to loged in or logged in
-
-    let user = users44.find(function (user) {    // here we test if the user exist in the system, and if the password is correct
-        return user.username === usernametest && user.password === passwordtest;
-    });
-    if (user) {// if the correct information is typed in the user will be given a token
-
-        const token = jwt.sign({ username: user.username }, 'secret', { expiresIn: '24h' });// Generate an authentication token with experation day, 1 hour i milisecounds
-
-        res.cookie('token', token, { httpOnly: true });// Set the token as a cookie on the client's browser
-        //the { httpOnly: true }  option means that the cookie can only be accessed via HTTP/S and not via JavaScript, which helps to prevent cross-site scripting (XSS) attacks.
-
-
-        return res.status(200).json({ success: 'User created successfully' });
-    }
-    else {
-        res.redirect("/login");
-    }
-})
+router.post("/login", login_validation_function(users44))  // post action declared, will wait for post from front end 
 
 
 router.get("/API/getUserName", verifyToken, (req, res) => {
@@ -190,7 +172,14 @@ router.post("/API/consumeditem", verifyToken, (req, res) => {
 
 
 router.post("/API/wasteditem", verifyToken, (req, res) => {
-    removeItem.wasteItem(req, res)
+    try{
+        const filePathitems = path.resolve() + `/data/USERS/${req.user.username}/items.json`;
+        const filePathConsumed = path.resolve() + `/data/USERS/${req.user.username}/wasteditems.json`;
+        removeItem.wasteItem(req, res, filePathitems, filePathConsumed);
+    }
+    catch(err){
+        console.log(err)
+    }
 })
 
 import helpers from "./functions/helpers.js"
@@ -213,22 +202,6 @@ router.get("/API/getList", verifyToken, async (req, res) => {
     });
 });
 
-// getting a list route (still neds to be modified for real login system)
-// router.get("/API/userItemsRecipies", verifyToken, async (req, res) => {
-//     const filePath = path.resolve() + `/data/USERS/${req.user.username}/items.json`;
-
-//     fs.readFile(filePath, (err, data) => {
-//         if (err) {
-//             console.error(err);
-//             res.status(500).send("Internal Server Error");
-//         } else {
-//             const jsonData = data.toString("utf8");
-//             const userItems = JSON.parse(jsonData);
-//         }
-//     });
-// });
-
-//!!TO READ!!
 
 
 //This funtion is used as an api for the users to fethc the Global-Item.json file. <------ Carl Note
@@ -249,6 +222,7 @@ router.get("/API/getListGlobalItems", async (req, res) => {
 //Carls Thingy Start Here DOnt YOU DARE TOUCH IT, ITS MY NONO ZONE
 // Carls Api for fethcing private item  property list 
 router.get("/API/GetPrivateProtertyList", verifyToken, async (req, res) => {
+
     const filePath = path.resolve() + `/data/USERS/${req.user.username}/Private_item_property_list.json`;
 
     fs.readFile(filePath, (err, data) => {
@@ -311,8 +285,10 @@ router.get("/API/getWastedItems", verifyToken, (req, res) => {
 });
 
 router.get("/API/getweeklyWaste", verifyToken, async (req, res) => {
-    const data = await getWeeklyWaste(req, res);
-    res.json(data);
+    const filePath = path.resolve() + `/data/USERS/${req.user.username}/wastedItems.json`;
+
+    getWeeklyWaste(filePath)(req, res);
+    //res.json(data);
 });
 router.get("/API/prevous7days", verifyToken, async (req, res) => {
     const data = await prevous7days(req, res);
@@ -382,6 +358,7 @@ async function getmonthlyWaste(req, res) {
         });
     });
 }
+/*
 async function getWeeklyWaste(req, res) {
     const filePath = path.resolve() + `/data/USERS/${req.user.username}/wastedItems.json`;
 
@@ -407,27 +384,7 @@ async function getWeeklyWaste(req, res) {
         });
     });
 }
-
-// router.get("/API/getWeeklyForRoundCO2", verifyToken, async (req, res) => {
-//     const wasted = await getmonthlyWaste(req, res);
-//     const dataPath = path.join(path.resolve() + "/data/Global-Items/Global-Items.json");
-
-//     let data = {};
-//     try {
-//         data = JSON.parse(fs.readFileSync(dataPath));
-//     } catch (error) { }
-
-//     let co2 = 0;
-//     wasted.forEach(item => {
-//         const dataItem = data.find(itemData => itemData.name === item.name);
-//         if (dataItem) {
-//             const amountWasted = (item.weight - item.eaten) * (dataItem.co2_per_1kg / 1000);
-//             co2 += amountWasted;
-//         }
-//     });
-//     res.json(co2);
-// });
-
+*/
 
 
 
@@ -480,18 +437,9 @@ router.post("/API/postlist", verifyToken, (req, res) => {
 
     // Read the existing data from the JSON file
     const dataPath = path.join(path.resolve() + `/data/USERS/${req.user.username}/items.json`);
-    let data = [];
-    try {
-        data = JSON.parse(fs.readFileSync(dataPath));
-    } catch (error) { }
+    
+    postlist(dataPath)(req, res);
 
-    // Add the new data to the array
-    data.push(req.body);
-
-    // Write the updated data back to the JSON file
-    fs.writeFileSync(dataPath, JSON.stringify(data, null, 2));
-
-    res.redirect("/itemtracking");
 });
 
 router.post("/API/edititem", verifyToken, (req, res) => {
@@ -741,7 +689,6 @@ router.post('/newuser', async (req, res) => {
             });
         }
     });
-    res.json({ message: 'Property deleted successfully' });
   })
 
 
@@ -774,80 +721,23 @@ fs.readFile(filePath, (err, data) => {
         });
     }
 });
-
-
   });
 
 
   router.post('/API/ppsaveproperties', verifyToken, (req, res) => {
 
-    const filePath = path.resolve() + `/data/USERS/${req.user.username}/Private_item_property_list.json`;
+    const filePath = path.join(path.resolve() + `/data/USERS/${req.user.username}/Private_item_property_list.json`);
 
+    save_single_prop_real(filePath)(req, res) // Det her er gjordt sådan, fordi vi ønsker at filepath først skal løsses også bagefter skal function rigtigt kører
+    // Det vil sige at vis man kikker inde i functionen,  så vil filepath være ydreloop og først blive løst også derefter vil den indre del kører
 
-    let name_of_object =req.body.nameofitem;
-    let newpropname_of_item=req.body.property;
-    let newvalue=req.body.value
-    let formerprop=req.body.formerprop
-   
-
-
-    fs.readFile(filePath, (err, data) => {
-        if (err) {
-            console.error(err);
-            res.status(500).send("Internal Server Error");
-        } else {
-            const jsonData = JSON.parse(data.toString("utf8"));
-            const itemIndex = jsonData.findIndex(item => item.name === name_of_object);
-            delete jsonData[itemIndex][formerprop];
-            jsonData[itemIndex][newpropname_of_item] = newvalue;
-            fs.writeFile(filePath, JSON.stringify(jsonData, null, 2), err => {
-               
-                if (err) {
-                    console.error(err);
-                    res.status(500).send("Internal Server Error");
-                } else {
-                    
-                     res.json({ message: 'Item updated successfully' });
-                }
-            });
-        }
-    });
-
-
+// man kan godt gøre det uden, men så er koden teknisk set ikke længere nær så mudulær.  Det er godt at lærer om middlewarre
   });
+7
 
-
-
-
-
-  router.post('/API/ppsavenewproperties', verifyToken, (req, res) => {
-    let name_of_object =req.body.nameofitem;
-    let newpropname_of_item=req.body.property;
-    let newvalue=req.body.value
-    
-    const filePath = path.resolve() + `/data/USERS/${req.user.username}/Private_item_property_list.json`;
-    fs.readFile(filePath, (err, data) => {
-        if (err) {
-            console.error(err);
-            res.status(500).send("Internal Server Error");
-        } else {
-            const jsonData = JSON.parse(data.toString("utf8"));
-            const itemIndex = jsonData.findIndex(item => item.name === name_of_object);
-            
-            jsonData[itemIndex][newpropname_of_item] = newvalue;
-            fs.writeFile(filePath, JSON.stringify(jsonData, null, 2), err => {
-               
-                if (err) {
-                    console.error(err);
-                    res.status(500).send("Internal Server Error");
-                } else {
-                    
-                     res.json({ message: 'Prop/value added successfully' });
-                }
-            });
-        }
-    });
-
+  router.post('/API/ppsavenewproperties', verifyToken, (req, res)=>{
+    const filePath = path.join(path.resolve() + `/data/USERS/${req.user.username}/Private_item_property_list.json`);
+    save_single_prop(filePath)(req, res)
   });
 
 
@@ -871,17 +761,8 @@ fs.readFile(filePath, (err, data) => {
     
       // Write the updated data back to the JSON file
       fs.writeFileSync(dataPath, JSON.stringify(data, null, 2));
-    
-    
     res.json({ message: "Data received" });
     })
-
-
-
-
-
-
-
 
 
 export default router
