@@ -174,7 +174,7 @@ router.post("/API/consumeditem", verifyToken, (req, res) => {
 router.post("/API/wasteditem", verifyToken, (req, res) => {
     try{
         const filePathitems = path.resolve() + `/data/USERS/${req.user.username}/items.json`;
-        const filePathConsumed = path.resolve() + `/data/USERS/${req.user.username}/wasteditems.json`;
+        const filePathConsumed = path.resolve() + `/data/USERS/${req.user.username}/wastedItems.json`;
         removeItem.wasteItem(req, res, filePathitems, filePathConsumed);
     }
     catch(err){
