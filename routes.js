@@ -391,6 +391,10 @@ async function getWeeklyWaste(req, res) {
 
 router.get("/API/getWeeklyCO2", verifyToken, async (req, res) => {
     const wasted = await getWeeklyWaste(req, res);
+    
+    // Print the value of wasted to debug
+    console.log(wasted);
+
     const dataPath = path.join(path.resolve() + "/data/Global-Items/Global-Items.json");
 
     let data = {};
@@ -398,16 +402,20 @@ router.get("/API/getWeeklyCO2", verifyToken, async (req, res) => {
         data = JSON.parse(fs.readFileSync(dataPath));
     } catch (error) { }
 
-    let co2 = 0;
-    wasted.forEach(item => {
-        const dataItem = data.find(itemData => itemData.name === item.name);
-        if (dataItem && dataItem.co2_per_1kg !== undefined) {
-            const amountWasted = (item.weight - item.eaten) * (dataItem.co2_per_1kg / 1000);
-            co2 += amountWasted;
-        }
-    });
-
-    res.json({ co2 });
+    if (Array.isArray(wasted)) {
+        let co2 = 0;
+        wasted.forEach(item => {
+            const dataItem = data.find(itemData => itemData.name === item.name);
+            if (dataItem && dataItem.co2_per_1kg !== undefined) {
+                const amountWasted = (item.weight - item.eaten) * (dataItem.co2_per_1kg / 1000);
+                co2 += amountWasted;
+            }
+        });
+    
+        res.json({ co2 });
+    } else {
+        res.status(500).json({ error: "getWeeklyWaste did not return an array." });
+    }
 });
 
 
